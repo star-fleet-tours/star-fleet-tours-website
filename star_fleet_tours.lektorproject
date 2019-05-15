@@ -1,0 +1,29 @@
+[project]
+name = Star Fleet Tours
+themes = lektor-icon
+
+[theme_settings]
+title = Star✦Fleet Tours
+content_lang = en-US
+author = Star✦Fleet Tours
+copyright = &copy; 2019 Star✦Fleet Tours
+description = A collective of rocket enthusiasts dedicated to providing the most enjoyable, educational, and awe-inspiring launch viewing experience for visitors of all ages.
+keywords = rocket, space, spacex, tour, launch, boat, falcon
+favicon_path =
+theme_accent_color =
+theme_pipe_color =
+custom_css =
+content_security_policy = true
+content_security_policy_frame_src =
+content_security_policy_script_src =
+content_security_policy_style_src =
+loader_enable = true
+nav_logo_path =
+nav_logo_text = Star✦Fleet Tours
+nav_extralinks = SCLA: https://gospacecoastlaunch.com/
+footer_links = Github: https://github.com/star-fleet-tours, Slack: https://spacexmeetups.slack.com/, Email: mailto:fleetcommand@star-fleet.tours
+footer_license_name = CC-BY-SA 4.0 (Content); MIT (Code)
+footer_license_link = https://github.com/star-fleet-tours/star-fleet-tours-website/blob/master/LICENSE.txt
+gitter_room =
+disqus_name =
+atom_enable =
