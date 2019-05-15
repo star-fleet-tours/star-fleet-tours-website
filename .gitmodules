@@ -1,0 +1,3 @@
+[submodule "themes/lektor-icon"]
+	path = themes/lektor-icon
+	url = https://github.com/spyder-ide/lektor-icon.git
