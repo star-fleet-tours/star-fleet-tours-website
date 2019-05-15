@@ -21,6 +21,7 @@ The theme has full support for configuration either via the ``contents.lr`` sour
 
 Content contributions and bug fixes/improvements are welcome!
 If the latter, we generally recommend aside from trivial patches that you open an issue with your suggested changes before submitting a PR so that feedback can be solicited early in the process and we can properly document everything.
+Check out the [Contributing Guide](https://github.com/star-fleet-tours/star-fleet-tours-website/blob/master/CONTRIBUTING.md) for more details, code and style standards, and more.
 Thanks!
 
 
