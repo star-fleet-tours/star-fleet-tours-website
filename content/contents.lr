@@ -1,0 +1,335 @@
+_model: single-layout
+---
+
+
+show_home_nav: false
+---
+hero_title: Star✦Fleet Tours
+---
+hero_description:
+
+A collective of space fans organizing educational trips and launch experiences, our continuing mission is to inspire kids and adults alike to dream big, work hard and keep looking toward the stars.
+---
+hero_image: fh-boat-landing-hero.jpg
+---
+starting_block_bg: light
+---
+
+
+
+main_content:
+
+
+#### content ####
+section_id: mission
+----
+title: Our Continuing Mission
+----
+description: Illuminate the past, inspire the future
+----
+nav_label: Mission
+----
+content:
+
+* History
+* What
+* Why
+----
+
+
+
+
+#### services ####
+section_id: why
+----
+title: ⠀⠀Why Star✦Fleet Tours?
+----
+description:
+----
+nav_label: Why Us
+----
+video_url: https://youtu.be/bcDOTxOuKwM
+----
+services:
+
+##### service #####
+title: Ideal Location
+-----
+description:
+
+DESCRIPTION
+-----
+icon:
+-----
+
+##### service #####
+title: Historic Pad Views
+-----
+description:
+
+DESCRIPTION
+-----
+icon:
+-----
+
+##### service #####
+title: Expert Guides
+-----
+description:
+
+DESCRIPTION
+-----
+icon:
+-----
+
+##### service #####
+title: Stellar Service
+-----
+description:
+
+DESCRIPTION
+-----
+icon:
+-----
+
+##### service #####
+title: Fantastic Community
+-----
+description:
+
+DESCRIPTION
+-----
+icon:
+-----
+
+##### service #####
+title: Perks and Extras
+-----
+description:
+
+DESCRIPTION
+-----
+icon:
+-----
+----
+
+
+
+
+#### mission ####
+section_id: fleet
+----
+nav_label: Fleet
+----
+enable_images: true
+----
+initial_tab_index: 1
+----
+items:
+
+##### mission_tab #####
+section_id: oo2
+-----
+title: Ocean Obsession II
+-----
+subtitle:
+
+The largest vessel currently employed in the Star✦Fleet, "Double O" is a perennial favorite thanks to its upper observation deck, air-conditioned cabin and communal atmosphere.
+-----
+description:
+
+DESCRIPTION
+-----
+image:
+-----
+
+
+##### mission_tab #####
+section_id: tnt1
+-----
+title: Time & Tide I
+-----
+subtitle:
+
+"TnT 1" provides a more intimate and open feel than OO2 due to its smaller size, and can transit areas too shallow for "Double O". It is the primary ship used for guided tours of the many historic Cape Canaveral and Kennedy Space Center launch pads.
+-----
+description:
+
+DESCRIPTION
+-----
+image:
+-----
+
+
+##### mission_tab #####
+section_id: tnt2
+-----
+title: Time & Tide II
+-----
+subtitle:
+
+"TnT 2" is limited to the Bannana River viewing location rather than the ocean off the Cape, but offers a more stable, relaxing experience, a built-in live aquarium with marine life, and a unique angle on returning boosters headed almost directly toward it.
+-----
+description:
+
+DESCRIPTION
+-----
+image:
+-----
+
+
+##### mission_tab #####
+section_id: 6packs
+-----
+title: Sea Leveler Boats
+-----
+subtitle:
+
+These five smaller craft only fit six people apiece and are more expensive per passenger, but are fully ocean-capable, offer a much more private viewing experience with more space per person, and can be bought out to allow your whole family their own boat in the Fleet.
+-----
+description:
+
+DESCRIPTION
+-----
+image:
+-----
+----
+
+
+
+
+#### gallery ####
+section_id: gallery
+----
+title: Photos
+----
+description:
+----
+nav_label: Photos
+----
+show_titles: false
+----
+gallery_items:
+
+
+##### gallery_item #####
+title: Photo 1
+-----
+subtitle: Photo 1 Subtitle
+-----
+image:
+-----
+url:
+-----
+direct_link: false
+-----
+----
+
+
+
+#### team ####
+section_id: team
+----
+title: Star✦Fleet Officers
+----
+description:
+
+
+----
+nav_label: Officers
+----
+members:
+
+##### member #####
+name: C.A.M. Gerlach
+-----
+position: Fleet CAMmander
+-----
+description:
+
+CAM has loved spaceflight since before he can remember, and dreams of going there someday. His incredible experience on the very first boat watch party, for the Falcon Heavy demo launch, inspired him to help launch Star✦Fleet Tours to enable others to share in the same wonder and excitement. He currently is a NASA-funded researcher spearheading the development of a next-generation, AI-based groundside processing system for the Geostationary Lightning Mapper instrument on the GOES-R-series flagship weather satellites.
+-----
+image:
+-----
+website: https://www.orlandosentinel.com/space/os-bz-falcon-heavy-watch-20190403-story.html
+-----
+facebook:
+-----
+twitter:
+-----
+instagram:
+-----
+github: https://github.com/CAM-Gerlach
+-----
+linkedin:
+-----
+
+
+##### member #####
+name: Steven Geraldo
+-----
+position: Galactic Ambassador
+-----
+description:
+
+DESCRIPTION
+-----
+image:
+-----
+website:
+-----
+facebook:
+-----
+twitter:
+-----
+instagram:
+-----
+github:
+-----
+linkedin:
+-----
+
+
+##### member #####
+name: Evan Coury
+-----
+position: Chief Engineer
+-----
+description:
+
+DESCRIPTION
+-----
+image:
+-----
+website:
+-----
+facebook:
+-----
+twitter:
+-----
+instagram:
+-----
+github: https://github.com/EvanDotPro
+-----
+linkedin:
+-----
+----
+
+
+
+#### content ####
+section_id: donate
+----
+title: The Star✦Fleet Needs You!
+----
+description: Want to join us on our next galactic adventure?<br>Click to be notified when a tour or launch viewing opportunity becomes available (estimated average email frequency: once per month).
+----
+nav_label: Join
+----
+button_type: text
+----
+button_content: Join the Star✦Fleet
+----
+button_link: https://www.star-fleet.tours
+----
+---
