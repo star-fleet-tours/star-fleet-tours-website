@@ -1,6 +1,7 @@
 [project]
 name = Star Fleet Tours
 themes = lektor-icon
+url_style = absolute
 
 [theme_settings]
 title = Star✦Fleet Tours
