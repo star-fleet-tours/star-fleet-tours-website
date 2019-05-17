@@ -1,0 +1,10 @@
+_model: blog
+---
+title: Captain's Blog
+---
+sort_key: 11
+---
+_discoverable: true
+---
+allow_comments_default: false
+---
