@@ -10,6 +10,7 @@
   width: 90%;
 }
 
+/* Position hero text */
 .hero-section .fh5co-copy-inner {
   vertical-align: bottom;
 }
@@ -23,4 +24,19 @@
 .hero-section .js-fullheight-home h2 {
   color: #ffffff;
   margin-bottom: 100px;
+}
+
+/* Format FAQ Page */
+#generic-page h2 {
+  margin-top: 3rem;
+  margin-bottom: 0rem;
+}
+
+#generic-page h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+#generic-page p {
+  line-height: 1.5;
 }
