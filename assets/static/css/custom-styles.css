@@ -26,7 +26,7 @@
   margin-bottom: 100px;
 }
 
-/* Format FAQ Page */
+/* Format Generic Pages */
 #generic-page h2 {
   margin-top: 3rem;
   margin-bottom: 0rem;
@@ -39,4 +39,8 @@
 
 #generic-page p {
   line-height: 1.5;
+}
+
+#generic-page strong {
+  font-weight: 700;
 }
