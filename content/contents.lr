@@ -12,7 +12,7 @@ A collective of space fans organizing educational trips and launch experiences, 
 ---
 hero_image: fh-boat-landing-hero.jpg
 ---
-starting_block_bg: light
+starting_block_bg: dark
 ---
 
 
@@ -46,7 +46,7 @@ Whether you're a veteran space buff who's seen hundreds of flights or a newcomer
 #### services ####
 section_id: why
 ----
-title: ⠀⠀Why Star✦Fleet Tours?
+title: Why Watch Launches with Us?
 ----
 description:
 ----
@@ -61,9 +61,22 @@ title: Optimal Location
 -----
 description:
 
-DESCRIPTION
+We offer two different locations (ocean- and river-side), each carefully adjusted each launch for the best possible view.
+No other venue gets you closer to SpaceX's spectacular booster landings, gives you as unobstructed of a view every CCAFS and KSC launch and landing pad, or is as favorably located relative to the launch trajectory and sound propagation as we do.
 -----
-icon:
+icon: fh-boat-launch.jpg
+-----
+
+##### service #####
+title: Stellar Experience
+-----
+description:
+
+Making sure everyone has an amazing timing watching rockets means everything to us—its why we do what we do.
+As such, we're with you every step of the way if you have questions, concerns and  critique.
+Furthermore, the boat captains and crew we work with from Time and Tide, Ocean Obsession and Sea Leveler are all highly rated for their excellent quality and service.
+-----
+icon: boat-sunset.jpg
 -----
 
 ##### service #####
@@ -71,9 +84,22 @@ title: Historic Pad Views
 -----
 description:
 
-DESCRIPTION
+Beyond the launch itself, going out with us you have the chance to gaze at a clear view of all the active pads, including LC-36, SLC-37B, LC-39A, SLC-40, and SLC-41.
+With our pre-launch tours, you get right up close to these and many other historic pads, including Mercury, Gemini, Apollo and more, plus see the rocket on the pad at a distance previously exclusive to press and VIPs.
 -----
-icon:
+icon: launch-pads-helicopter.jpg
+-----
+
+##### service #####
+title: Vibrant Community
+-----
+description:
+
+Star✦Fleet is not just any tour service; we're a community of people, young and old, from all around the world united by our love for spaceflight.
+Beforehand, you can interact on our Slack org, Gitter chat and Google Group, to share stories, tips, photos, rides and hotels.
+On the boats, you're sure to make friends and feel at home with astronauts, enthusiasts, tourists and locals alike.
+-----
+icon: tnt2-crowd-poster.jpg
 -----
 
 ##### service #####
@@ -81,29 +107,10 @@ title: Expert Guides
 -----
 description:
 
-DESCRIPTION
+Our organizers and guides have multiple years of experience following rockets and watching launches, carefully plan every aspect of each trip, and provide live launch commentary and clear pointers on where to look and when.
+Furthermore, we partner with the [SCLA](https://gospacecoastlaunch.com/) to provide local experts to host our pre-launch pad tours and share the rich history of spaceflight.
 -----
-icon:
------
-
-##### service #####
-title: Stellar Service
------
-description:
-
-DESCRIPTION
------
-icon:
------
-
-##### service #####
-title: Fantastic Community
------
-description:
-
-DESCRIPTION
------
-icon:
+icon: cam-steven-wide.jpg
 -----
 
 ##### service #####
@@ -111,9 +118,11 @@ title: Perks and Extras
 -----
 description:
 
-DESCRIPTION
+Unlike other venues, you only need arrive an hour early, we have free parking, and your spot is guaranteed.
+Your ticket is still valid any day so long as we haven't left the dock, and we allow and encourage re-sale, which is easy given our high demand.
+We offer several commemorative items as add-ons, and include water, drinks, dramamine, sunscreen and more free on the boats.
 -----
-icon:
+icon: t-shirt-stp2-patch.jpg
 -----
 ----
 
