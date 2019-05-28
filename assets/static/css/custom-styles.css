@@ -37,10 +37,15 @@ b, strong {
 }
 
 /* Style fleet items */
-
 .mission-section .fh5co-tab-content ul {
   columns: 12em 2;
   padding-left: 0;
+}
+
+/* Style officers section */
+.team-section .card p {
+  margin-top: 1em;
+  line-height: 1.6;
 }
 
 /* Format generic pages */

@@ -303,15 +303,17 @@ nav_label: Officers
 members:
 
 ##### member #####
-name: C.A.M. Gerlach
+name: CAM Gerlach
 -----
 position: Fleet CAMmander
 -----
 description:
 
-CAM has loved spaceflight since before he can remember, and dreams of going there someday. His incredible experience on the very first boat watch party, for the Falcon Heavy demo launch, inspired him to help launch Star✦Fleet Tours to enable others to share in the same wonder and excitement. He currently is a NASA-funded researcher spearheading the development of a next-generation, AI-based groundside processing system for the Geostationary Lightning Mapper instrument on the GOES-R-series flagship weather satellites.
+CAM has loved space since before he can remember, and dreams of going there someday.
+His incredible experience on the very first boat watch party for the Falcon Heavy demo inspired him to help launch Star✦Fleet Tours to enable others to share in the same wonder and excitement.
+CAM currently is a NASA-funded researcher spearheading the development of a next-generation, AI-based groundside processing system for the Geostationary Lightning Mapper instrument on the GOES-R-series flagship weather satellites.
 -----
-image:
+image: cam-gerlach.png
 -----
 website: https://www.orlandosentinel.com/space/os-bz-falcon-heavy-watch-20190403-story.html
 -----
@@ -336,7 +338,7 @@ description:
 
 DESCRIPTION
 -----
-image:
+image: steven-photo.jpg
 -----
 website:
 -----
@@ -361,7 +363,7 @@ description:
 
 DESCRIPTION
 -----
-image:
+image: evan-photo.jpg
 -----
 website:
 -----
