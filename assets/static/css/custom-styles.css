@@ -2,18 +2,12 @@
 
 /* Site custom styles */
 
+b, strong {
+  font-weight: 700;
+}
+
 .themed-text {
   color: #fda801;
-}
-
-/* Style "Why Us" card items */
-.service .icon .img-responsive {
-  width: 90%;
-  margin-bottom: 1.25em;
-}
-
-.service h3 {
-  margin-bottom: 0.5em;
 }
 
 /* Position hero text */
@@ -30,6 +24,23 @@
 .hero-section .js-fullheight-home h2 {
   color: #ffffff;
   margin-bottom: 100px;
+}
+
+/* Style "Why Us" card items */
+.service .icon .img-responsive {
+  width: 90%;
+  margin-bottom: 1.25em;
+}
+
+.service h3 {
+  margin-bottom: 0.5em;
+}
+
+/* Style fleet items */
+
+.mission-section .fh5co-tab-content ul {
+  columns: 12em 2;
+  padding-left: 0;
 }
 
 /* Format generic pages */
