@@ -64,7 +64,7 @@ description:
 We offer two different locations (ocean- and river-side), each carefully adjusted each launch for the best possible view.
 No other venue gets you closer to SpaceX's spectacular booster landings, gives you as unobstructed of a view every CCAFS and KSC launch and landing pad, or is as favorably located relative to the launch trajectory and sound propagation as we do.
 -----
-icon: fh-boat-launch.jpg
+icon: fh-arabsat-ascent.jpg
 -----
 
 ##### service #####
@@ -87,7 +87,7 @@ description:
 Beyond the launch itself, going out with us you have the chance to gaze at a clear view of all the active pads, including LC-36, SLC-37B, LC-39A, SLC-40, and SLC-41.
 With our pre-launch tours, you get right up close to these and many other historic pads, including Mercury, Gemini, Apollo and more, plus see the rocket on the pad at a distance previously exclusive to press and VIPs.
 -----
-icon: launch-pads-helicopter.jpg
+icon: fh-arabsat-pads.jpg
 -----
 
 ##### service #####
@@ -265,7 +265,7 @@ section_id: gallery
 ----
 title: Photos
 ----
-description:
+description: Experience a Star✦Fleet mission from launch to landing
 ----
 nav_label: Photos
 ----
@@ -275,11 +275,102 @@ gallery_items:
 
 
 ##### gallery_item #####
-title: Photo 1
+title: Ready for Launch
 -----
-subtitle: Photo 1 Subtitle
+subtitle: All set to go out and see a rocket!
 -----
-image:
+image: poster-family-grills.jpg
+-----
+url:
+-----
+direct_link: false
+-----
+
+
+##### gallery_item #####
+title: The Fleet Departs
+-----
+subtitle: S✦F's smaller craft head for the sea
+-----
+image: small-boats-sunset.jpg
+-----
+url:
+-----
+direct_link: false
+-----
+
+
+##### gallery_item #####
+title: Action Stations!
+-----
+subtitle: OO2's crew is on watch (Mike Hara)
+-----
+image: oo2-observing.jpg
+-----
+url:
+-----
+direct_link: false
+-----
+
+
+##### gallery_item #####
+title: We Have Liftoff
+-----
+subtitle: The Falcon soars aloft (Nik Delgado)
+-----
+image: fh-boat-launch.jpg
+-----
+url:
+-----
+direct_link: false
+-----
+
+
+##### gallery_item #####
+title: Coming in Hot
+-----
+subtitle: Twin boosters touch down (Mike Hara)
+-----
+image: fh-boat-landing-arabsat.jpg
+-----
+url:
+-----
+direct_link: false
+-----
+
+
+##### gallery_item #####
+title: The Voyage Home
+-----
+subtitle: A sunset welcomes the Fleet back
+-----
+image: sunset-harbor.jpg
+-----
+url:
+-----
+direct_link: false
+-----
+
+
+##### gallery_item #####
+title: Attention!
+-----
+subtitle: The OO2 crew in a parting shot
+-----
+image: oo2-poster-lineup.jpg
+-----
+url:
+-----
+direct_link: false
+-----
+
+
+##### gallery_item #####
+title: Debriefing
+-----
+subtitle: A happy family after a great day
+-----
+image: poster-family-boat.jpg
 -----
 url:
 -----
