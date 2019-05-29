@@ -3,6 +3,9 @@ name = Star Fleet Tours
 themes = lektor-icon
 url_style = absolute
 
+[servers.ghpages]
+target = ghpages+https://star-fleet-tours/star-fleet-tours-website
+
 [theme_settings]
 title = Star✦Fleet Tours
 content_lang = en-US
