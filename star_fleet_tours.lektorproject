@@ -25,6 +25,6 @@ nav_extralinks = SCLA: https://gospacecoastlaunch.com/
 footer_links = Github: https://github.com/star-fleet-tours, Slack: https://spacexmeetups.slack.com/, Email: mailto:fleetcommand@star-fleet.tours
 footer_license_name = CC-BY-SA 4.0 (Content); MIT (Code)
 footer_license_link = https://github.com/star-fleet-tours/star-fleet-tours-website/blob/master/LICENSE.txt
-gitter_room =
+gitter_room = star-fleet-tours/public
 disqus_name =
 atom_enable =

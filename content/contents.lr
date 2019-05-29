@@ -21,13 +21,13 @@ main_content:
 
 
 #### content ####
-section_id: mission
+section_id: about
 ----
-title: Our Continuing Mission
+title: About Our Continuing Mission
 ----
 description: Illuminate the past, inspire the future
 ----
-nav_label: Mission
+nav_label: About
 ----
 content:
 
@@ -37,7 +37,7 @@ Since those humble beginnings with a few dozen enthusiasts, interest in the conc
 Thanks to the help of designers, programmers, web developers and more who've gone out on previous launches and want to help share the experience with others, we launched the Star✦Fleet Tours organization to help coordinate more viewing and educational opportunities, make it easier for interested folks to find out more and reserve their tickets, improve the quality of the overall experience and make our operation sustainable going forward to serve more people and launches than ever.
 
 What hasn't changed, however, is our core mission: to share the wonder and excitement of spaceflight with people of all ages, backgrounds and previous launch experiences.
-Whether you're a veteran space buff who's seen hundreds of flights or a newcomer watching your very first; whether you've lived in the area all your life or are a traveler visiting from half a world away; and whether you're getting an up-close view of the many historic pads at the Cape and an exclusive peek at the rocket on the pad on our pre-launch tour, or watching the future take flight with the launch itself, we want to make sure you come away with the experience of a lifetime—every time.
+Whether you're a veteran space buff who's seen hundreds of flights or a newcomer watching your very first; whether you've lived in the area all your life or are a traveler visiting from half a world away; and whether you're getting an up-close view of the many historic pads at the Cape and an exclusive peek at the rocket on the pad on our pre-launch tour, or watching the future take flight with the launch itself, we want to make sure you have with the experience of a lifetime—every time.
 ----
 
 
@@ -172,7 +172,7 @@ image: oo2-promo-corrected.jpg
 ##### mission_tab #####
 section_id: tnt1
 -----
-title: Time and Tide I
+title: Time & Tide I
 -----
 subtitle:
 
@@ -202,7 +202,7 @@ image: tnt1-promo.jpg
 ##### mission_tab #####
 section_id: tnt2
 -----
-title: Time and Tide II
+title: Time & Tide II
 -----
 subtitle:
 
@@ -396,7 +396,7 @@ members:
 ##### member #####
 name: CAM Gerlach
 -----
-position: Fleet CAMmander
+position: Fleet Commander
 -----
 description:
 
@@ -423,7 +423,7 @@ linkedin:
 ##### member #####
 name: Steven Geraldo
 -----
-position: Chief of Operations
+position: Director of Operations
 -----
 description:
 
