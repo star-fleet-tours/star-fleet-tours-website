@@ -10,6 +10,34 @@ b, strong {
   color: #fda801;
 }
 
+/* Custom font */
+@font-face {
+    font-family: "bitsumishiregular";
+    src: url("../fonts/bitsumishi-webfont.woff2") format("woff2"),
+         url("../fonts/bitsumishi-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,
+.body-section h2,
+#menu-logo .logo-text,
+.text-button,
+#generic-page h2,
+#blog-main-title h1,
+.blog-post h1,
+.blog-post .blog-index-header .row h1 {
+  font-family: "bitsumishiregular", Raleway, "DejaVu Sans", "Open Sans", "Liberation Sans", Helvetica, Arial, sans-serif;
+}
+
+.mission-section h2,
+.blog-post h2,
+.blog-post h3,
+.blog-post .blog-index-header .row h2,
+.blog-post .blog-index-header .row h3 {
+  font-family: Raleway, "DejaVu Sans", "Open Sans", "Liberation Sans", Helvetica, Arial, sans-serif;
+}
+
 /* Position hero text */
 .hero-section .fh5co-copy-inner {
   vertical-align: bottom;
