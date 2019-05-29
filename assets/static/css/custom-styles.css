@@ -95,11 +95,16 @@ h1,
   font-weight: 700;
 }
 
+#generic-page p img {
+  margin-top: 40px;
+}
+
 /* Responsive iframes */
 .iframe-container {
   position: relative;
   overflow: hidden;
-  padding-top: 56.25%
+  padding-top: 56.25%;
+  margin-bottom: 2em;
 }
 
 .iframe-container iframe {
