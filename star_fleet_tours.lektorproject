@@ -1,10 +1,10 @@
 [project]
 name = Star Fleet Tours
 themes = lektor-icon
-url_style = relative
+url_style = absolute
 
 [servers.ghpages]
-target = ghpages+https://star-fleet-tours/star-fleet-tours-website
+target = ghpages+https://star-fleet-tours/star-fleet-tours-website?cname=www.star-fleet.tours
 
 [theme_settings]
 title = Star✦Fleet Tours
