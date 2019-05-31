@@ -30,9 +30,8 @@ default-src 'self';
 font-src 'self' https://fonts.gstatic.com;
 frame-src &#39;self&#39; http: https:;
 img-src &#39;self&#39; http: https: data:;
-plugin-types application/pdf;
-script-src &#39;self&#39; &#39;unsafe-inline&#39; https://gitter.im https://*.gitter.im;
-style-src &#39;self&#39; https://fonts.googleapis.com &#39;unsafe-inline&#39; https://gitter.im https://*.gitter.im;
+script-src &#39;self&#39; &#39;unsafe-inline&#39; https://gitter.im https://*.gitter.im https://*.mailchimp.com http://*.mailchimp.com 'unsafe-eval' http://*.list-manage.com/ https://*.list-manage.com/;
+style-src &#39;self&#39; https://fonts.googleapis.com &#39;unsafe-inline&#39; https://gitter.im https://*.gitter.im https://*.mailchimp.com http://*.mailchimp.com;
 ">
   
   
@@ -113,7 +112,7 @@ style-src &#39;self&#39; https://fonts.googleapis.com &#39;unsafe-inline&#39; ht
       --theme-accent-color: #fda801;
       
       
-      --theme-pipe-color: #fda801
+      --theme-pipe-color: #ffd249
       
     }
   </style>
@@ -147,7 +146,7 @@ style-src &#39;self&#39; https://fonts.googleapis.com &#39;unsafe-inline&#39; ht
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" type="text/css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata" type="text/css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="/static/css/style.css?h=5dcf8bf3" type="text/css">
+  <link rel="stylesheet" href="/static/css/style.css?h=b794c197" type="text/css">
   
   <!-- User Custom CSS -->
   <link rel="stylesheet" href="/static/css/custom-styles.css?h=e2913cb9" type="text/css">
@@ -188,6 +187,8 @@ style-src &#39;self&#39; https://fonts.googleapis.com &#39;unsafe-inline&#39; ht
             <div class="main-nav-container">
               
 
+
+<a href="#section-home" data-nav-section="home">Home</a>
 
 
 
@@ -965,7 +966,7 @@ In his day job as a software technical consultant, he specializes in analyzing c
   
   <div class="text-center fh5co-heading">
     <h2>The Star✦Fleet Needs You!</h2>
-    <p>Want to join us on our next galactic adventure?<br>Click to be notified when a tour or launch viewing opportunity becomes available (estimated average email frequency: once per month).</p>
+    <p>Want to join us on our next galactic adventure?<br>Click to be notified when a tour or launch viewing opportunity becomes available! (Estimated average email frequency: once per month).</p>
 
   </div>
   
@@ -973,7 +974,7 @@ In his day job as a software technical consultant, he specializes in analyzing c
 
 <div class="row">
   
-  <a href="https://www.star-fleet.tours"  class="content-button text-button" target="_blank" rel="noopener noreferrer">Join the Star✦Fleet</a>
+  <button id="mailchimp-button" class="content-button text-button mailchimp-button">Join the Star✦Fleet</button>
   
 </div>
 
@@ -1043,7 +1044,7 @@ In his day job as a software technical consultant, he specializes in analyzing c
 <script defer src="https://sidecar.gitter.im/dist/sidecar.v1.js" type="application/javascript" charset="UTF-8"></script>
 
 <!-- jQuery -->
-<script src="/static/js/jquery-3.3.1.min.js?h=0dc32db4" type="application/javascript" charset="UTF-8"></script>
+<script src="/static/js/jquery-3.4.1.min.js?h=88523924" type="application/javascript" charset="UTF-8"></script>
 <!-- Waypoints -->
 <script src="/static/js/jquery.waypoints.min.js?h=a2b72d43" type="application/javascript" charset="UTF-8"></script>
 
@@ -1060,9 +1061,21 @@ In his day job as a software technical consultant, he specializes in analyzing c
 <!-- Magnific Popup -->
 <script src="/static/js/jquery.magnific-popup.min.js?h=13d72330" type="application/javascript" charset="UTF-8"></script>
 <script src="/static/js/magnific-popup-options.js?h=79138731" type="application/javascript" charset="UTF-8"></script>
+<script>var mailchimpButtonEnabled = false;</script>
+
+<!-- Mailchimp Popup Form Script -->
+<script type="text/javascript" src="https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script>
+  function showMailingPopUp() {
+    window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({ "baseUrl":"mc.us20.list-manage.com","uuid":"84d6491aa482226935edcf093","lid":"1c42473df9","uniqueMethods":true }) })
+    document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+  };
+  mailchimpButtonEnabled = true;
+</script>
+
 
 <!-- Main JS -->
-<script src="/static/js/main-singlelayout.js?h=ce8a7ed8" type="application/javascript" charset="UTF-8"></script>
+<script src="/static/js/main-singlelayout.js?h=08422654" type="application/javascript" charset="UTF-8"></script>
 
 <!-- <script src="https://code.jquery.com/jquery-migrate-3.0.1.js" type="application/javascript" charset="UTF-8"></script> -->
 </body>
