@@ -2,7 +2,7 @@ _model: single-layout
 ---
 
 
-show_home_nav: false
+show_home_nav: true
 ---
 hero_title: Star✦Fleet Tours
 ---
@@ -478,14 +478,14 @@ section_id: donate
 ----
 title: The Star✦Fleet Needs You!
 ----
-description: Want to join us on our next galactic adventure?<br>Click to be notified when a tour or launch viewing opportunity becomes available (estimated average email frequency: once per month).
+description: Want to join us on our next galactic adventure?<br>Click to be notified when a tour or launch viewing opportunity becomes available! (Estimated average email frequency: once per month).
 ----
 nav_label: Join
 ----
-button_type: text
+button_type: mailchimp
 ----
 button_content: Join the Star✦Fleet
 ----
-button_link: https://www.star-fleet.tours
+button_link: "baseUrl":"mc.us20.list-manage.com","uuid":"84d6491aa482226935edcf093","lid":"1c42473df9","uniqueMethods":true
 ----
 ---
