@@ -2,7 +2,7 @@ _model: single-layout
 ---
 
 
-show_home_nav: true
+show_home_nav: false
 ---
 hero_title: Star✦Fleet Tours
 ---
