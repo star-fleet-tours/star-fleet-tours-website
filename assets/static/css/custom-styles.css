@@ -38,6 +38,20 @@ h1,
   font-family: Raleway, "DejaVu Sans", "Open Sans", "Liberation Sans", Helvetica, Arial, sans-serif;
 }
 
+/* Add rounded outlines around non-mainpage links */
+.fh5co-main-nav .fh5co-menu-1 a.nav-link-internal {
+  background-color: #e8ecf1;
+  background-color: var(--theme-bg-alt-color, #e8ecf1);
+  border: none;
+  border-radius: 0.6em;
+  color: #ffffff;
+  margin-right: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.4em;
+  padding-top: 0.9em;
+  padding-bottom: 0.9em;
+}
+
 /* Position hero text */
 .hero-section .fh5co-copy-inner {
   vertical-align: bottom;
