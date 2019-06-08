@@ -52,6 +52,14 @@ h1,
   padding-bottom: 0.9em;
 }
 
+/* Special styling for Book button */
+.fh5co-main-nav .fh5co-menu-1 a.special-link {
+  background-color: #ff4c52;
+  background-color: var(--theme-accent-color, #ff4c52);
+  color: #000000;
+  font-weight: 700;
+}
+
 /* Position hero text */
 .hero-section .fh5co-copy-inner {
   vertical-align: bottom;
@@ -93,16 +101,21 @@ h1,
 /* Format generic pages */
 #generic-page h2 {
   margin-top: 3rem;
-  margin-bottom: 0rem;
+  margin-bottom: 0.5rem;
 }
 
 #generic-page h3 {
   margin-top: 2rem;
   margin-bottom: 1rem;
+  font-size: 1.8rem;
 }
 
 #generic-page p {
   line-height: 1.5;
+}
+
+#generic-page ul, ol {
+  padding-left: 0;
 }
 
 #generic-page strong {
@@ -112,6 +125,7 @@ h1,
 #generic-page p img {
   margin-top: 40px;
 }
+
 
 /* Responsive iframes */
 .iframe-container {
