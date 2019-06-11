@@ -5,7 +5,7 @@
 This repo is the source for the Star Fleet Tours [website](https://www.star-fleet.tours/).
 It is built using [Lektor](https://www.getlektor.com/), deployed via [Travis CI](https://travis-ci.org/star-fleet-tours/star-fleet-tours-website) and served by [Github Pages](https://pages.github.com/), hosted on a custom domain.
 
-Created and maintained by [C.A.M. Gerlach](https://github.com/CAM-Gerlach) and [Steven Geraldo](https://github.com/Stevengrm), the founders and organizers of Star Fleet Tours, with invaluable help from the one and only [Evan Coury](https://github.com/EvanDotPro).
+Created and maintained by [C.A.M. Gerlach](https://github.com/CAM-Gerlach) and [Steven Giraldo](https://github.com/Stevengrm), the founders and organizers of Star Fleet Tours, with invaluable help from the one and only [Evan Coury](https://github.com/EvanDotPro).
 Enjoy!
 
 
