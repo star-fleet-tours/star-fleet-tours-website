@@ -18,10 +18,42 @@ For much more detailed information on the launch itself, see the [r/SpaceX STP-2
 
 We want everyone to have a chance to enjoy this launch, so while our current information indicates there is a reasonable chance of this date holding, there is always a substantial chance of a delay, so *please* plan accordingly if possible; the launch will be at the same time each day.
 Your tickets will be valid any day the rocket launches, so long as we haven't left port before a scrub; we cannot guarantee we'll be able to refund everyone if you aren't able to make it, though we can help you sell your tickets to one of scores on interested parties likely on our waitlist by that time, given the massive demand for this launch.
-Before booking, *please* read through the [Details](/details) page for important terms and information on reserving your tickets, where and when to meet, what the experience is like on the boat, and more.
+Before booking, *please* read through the [Details](/details) page for important terms and information on reserving your tickets, where and when to meet, what the experience is like on the boat, and more, as well as this page for what comes with each ticket and item we offer.
 
-**We hope to have the reservation system up and running by sometime this weekend.**
-In the meantime, below is some more detailed information about the exciting new opportunities we will be offering for this launch.
+**Reservations will open at 16:00 UTC (12:00 noon EDT) on June 16, at the link below! Make sure to book quickly, as demand is very high and tickets may sell out within hours!**
+
+<h2 id="countdown" style="letter-spacing: 3px; text-align: center !important; margin-top: 1rem;">Tickets Available In: T-15:46:34</h2>
+
+<script type="text/javascript">
+Number.prototype.pad = function(size) {
+    var s = String(this);
+    while (s.length < (size || 2)) {s = "0" + s;}
+    return s;
+}
+var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
+function updateTimer() {
+    var currentTime        = new Date().getTime() / 1000;
+    var futureTime         = 1560700800;
+    var timeRemaining      = futureTime - currentTime;
+    var minute             = 60;
+    var hour               = 60 * 60;
+    var day                = 60 * 60 * 24;
+    var dayFloor           = Math.floor(timeRemaining / day);
+    var hourFloor          = Math.floor((timeRemaining - dayFloor * day) / hour);
+    var minuteFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour) / minute);
+    var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
+    var countdownCompleted = "Completed";
+    if (secondFloor <= 0 && minuteFloor <= 0) {
+        clearInterval(countdownTimer);
+        $('#countdown').html("TICKETS ARE NOW AVAILABLE!");
+        setTimeout(function() { location.reload(true); }, 1000);
+    } else if (futureTime > currentTime) {
+        $('#countdown').html("Tickets Available In T-" + hourFloor.pad() + ":" + minuteFloor.pad() + ":" + secondFloor.pad());
+    }
+}
+</script>
+
+<a href="https://book.star-fleet.tours/"><button class="content-button text-button" style="margin-top: 1em;">Book Now</button></a>
 
 
 ## Rocket Launch Viewing
