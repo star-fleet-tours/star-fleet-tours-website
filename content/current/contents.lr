@@ -10,6 +10,8 @@ full_title: Falcon Heavy STP-2 Mission
 ---
 body:
 
+<div id="page-body-countdown-container"></div>
+
 <img src="/current/fh-twin-booster-landing.jpg" alt="Photograph of the twin Falcon Heavy boosters landing from the FH demo mission" style="float: left; margin-left: 0px; margin-right: 40px; margin-top: 5px; margin-bottom: 20px;">
 
 As of June 7, the Falcon Heavy STP-2 launch is scheduled for **Monday, June 24 at 11:30 PM EDT (Tuesday, June 25 at 03:30 UTC)** from historic LC-39A at Kennedy Space Center near Cape Canaveral, Florida.

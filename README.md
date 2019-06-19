@@ -34,3 +34,17 @@ The underlying theme, [Lektor-Icon](https://spyder-ide.github.io/lektor-icon/), 
 See the Lektor-Icon [license](https://github.com/spyder-ide/lektor-icon/blob/master/LICENSE.txt) and [Notices](https://github.com/spyder-ide/lektor-icon/blob/master/NOTICE.txt) for more details.
 Photos and graphics created or commissioned by us are released under the CC-BY-SA 4.0, while those created by others are used with permission and may be covered by other licenses.
 See the [LICENSE.txt](https://github.com/star-fleet-tours/star-fleet-tours-website/blob/master/LICENSE.txt) in the root of the repository for the full text of the CC-BY-SA 4.0.
+
+
+## Launch countdown override
+
+The landing page and the tickets page can both display a countdown to an upcoming launch. This defaults to automatically retrieving and display the next SpaceX launch from Florida as appropriate. If you need to do something different, edit `assets/static/js/custom-scripts.js` to specify a `missionOverride`:
+
+```javascript
+const missionOverride = {
+    missionName: "Spacecow",
+    launchAt: 1234567890 // the UNIX timestamp of the projected T-0 time
+};
+```
+
+The countdowns display only if the mission is in the near future. To prevent countdown display entirely, specify a mission override with `launchAt: 0`.

@@ -28,6 +28,7 @@ content_security_policy = true
 content_security_policy_frame_src =
 content_security_policy_script_src =
 content_security_policy_style_src =
+content_security_policy_connect_src = https://api.spacexdata.com
 loader_enable = false
 nav_logo_path =
 nav_logo_text = Star✦Fleet Tours

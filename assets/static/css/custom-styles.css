@@ -26,7 +26,8 @@ h1,
 #generic-page h2,
 #blog-main-title h1,
 .blog-post h1,
-.blog-post .blog-index-header .row h1 {
+.blog-post .blog-index-header .row h1,
+.launch-countdown-mission-name {
   font-family: "bitsumishiregular", Raleway, "DejaVu Sans", "Open Sans", "Liberation Sans", Helvetica, Arial, sans-serif;
 }
 
@@ -141,4 +142,47 @@ h1,
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/* A container for the launch countdown on the landing page's hero block */
+.hero-countdown-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* A container for the launch countdown within a normal page body */
+#page-body-countdown-container {
+}
+
+/* The launch countdown box itself */
+.launch-countdown {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 0.6em;
+  padding: 1em;
+  width: 22em;
+  margin: 1.5em auto;
+  text-align: center;
+}
+
+/* The text within the launch countdown box */
+.launch-countdown-mission-name {
+  margin: 0 0 0.5em;
+  font-size: 1.5rem;
+}
+h3.launch-countdown-clock {
+  margin: 0 !important;
+  font-size: 3rem;
+  font-variant-numeric: tabular-nums;
+  /* Raleway does not support tabular-nums, which makes the countdown bounce around */
+  font-family: Inconsolata, Consolas, "DejaVu Sans Mono", "Liberation Mono", monospace;
+}
+.launch-countdown-clock::before {
+  content: "T-";
+  opacity: 0.5;
+}
+
+/* Hide the mission name on when we're embedded in the tickets page */
+#page-body-countdown-container .launch-countdown-mission-name {
+  display: none;
 }
