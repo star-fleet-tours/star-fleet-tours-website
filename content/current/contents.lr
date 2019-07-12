@@ -32,6 +32,34 @@ Before booking, *please* read through the [Details](/details) page for important
 **STATUS UPDATE:** Booking will open Saturday, July 13 at 12:00 PM EDT / 16:00 UTC.
 Please be ready to book promptly to secure the best spots, as last time all standard tickets sold out in 12 minutes and upper deck spots were gone in 51 seconds.
 
+<h2 id="countdown" style="letter-spacing: 3px; text-align: center !important; margin-top: 1rem;">Tickets Available</h2>
+<script type="text/javascript">
+Number.prototype.pad = function(size) {
+    var s = String(this);
+    while (s.length < (size || 2)) {s = "0" + s;}
+    return s;
+}
+var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
+function updateTimer() {
+    var currentTime        = new Date().getTime() / 1000;
+    var futureTime         = 1563033600;
+    var timeRemaining      = futureTime - currentTime;
+    var minute             = 60;
+    var hour               = 60 * 60;
+    var day                = 60 * 60 * 24;
+    var dayFloor           = Math.floor(timeRemaining / day);
+    var hourFloor          = Math.floor((timeRemaining - dayFloor * day) / hour);
+    var minuteFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour) / minute);
+    var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
+    var countdownCompleted = "Completed";
+    if (secondFloor <= 0 && minuteFloor <= 0) {
+        $('#countdown').html("TICKETS ARE NOW AVAILABLE!");
+    } else if (futureTime > currentTime) {
+        $('#countdown').html("Tickets Available In T-" + hourFloor.pad() + ":" + minuteFloor.pad() + ":" + secondFloor.pad());
+    }
+}
+</script>
+
 <a href="https://book.star-fleet.tours/"><button class="content-button text-button" style="margin-top: 1em;">Book Now</button></a>
 
 
