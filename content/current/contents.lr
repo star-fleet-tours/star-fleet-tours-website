@@ -32,7 +32,7 @@ Before booking, *please* read through the [Details](/details) page for important
 **STATUS UPDATE:** Booking will open Saturday, July 13 at 12:00 PM EDT / 16:00 UTC.
 Please be ready to book promptly to secure the best spots, as last time all standard tickets sold out in 12 minutes and upper deck spots were gone in 51 seconds.
 
-<h2 id="countdown" style="letter-spacing: 3px; text-align: center !important; margin-top: 1rem;">Tickets Available</h2>
+<h2 id="countdown" style="letter-spacing: 3px; text-align: center !important; margin-top: 1rem;">Tickets Available Now!</h2>
 <script type="text/javascript">
 Number.prototype.pad = function(size) {
     var s = String(this);
@@ -97,7 +97,7 @@ function updateTimer() {
 
 ## Commemorative Items
 
-<!-- <img src="/current/stp2-decal-closeup-round.png" alt="Closeup of a circular decal, featuring the Star Fleet STP-2 mission patch" style="margin-left: 20px; float: right;"> -->
+<img src="/current/tshirt-crs-18-patch.png" alt="Black T-shirt with Star Fleet CRS-18 mission patch" style="margin-left: 20px; margin-top: 10px; float: right;">
 
 We've commissioned a professional graphic designer in the space industry to design a custom patch for the Star✦Fleet CRS-18 mission; full preview coming soon!
 
@@ -106,8 +106,6 @@ We've commissioned a professional graphic designer in the space industry to desi
 
 **Price**: $20 each, all sizes<br>
 **Order**: Online (separate item)
-
-Photo coming soon!
 
 * Black T-shirt with full-size, full-color custom Star✦Fleet CRS-18 mission patch
 * Sizes unisex S-3XL, selected at checkout (tend to run slightly small)
