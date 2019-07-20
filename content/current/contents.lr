@@ -10,14 +10,14 @@ full_title: Falcon 9/Dragon CRS-18 Mission
 ---
 body:
 
-<!-- <div id="page-body-countdown-container"></div> -->
+<div id="page-body-countdown-container"></div>
 
 <img src="/current/f9-landing-lz1-day.jpg" alt="Photograph of the Falcon 9 landing on LZ-1" style="float: left; margin-left: 0px; margin-right: 40px; margin-top: 5px; margin-bottom: 20px;">
 
-As of July 18, the Falcon 9/Dragon CRS-18 launch to the International Space Station is scheduled for **No Earlier Than Monday, July 22 at 7:11 PM EDT / 23:11 UTC** from launch pad SLC-40 at Cape Canaveral Air Force Station.
+As of July 18, the Falcon 9/Dragon CRS-18 launch to the International Space Station is scheduled for **No Earlier Than Wednesday, July 24 at 6:24 PM EDT / 22:24 UTC** from launch pad SLC-40 at Cape Canaveral Air Force Station.
 This launch will feature a flight-proven Falcon 9 booster lofting a Dragon cargo ship to the ISS, transporting experiments and supplies to the station as well as the International Docking Adapter, paving the way for the upcoming return of crewed spaceflight to US soil after nearly a decade.
 The evening liftoff, bathed in the last rays of the setting sun, will also feature a Return the Launch Site landing of the first stage to a ground pad near our fleet.
-We will be located approximately 15 km (river) or 16 km (ocean) from liftoff, and 10 km (river) or 8 km (ocean) from landing, closer for both liftoff and landing than the best Port Canaveral locations (and closer than any other public location to landing) with a much clearer line of sight from a position at roughly 28.434, -80.640 (river)/28.434, -80.484 (ocean, precise position subject to exact exclusion zone boundaries).
+We will be located approximately 15 km (river) or 16 km (ocean) from liftoff, and 10 km (river) or 8 km (ocean) from landing, closer for both liftoff and landing than the best Port Canaveral locations (and closer than any other public location to landing) with a much clearer line of sight from a position at roughly 28.434, -80.640 (river)/28.430, -80.484 (ocean, precise position subject to exact exclusion zone boundaries).
 For much more detailed information on the launch itself, see the [Official r/SpaceX CRS-18 Launch Campaign Thread](https://www.reddit.com/r/spacex/comments/c8k6g5/crs18_launch_campaign_thread/), authored by Star✦Fleet Commander CAM Gerlach.
 
 <div class="iframe-container">
@@ -29,8 +29,9 @@ If the launch is delayed, the launch time will move approximately 20-25 minutes 
 Your tickets will be valid any day the rocket launches, so long as we haven't left port before a scrub; we cannot guarantee we'll be able to refund everyone if you aren't able to make it, though we can help you sell your tickets to one of scores on interested parties likely on our waitlist by that time, given the massive demand for this launch.
 Before booking, *please* read through the [Details](/details) page for important terms and information on reserving your tickets, where and when to meet, what the experience is like on the boat, and more, as well as this page for what comes with each ticket and item we offer.
 
-**STATUS UPDATE:** Tickets are still available, but the CRS-18 launch is delayed to No Earlier Than Monday July 22 at 7:11 PM EDT / 23:11 UTC (launch time gets 23-25 minutes earlier each day), and quite possibly later.
-A solid final date should be announced after the static fire, hopefully as early as the afternoon EDT of Friday July 19, and we will update you if and when that occurs. Thanks.
+**STATUS UPDATE:** Tickets and boats are still available, but note that the CRS-18 launch is now officially announced to be to Wednesday, July 24 at 6:24 PM EDT / 22:24 UTC.
+Some people are looking to resell their tickets at discounted prices, so check out our Slack for that.
+Thanks.
 
 <h2 id="countdown" style="letter-spacing: 3px; text-align: center !important; margin-top: 1rem;">Tickets Available Now!</h2>
 <script type="text/javascript">
@@ -68,23 +69,23 @@ function updateTimer() {
 <img src="/current/f9-dragon-launch-slc40-day.jpg" alt="Photograph of a Falcon 9 booster landing on LZ-1" style="margin-top: 0; margin-left: 20px; float: right;">
 
 **Price**: $75 per person (including OO2 upper deck if available)<br>
-**Key Times**: Checkin T-2 h | Boarding T-1.5 h | Departure T-1 h
+**Key Times**: Checkin 4:30 PM EDT | Boarding 5:00 PM EDT | Departure 5:20 PM EDT
 
 * Unbeatable location directly between the three landings (see [map](https://www.google.com/maps/place/28%C2%B025'33.6%22N+80%C2%B029'38.4%22W))
 * Unobstructed view of SLC-40, LZ-1, and many other historic CCAFS pads
 * Choice of OO2 lower deck, OO2 upper deck, TNT1 and TNT2, and ocean or river
 * Pre-mission genuine NASA launch cookie bake sale to support SCLA
 * Free water, drinks and anti-nausea tablets included with ticket
+* Includes a custom decal of the Star✦Fleet CRS-18 mission patch
 * First 20 people get a coveted spot on OO2 obs deck, subject to availability
 
 
 ## Guided Pre-Launch Pad Tours
 
 **Price**: $70 per person (with launch ticket); $80 (without)<br>
-**Launch day tour times**: 8:30 AM - 12:30 PM | 12:30 PM - 4:30 PM
+**Launch day tour time**: 1:30 PM - 4:00 PM EDT
 
 * Get an exclusive, up-close look at the rocket on the pad typically unavailable from any other angle
-* Take the first close-up photos of the rocket vertical on launch day, often before even the press (on 8:30 AM tour, subject to rollout timing)
 * See numerous historic Explorer, Mercury, Gemini, Apollo and Shuttle launch sites
 * Enjoy a unique ocean-side view of every past, present and future CCAFS and KSC pad
 * View many sites of history interest in Port Canaveral harbor and along the Cape
@@ -92,6 +93,7 @@ function updateTimer() {
 * Tour led by Julia Bergeron, local history expert and space personality, and founder of the [Space Coast Launch Ambassadors](https://scla.space/)
 * Numerous opportunities to stop and take photos
 * $10 discount per ticket for purchasing launch ticket
+* Includes a custom decal of the Star✦Fleet CRS-18 mission patch
 * Comes with a genuine home-made NASA "launch day cookie" and a card with the original NASA recipe (see below)
 
 
@@ -110,19 +112,6 @@ We've commissioned a professional graphic designer in the space industry to desi
 * Black T-shirt with full-size, full-color custom Star✦Fleet CRS-18 mission patch
 * Sizes unisex S-3XL, selected at checkout (tend to run slightly small)
 * **Important**: T-shirts *must* be ordered at least *five full business days* in advance of current launch date and *cannot* be refunded after that point
-
-
-### 3D Custom-Embroidered Star✦Fleet Logo Hat
-
-<img src="/current/starfleet-hat.png" alt="Black baseball cap with Star Fleet logotype" style="margin-left: 20px; float: right;">
-
-**Price**: $22 each, adjustable size<br>
-**Order**: Online (separate item)
-
-* Black baseball cap with full-size, colored Star✦Fleet logo
-* 3D embroidered Star✦Fleet design reviewed by the team for quality
-* Adjustable size fits (nearly) all
-* **Important**: Hats *must* be ordered at least *five full business days* in advance of current launch date and *cannot* be refunded after that point
 
 
 ### Genuine Home-Baked NASA Launch Day Cookies
