@@ -20,7 +20,11 @@ https://opensource.org/licenses/MIT
     //   };
     //
     // Otherwise, specify the absence of a missionOverride:
-    const missionOverride = null;
+    const missionOverride = {
+        missionName: "CRS-19",
+        launchAt: 1575481680, // the UNIX timestamp of the projected T-0 time
+        limitTwoWeeks: false,
+    };
 
     // Style all "star" symbols
     var styleStarGlyph = function() {
@@ -45,8 +49,8 @@ https://opensource.org/licenses/MIT
         if (missionOverride === null) {
             fetchAndDisplaySpacexLaunchCountdown({hero, pageBodyCountdownContainer});
         } else {
-            const {missionName, launchAt} = missionOverride;
-            displayLaunchCountdown({hero, pageBodyCountdownContainer, missionName, launchAt});
+            const {missionName, launchAt, limitTwoWeeks} = missionOverride;
+            displayLaunchCountdown({hero, pageBodyCountdownContainer, missionName, launchAt, limitTwoWeeks});
         }
     }
 
@@ -72,17 +76,18 @@ https://opensource.org/licenses/MIT
                 // Fish out some attributes
                 const missionName = flight.mission_name;
                 const launchAt = flight.launch_date_unix;
+                const limitTwoWeeks = true;
 
-                displayLaunchCountdown({hero, pageBodyCountdownContainer, missionName, launchAt});
+                displayLaunchCountdown({hero, pageBodyCountdownContainer, missionName, launchAt, limitTwoWeeks});
             });
         // N.B.: the lack of error handling is intentional
         // This countdown is a nice-to-have, and not a reason to attract attention on failure
     }
 
-    function displayLaunchCountdown({hero, pageBodyCountdownContainer, missionName, launchAt}) {
+    function displayLaunchCountdown({hero, pageBodyCountdownContainer, missionName, launchAt, limitTwoWeeks}) {
         // How far in the future is this launch?
         const now = (new Date()).getTime() / 1000;
-        if (now < launchAt - 14*86400) {
+        if (now < launchAt - 14*86400 && limitTwoWeeks) {
             // More than two weeks to go
             // Countdowns this far out aren't exciting, so do nothing
             return;
@@ -129,10 +134,12 @@ https://opensource.org/licenses/MIT
                 return;
             }
 
-            const hours = Math.floor(delta / 3600);
+            const days = Math.floor(delta / (24 * 3600));
+            const hours = Math.floor(delta % (24 * 2600) / 3600);
             const minutes = Math.floor((delta % 3600) / 60);
             const seconds = delta % 60;
             countdownClockHeading.innerText = [
+                days.toString().padStart(2, "0"),
                 hours.toString().padStart(2, "0"),
                 minutes.toString().padStart(2, "0"),
                 seconds.toString().padStart(2, "0"),

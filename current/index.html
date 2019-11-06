@@ -129,7 +129,7 @@ connect-src  https://api.spacexdata.com;
   <link rel="stylesheet" href="/static/css/style.css?h=eb88c397" type="text/css">
   
   <!-- User Custom CSS -->
-  <link rel="stylesheet" href="/static/css/custom-styles.css?h=4af0a9dd" type="text/css">
+  <link rel="stylesheet" href="/static/css/custom-styles.css?h=bf8d731c" type="text/css">
   
 </head>
 
@@ -211,7 +211,7 @@ connect-src  https://api.spacexdata.com;
     <div class="text-center fh5co-heading">
       
       <h1>
-        Falcon 9/Dragon CRS-18 Mission
+        Falcon 9/Dragon CRS-19 Mission
       </h1>
       
       <div class="rule-under-heading"></div>
@@ -219,31 +219,21 @@ connect-src  https://api.spacexdata.com;
     <div class="center">
       
       <div id="page-body-countdown-container"></div><p><img src="/current/f9-landing-lz1-day.jpg" alt="Photograph of the Falcon 9 landing on LZ-1" style="float: left; margin-left: 0px; margin-right: 40px; margin-top: 5px; margin-bottom: 20px;"></p>
-<p>As of July 18, the Falcon 9/Dragon CRS-18 launch to the International Space Station is scheduled for <strong>No Earlier Than Wednesday, July 24 at 6:24 PM EDT / 22:24 UTC</strong> from launch pad SLC-40 at Cape Canaveral Air Force Station.
-This launch will feature a flight-proven Falcon 9 booster lofting a Dragon cargo ship to the ISS, transporting experiments and supplies to the station as well as the International Docking Adapter, paving the way for the upcoming return of crewed spaceflight to US soil after nearly a decade.
-The evening liftoff, bathed in the last rays of the setting sun, will also feature a Return the Launch Site landing of the first stage to a ground pad near our fleet.
-We will be located approximately 15 km (river) or 16 km (ocean) from liftoff, and 10 km (river) or 8 km (ocean) from landing, closer for both liftoff and landing than the best Port Canaveral locations (and closer than any other public location to landing) with a much clearer line of sight from a position at roughly 28.434, -80.640 (river)/28.430, -80.484 (ocean, precise position subject to exact exclusion zone boundaries).
-For more detailed information on the launch, see the <a href="https://www.reddit.com/r/spacex/comments/c8k6g5/crs18_launch_campaign_thread/">Official r/SpaceX CRS-18 Launch Campaign Thread</a>, authored by Star✦Fleet Commander CAM Gerlach.</p>
-<div class="iframe-container">
-    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=12dk08f1m3eXesSfbzgxm19IdYdsnuAiR" width="1067" height="600"></iframe>
-</div><p>We want everyone to have a chance to enjoy this launch, so while our current information indicates there is a reasonable chance of this date holding, there is always a chance of a delay, so <em>please</em> plan accordingly if possible.
-If the launch is delayed, the launch time will move approximately 20-25 minutes earlier each day.
-Your tickets will be valid any day the rocket launches, so long as we haven't left port before a scrub; we cannot guarantee we'll be able to refund everyone if you aren't able to make it, though we can help you sell your tickets to one of scores on interested parties likely on our waitlist by that time, given the massive demand for this launch.
-Before booking, <em>please</em> read through the <a href="/details">Details</a> page for important terms and information on reserving your tickets, where and when to meet, what the experience is like on the boat, and more, as well as this page for what comes with each ticket and item we offer.</p>
-<p><strong>STATUS UPDATE:</strong> Tickets and boats are still available, but note that the CRS-18 launch is now officially announced to be to Wednesday, July 24 at 6:24 PM EDT / 22:24 UTC.
-Some people are looking to resell their tickets at discounted prices, so check out our Slack for that.
-Thanks.</p>
-<p><h2 id="countdown" style="letter-spacing: 3px; text-align: center !important; margin-top: 1rem;">Tickets Available Now!</h2></p>
+<p>As of July 18, the Falcon 9/Dragon CRS-19 launch to the International Space Station is scheduled for <strong>No Earlier Than Wednesday, December 4 at 12:48 PM EDT / 17:48 UTC</strong> from launch pad SLC-40 at Cape Canaveral Air Force Station.
+This launch will feature a flight-proven Falcon 9 booster lofting a Dragon cargo ship to the ISS, transporting experiments and supplies to the station as well as research payloads, and will also include a spectacular Return the Launch Site booster landing.</p>
+<p><strong>STATUS UPDATE:</strong> We are currently planning for a Star✦Fleet mission to view this launch; typically, tickets go live at an announced date and time two weeks prior to the launch date, and you'll be able to buy them right here on our site.
+Check back here soon for an official announcement, and make sure to stay tuned to our <a href="https://join.slack.com/t/spacexmeetups/shared_invite/enQtNjY4ODM0NzMwODM5LWI1NzRkOTM5MzJiZGYzMDBkODdjMDJjYzBjZmJlY2UyZjk3MTZjYzEyNGI3MjdiNTIwZjM0NmE1ODE1ZTQ2NGQ">Slack</a>, email list and social media for the latest important updates and to get in touch with us directly (see below for links).
+Thanks!</p>
+<p><h2 id="countdown" style="letter-spacing: 3px; text-align: center !important; margin-top: 1rem;">Check back soon for updates!</h2></p>
 <script type="text/javascript">
 Number.prototype.pad = function(size) {
     var s = String(this);
     while (s.length < (size || 2)) {s = "0" + s;}
     return s;
 }
-var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1563033600;
+    var futureTime         = 1574269200;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -256,26 +246,29 @@ function updateTimer() {
     if (secondFloor <= 0 && minuteFloor <= 0) {
         $('#countdown').html("TICKETS ARE NOW AVAILABLE!");
     } else if (futureTime > currentTime) {
-        $('#countdown').html("Tickets Available In T-" + hourFloor.pad() + ":" + minuteFloor.pad() + ":" + secondFloor.pad());
+        $('#countdown').html("Tickets Available In T-" + dayFloor.pad() + ":" + hourFloor.pad() + ":" + minuteFloor.pad() + ":" + secondFloor.pad());
     }
 }
-</script><p><a href="https://book.star-fleet.tours/"><button class="content-button text-button" style="margin-top: 1em;">Book Now</button></a></p>
+var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
+</script><!-- <a href="https://book.star-fleet.tours/"><button class="content-button text-button" style="margin-top: 1em;">Book Now</button></a> -->
+
+
 <h2>Rocket Launch Viewing</h2>
 <p><img src="/current/f9-dragon-launch-slc40-day.jpg" alt="Photograph of a Falcon 9 booster landing on LZ-1" style="margin-top: 0; margin-left: 20px; float: right;"></p>
 <p><strong>Price</strong>: $75 per person (including OO2 upper deck if available)<br>
-<strong>Key Times</strong>: Checkin 4:30 PM EDT | Boarding 5:00 PM EDT | Departure 5:20 PM EDT</p>
+<strong>Key Times</strong>: Checkin T-2 hours | Boarding T-1:30 hours| Departure T-1 hour</p>
 <ul>
 <li>Unbeatable location directly between the three landings (see <a href="https://www.google.com/maps/place/28%C2%B025&#39;33.6%22N+80%C2%B029&#39;38.4%22W">map</a>)</li>
 <li>Unobstructed view of SLC-40, LZ-1, and many other historic CCAFS pads</li>
 <li>Choice of OO2 lower deck, OO2 upper deck, TNT1 and TNT2, and ocean or river</li>
 <li>Pre-mission genuine NASA launch cookie bake sale to support SCLA</li>
 <li>Free water, drinks and anti-nausea tablets included with ticket</li>
-<li>Includes a custom decal of the Star✦Fleet CRS-18 mission patch</li>
+<li>Includes a custom decal of the Star✦Fleet mission patch</li>
 <li>First 20 people get a coveted spot on OO2 obs deck, subject to availability</li>
 </ul>
 <h2>Guided Pre-Launch Pad Tours</h2>
 <p><strong>Price</strong>: $70 per person (with launch ticket); $80 (without)<br>
-<strong>Launch day tour time</strong>: 1:30 PM - 4:00 PM EDT</p>
+<strong>Launch day tour time</strong>: Typically from T-6 to T-3 hours, if offered</p>
 <ul>
 <li>Get an exclusive, up-close look at the rocket on the pad typically unavailable from any other angle</li>
 <li>See numerous historic Explorer, Mercury, Gemini, Apollo and Shuttle launch sites</li>
@@ -285,11 +278,11 @@ function updateTimer() {
 <li>Tour led by Julia Bergeron, local history expert and space personality, and founder of the <a href="https://scla.space/">Space Coast Launch Ambassadors</a></li>
 <li>Numerous opportunities to stop and take photos</li>
 <li>$10 discount per ticket for purchasing launch ticket</li>
-<li>Includes a custom decal of the Star✦Fleet CRS-18 mission patch</li>
+<li>Includes a custom decal of the Star✦Fleet mission patch (if offered)</li>
 <li>Comes with a genuine home-made NASA "launch day cookie" and a card with the original NASA recipe (see below)</li>
 </ul>
 <h2>Commemorative Items</h2>
-<p>We've commissioned a professional graphic designer in the space industry to design a custom patch for the Star✦Fleet CRS-18 mission; full preview coming soon!</p>
+<p>We typically commision professional graphic designers in the space industry to design a custom patch for each Star✦Fleet mission; full preview coming soon!</p>
 <h3>Mission Patch Decals</h3>
 <p><img src="/current/tshirt-crs-18-patch.png" alt="Black T-shirt with Star Fleet CRS-18 mission patch" style="margin-left: 20px; margin-top: 10px; float: right;"></p>
 <p><strong>Price</strong>: Free with any ticket<br>
@@ -303,7 +296,7 @@ function updateTimer() {
 <p><strong>Price</strong>: $20 each, all sizes<br>
 <strong>Order</strong>: Online (separate item)</p>
 <ul>
-<li>Black T-shirt with full-size, full-color custom Star✦Fleet CRS-18 mission patch</li>
+<li>Black T-shirt with full-size, full-color custom Star✦Fleet mission patch</li>
 <li>Sizes unisex S-3XL, selected at checkout (tend to run slightly small)</li>
 <li><strong>Important</strong>: T-shirts <em>must</em> be ordered at least <em>five full business days</em> in advance of current launch date and <em>cannot</em> be refunded after that point</li>
 </ul>
@@ -313,7 +306,7 @@ function updateTimer() {
 <ul>
 <li>Be part of a time-honored tradition stretching back to the Apollo astronauts</li>
 <li>Made from the original NASA recipe used for launch-day cookies</li>
-<li>Baked by the same person (Julia Bergeron), in the same batch as the cookies for the actual launch team for STP-2</li>
+<li>Baked by the same person (Julia Bergeron), in the same batch as the cookies for the actual launch team for the mission</li>
 <li>Each individually-wrapped cookie includes a card with a note on its history and original recipe, so you can make your own at home and carry on the tradition</li>
 <li>Buy and pickup fresh on site at launch checkin, and included with all pre-launch tours</li>
 </ul>
@@ -404,7 +397,7 @@ function updateTimer() {
 <script src="/static/js/jquery.waypoints.min.js?h=a2b72d43" type="application/javascript" charset="UTF-8"></script>
 
 <!-- User Custom Scripts -->
-<script src="/static/js/custom-scripts.js?h=b921af47" type="application/javascript" charset="UTF-8"></script>
+<script src="/static/js/custom-scripts.js?h=9d9de4b3" type="application/javascript" charset="UTF-8"></script>
 
 <!-- Main JS -->
 <script src="/static/js/main.js?h=6653e38d" type="application/javascript" charset="UTF-8"></script>
