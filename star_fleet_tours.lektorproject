@@ -2,6 +2,7 @@
 name = Star Fleet Tours
 themes = lektor-icon
 url_style = absolute
+included_assets = .nojekyll
 
 [servers.ghpages]
 target = ghpages+https://star-fleet-tours/star-fleet-tours-website?cname=www.star-fleet.tours
