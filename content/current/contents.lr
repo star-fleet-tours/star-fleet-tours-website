@@ -14,10 +14,13 @@ body:
 
 <img src="/current/f9-landing-lz1-day.jpg" alt="Photograph of the Falcon 9 landing on LZ-1" style="float: left; margin-left: 0px; margin-right: 40px; margin-top: 5px; margin-bottom: 20px;">
 
-As of July 18, the Falcon 9/Dragon CRS-19 launch to the International Space Station is scheduled for **No Earlier Than Wednesday, December 4 at 12:48 PM EDT / 17:48 UTC** from launch pad SLC-40 at Cape Canaveral Air Force Station.
-This launch will feature a flight-proven Falcon 9 booster lofting a Dragon cargo ship to the ISS, transporting experiments and supplies to the station as well as research payloads, and will also include a spectacular Return the Launch Site booster landing.
+As of November 19, the Falcon 9/Dragon CRS-19 launch to the International Space Station is scheduled for **No Earlier Than Wednesday, December 4 at 12:48 PM EDT / 17:48 UTC** from launch pad SLC-40 at Cape Canaveral Air Force Station.
+This launch will feature a flight-proven Falcon 9 booster lofting a Dragon cargo ship to the ISS, transporting experiments and supplies to the station as well as research payloads, and will also include a spectacular Return To Launch Site booster landing.
 
-**STATUS UPDATE:** We are currently planning for a Star✦Fleet mission to view this launch; typically, tickets go live at an announced date and time two weeks prior to the launch date, and you'll be able to buy them right here on our site.
+**STATUS UPDATE:** *We are currently **GO** for a Star✦Fleet mission to view this launch!*
+The boats are go, cookies are go, on-site volunteers are go and the mission patch, stickers and T-shirts are in work.
+We're just waiting to make sure our reservation system is ready to go so we can make the tickets available, which should hopefully be in the next 24-48 hours, and then we'll make an official announcement with 24-48 hours warning before the tickets go live.
+Thanks for your patience!
 Check back here soon for an official announcement, and make sure to stay tuned to our [Slack](https://join.slack.com/t/spacexmeetups/shared_invite/enQtNjY4ODM0NzMwODM5LWI1NzRkOTM5MzJiZGYzMDBkODdjMDJjYzBjZmJlY2UyZjk3MTZjYzEyNGI3MjdiNTIwZjM0NmE1ODE1ZTQ2NGQ), email list and social media for the latest important updates and to get in touch with us directly (see below for links).
 Thanks!
 
@@ -27,7 +30,7 @@ Number.prototype.pad = function(size) {
     var s = String(this);
     while (s.length < (size || 2)) {s = "0" + s;}
     return s;
-}
+};
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
     var futureTime         = 1574269200;
@@ -40,13 +43,13 @@ function updateTimer() {
     var minuteFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour) / minute);
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
-    if (secondFloor <= 0 && minuteFloor <= 0) {
+    if (futureTime < currentTime) {
         $('#countdown').html("TICKETS ARE NOW AVAILABLE!");
     } else if (futureTime > currentTime) {
         $('#countdown').html("Tickets Available In T-" + dayFloor.pad() + ":" + hourFloor.pad() + ":" + minuteFloor.pad() + ":" + secondFloor.pad());
     }
-}
-var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
+};
+// var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 </script>
 
 <!-- <a href="https://book.star-fleet.tours/"><button class="content-button text-button" style="margin-top: 1em;">Book Now</button></a> -->
@@ -57,7 +60,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 <img src="/current/f9-dragon-launch-slc40-day.jpg" alt="Photograph of a Falcon 9 booster landing on LZ-1" style="margin-top: 0; margin-left: 20px; float: right;">
 
 **Price**: $75 per person (including OO2 upper deck if available)<br>
-**Key Times**: Checkin T-2 hours | Boarding T-1:30 hours| Departure T-1 hour
+**Key Times**: Checkin 10:45AM | Boarding 11:15AM | Departure 11:45AM
 
 * Unbeatable location directly between the three landings (see [map](https://www.google.com/maps/place/28%C2%B025'33.6%22N+80%C2%B029'38.4%22W))
 * Unobstructed view of SLC-40, LZ-1, and many other historic CCAFS pads
@@ -87,7 +90,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 
 ## Commemorative Items
 
-We typically commision professional graphic designers in the space industry to design a custom patch for each Star✦Fleet mission; full preview coming soon!
+We typically commission professional graphic designers in the space industry to design a custom patch for each Star✦Fleet mission; full preview coming soon!
 
 
 ### Mission Patch Decals
