@@ -14,16 +14,18 @@ body:
 
 <img src="/current/f9-landing-lz1-day.jpg" alt="Photograph of the Falcon 9 landing on LZ-1" style="float: left; margin-left: 0px; margin-right: 40px; margin-top: 5px; margin-bottom: 20px;">
 
-As of November 20, the Falcon 9/Dragon CRS-19 launch to the International Space Station is scheduled for **No Earlier Than Wednesday, December 4 at 12:48 PM EDT / 17:48 UTC** from launch pad SLC-40 at Cape Canaveral Air Force Station.
-This launch will feature a flight-proven Falcon 9 booster lofting a Dragon cargo ship to the ISS, transporting experiments and supplies to the station as well as research payloads, and will also include a spectacular Return To Launch Site booster landing.
+As of November 22, the Falcon 9/Dragon CRS-19 launch to the International Space Station is scheduled for **No Earlier Than Wednesday, December 4 at 12:48 PM EDT / 17:48 UTC** from launch pad SLC-40 at Cape Canaveral Air Force Station.
+This launch will feature a flight-proven Falcon 9 booster lofting a Dragon cargo ship to the ISS, transporting experiments and supplies to the station as well as research payloads, and will also include a spectacular booster landing.
 
-**STATUS UPDATE:** *We are currently **GO** for a Star✦Fleet mission to view this launch!*
-The boats are go, cookies are go, on-site volunteers are go and the mission patch, stickers and T-shirts are in work.
-Our reservation system go live at ***17:00 UTC (12:00 noon EST) this Saturday, November 23rd***, so be ready to order as tickets tend to go fast!
+**STATUS UPDATE:** *We are currently in a **HOLD** on ticket sales for the Star✦Fleet mission to view this launch!*
+Everything is GO on our end, but it appears CRS-19 may be landing on the droneship, not LZ-1 as everyone expected.
+We'll be in the ideal spot if its close to shore, but if its far then other viewing sites may be a better choice for launch-only, though we'll still offer a good view.
+HOLD HOLD HOLD on ticket sales while we clarify, so we can ensure everyone understands what they will be viewing before they book and ensure we can provide everyone the most accurate information to make their decision.
+Thanks for your patience, and we'll keep you updated and will aim for at least 24 hours of warning before ticket sales go live.
 In the meantime, make sure to stay tuned to our [Slack](https://join.slack.com/t/spacexmeetups/shared_invite/enQtNjY4ODM0NzMwODM5LWI1NzRkOTM5MzJiZGYzMDBkODdjMDJjYzBjZmJlY2UyZjk3MTZjYzEyNGI3MjdiNTIwZjM0NmE1ODE1ZTQ2NGQ), email list and social media for the latest important updates and to get in touch with us directly (see below for links).
 Thanks!
 
-<h2 id="countdown" style="letter-spacing: 3px; text-align: center !important; margin-top: 1rem;"></h2>
+<h2 id="countdown" style="letter-spacing: 3px; text-align: center !important; margin-top: 1rem;">Check back soon!</h2>
 <a id="book-now-button" href="https://book.star-fleet.tours/" style="; display: none;"><button class="content-button text-button" style="margin-top: 1em;">Book Now</button></a>
 
 <script type="text/javascript">
@@ -51,7 +53,7 @@ function updateTimer() {
         $('#countdown').html("Tickets Available In T-" + dayFloor.pad() + ":" + hourFloor.pad() + ":" + minuteFloor.pad() + ":" + secondFloor.pad());
     }
 };
-var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
+// var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 </script>
 
 
