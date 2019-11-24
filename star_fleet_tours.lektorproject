@@ -2,6 +2,7 @@
 name = Star Fleet Tours
 themes = lektor-icon
 url_style = absolute
+url = https://www.star-fleet.tours
 included_assets = .nojekyll
 
 [servers.ghpages]
