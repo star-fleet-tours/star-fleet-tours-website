@@ -21,9 +21,9 @@ https://opensource.org/licenses/MIT
     //
     // Otherwise, specify the absence of a missionOverride:
     const missionOverride = {
-        missionName: "CRS-19",
-        launchAt: 1575481680, // the UNIX timestamp of the projected T-0 time
-        limitTwoWeeks: false,
+        missionName: "Crew Dragon IFA",
+        launchAt: 0, // the UNIX timestamp of the projected T-0 time
+        limitTwoWeeks: true,
     };
 
     // Style all "star" symbols
