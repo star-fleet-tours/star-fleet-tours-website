@@ -17,12 +17,12 @@ body:
 As of January 7, the SpaceX In Flight Abort test launch of the Crew Dragon capsule for NASA is scheduled for **No Earlier Than Saturday, January 18 at 8:00 AM EST / 13:00 UTC** from historic launch pad LC-39A at NASA's Kennedy Space Center.
 This unique experimental launch will feature a planned low-altitude flight termination and subsequent explosion of a re-used Falcon 9 booster, the crew capsule's dramatic escape from the resulting conflagration on its powerful abort engines, and its subsequent parachute landing into the ocean. Star✦Fleet will offer the closest, clearest and best-angle view of these historic events, better than any land-based location, and
 
-**STATUS UPDATE:** *We're GO for launch! Ticket sales for this special launch will open at 12:00 AM EST / 17:00 UTC and may sell out within seconds, so be ready to book!*
+This mission we'll only have the small, ocean-capable boats available which cost much more per person and either require a deposit or the full trip cost if the launch is delayed with less than 4 days to go since they lose out on business, but they allow us to get much closer to the action, closer than anywhere on land and with the best seats in the house. As such, the cost is a good deal higher than a normal mission, $95 per person (but that's valid for both TNT1 and the small boats), but if it does get delayed less than that but before we leave the dock, we'll cover that cost and rebook for you if possible, as well as offer discounted pre-launch tour tickets to people who still want to go out on that day and see the rocket on the pad.
 
-This mission we'll only have the small, ocean-capable boats available which cost much more per person and either require a deposit or the full trip cost if the launch is delayed with less than 4 days to go since they loose out on business, but they allow us to get much closer to the action, closer than anywhere on land and with the best seats in the house. As such, the cost is a good deal higher than a normal mission, $95 per person (but that's valid for both TNT1 and the small boats), but if it does get delayed less than that but before we leave the dock, we'll cover that cost and rebook for you if possible, as well as offer discounted pre-launch tour tickets to people who still want to go out on that day and see the rocket on the pad.
+**STATUS UPDATE:** *Another batch of tickets has become available, which we'll open up at 12:00 AM EST / 17:00 UTC tomorrow and may sell out (like the the last batch) within seconds, so be ready to book!*
 
-Make sure to stay tuned to our [Slack](https://join.slack.com/t/spacexmeetups/shared_invite/enQtNjY4ODM0NzMwODM5LWI1NzRkOTM5MzJiZGYzMDBkODdjMDJjYzBjZmJlY2UyZjk3MTZjYzEyNGI3MjdiNTIwZjM0NmE1ODE1ZTQ2NGQ), email list and social media for the latest important updates and to get in touch with us directly (see below for links).
-Thanks!
+*Make sure to stay tuned to our [Slack](https://join.slack.com/t/spacexmeetups/shared_invite/enQtNjY4ODM0NzMwODM5LWI1NzRkOTM5MzJiZGYzMDBkODdjMDJjYzBjZmJlY2UyZjk3MTZjYzEyNGI3MjdiNTIwZjM0NmE1ODE1ZTQ2NGQ), email list and social media for the latest important updates and to get in touch with us directly (see below for links).
+Thanks!*
 
 <h2 id="countdown" style="letter-spacing: 3px; text-align: center !important; margin-top: 1rem;">Check back soon!</h2>
 <a id="book-now-button" href="https://book.star-fleet.tours/" style="; display: none;"><button class="content-button text-button" style="margin-top: 1em;">Book Now</button></a>
@@ -35,7 +35,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1578589320;
+    var futureTime         = 1578675601;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -77,7 +77,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 **Price**: Free (in exchange for launch ticket), $60/person (w/launch ticket); $70 (without)<br>
 **Tour time**: 8 am on former launch day
 
-* **Tours offered as an alternative to launch viewing if and only if launch rescheduled four or fewer days prior to liftoff but before boarding boats for launch day viewing**
+* **Tours offered as an alternative to launch viewing *if and only if* launch rescheduled four or fewer days prior to liftoff but before boarding boats for launch day viewing**
 * Get an exclusive, up-close look at the rocket on the pad typically unavailable from any other angle
 * See historic Explorer, Mercury, Gemini, Apollo and Shuttle sites
 * Enjoy a unique ocean-side view of every past, present and future CCAFS and KSC pad
