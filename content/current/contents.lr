@@ -17,9 +17,24 @@ body:
 As of January 7, the SpaceX In Flight Abort test launch of the Crew Dragon capsule for NASA is scheduled for **No Earlier Than Saturday, January 18 at 8:00 AM EST / 13:00 UTC** from historic launch pad LC-39A at NASA's Kennedy Space Center.
 This unique experimental launch will feature a planned low-altitude flight termination and subsequent explosion of a re-used Falcon 9 booster, the crew capsule's dramatic escape from the resulting conflagration on its powerful abort engines, and its subsequent parachute landing into the ocean. Star✦Fleet will offer the closest, clearest and best-angle view of these historic events, better than any land-based location, and
 
-This mission we'll only have the small, ocean-capable boats available which cost much more per person and either require a deposit or the full trip cost if the launch is delayed with less than 4 days to go since they lose out on business, but they allow us to get much closer to the action, closer than anywhere on land and with the best seats in the house. As such, the cost is a good deal higher than a normal mission, $95 per person (but that's valid for both TNT1 and the small boats), but if it does get delayed less than that but before we leave the dock, we'll cover that cost and rebook for you if possible, as well as offer discounted pre-launch tour tickets to people who still want to go out on that day and see the rocket on the pad.
+This mission we'll only have the small, ocean-capable boats available which cost much more per person and either require a deposit or the full trip cost if the launch is delayed with less than 4 days to go since they lose out on business, but they allow us to get much closer to the action, closer than anywhere on land and with the best seats in the house.
+As such, the cost is a good deal higher than a normal mission, $95 per person (but that's valid for both TNT1 and the small boats), but if it does get delayed less than that but before we leave the dock, we'll cover that cost and rebook for you if possible, as well as offer discounted pre-launch tour tickets to people who still want to go out on that day and see the rocket on the pad.
 
-**STATUS UPDATE:** *We've made our fourth batch of tickets available, so there are a few more left. Get them while the going's good!*
+**STATUS UPDATE:**
+
+The launch is still on for the 18th and the launch weather is 90% GO, but the marine forecast and consultations with the National Weather Service suggest a significant but not certain chance of a Small Craft Advisory due to high seas that would result in our boat providers being obliged to cancel on us due to the boats not being able to go out safely.
+It is rare that the weather precludes the boats but not the launch, and a first in Star Fleet's history, but unfortunately for everyone it looks like it might happen on this most spectacular and unique of test flights.
+
+We'll hold the course for now, in the event the forecast changes or the launch is delayed or scrubbed; if the latter, we'll do our best to ensure we get enough boats to fit everyone on the new launch day (and issue a full refund to anyone we can't).
+Current backup days are Sunday and Monday, same time, but the weather looks bad for launch only a 30-40% chance of GO, with rain on Sunday and winds/waves on Monday.
+
+If and when a Small Craft Advisory is issued for that time period, generally 12-36 hours out, and we check with our captains, we'll let you all know that the Star Fleet mission for Saturday is confirmed scrubbed. If the mission ends up launching and that's the case, we'll cancel the tickets and refund you in full, except for the amount you've specified as a tip/donation (though we are happy to refund that for you as well on request).
+Otherwise, your tickets are still fully valid for the next IFA launch attempt. As for swag, we've decided to cancel the T-shirt orders and not charge anyone to save you all on that, and we'll just refund you for the cookies and the decals and eat the loss ourselves if we scrub and the launch goes.
+
+If the launch is still on and the boats aren't an option, we would recommend Jetty Park in Port Canaveral as the best spot to view the various events of this launch, with Cocoa Beach as a backup and Max Brewer bridge with a better view of launch but no view of the splashdown.
+Be advised that KSCVC will not be offering tickets and Playalinda will be closed due to safety concerns.
+
+We'll keep you updated once we get more confirmed information, and we are truly honored to have each and every one of you as part of our community and the Fleet.
 
 *Make sure to stay tuned to our [Slack](https://join.slack.com/t/spacexmeetups/shared_invite/enQtNjY4ODM0NzMwODM5LWI1NzRkOTM5MzJiZGYzMDBkODdjMDJjYzBjZmJlY2UyZjk3MTZjYzEyNGI3MjdiNTIwZjM0NmE1ODE1ZTQ2NGQ), email list and social media for the latest important updates and to get in touch with us directly (see below for links).
 Thanks!*
@@ -35,7 +50,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1578848401;
+    var futureTime         = 0;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -45,7 +60,9 @@ function updateTimer() {
     var minuteFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour) / minute);
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
-    if (futureTime < currentTime) {
+    if (futureTime == 0) {
+        $('#countdown').html("Tickets currently SOLD OUT");
+    } else if (futureTime < currentTime) {
         $('#countdown').html("TICKETS ARE NOW AVAILABLE!");
         document.getElementById("book-now-button").style.display = "inherit";
     } else if (futureTime > currentTime) {
