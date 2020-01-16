@@ -86,8 +86,8 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 
 <img src="/current/rocket-explosion-example.jpg" alt="Photograph of Titan IV rocket exploding, as the SpaceX IFA booster will" style="margin-top: 0; margin-left: 20px; float: right;">
 
-**Price**: $95 per person (including upper deck if available)<br>
-**Key Times**: Checkin 5:45 AM | Boarding 6:15 AM | Departure 6:45 AM
+**Price**: $95 per person (including upper deck)<br>
+**Key Times**: Checkin 6:00 AM | Boarding 6:30 AM | Departure 7:00 AM
 
 * Unbeatable location to view all the key events of this launch
 * Unobstructed view of SLC-40, LZ-1, and many other historic CCAFS pads
