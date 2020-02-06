@@ -67,12 +67,13 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 </script>
 
 
-<!-- <div style="margin-top: 50px;"><iframe style="width: 100%; height: 480px;" src="https://www.google.com/maps/d/u/0/embed?mid=1ackbv-J5mCx15CKDo5I8IeGYORMHH1J4"></iframe></div> -->
-
-<img src="/current/atlas-v-411-pad.jpg" alt="Photograph of an Atlas V 411, the version launching, on the pad at night" style="margin-top: 0; margin-left: 20px; float: right;">
+<div style="margin-top: 50px;"><iframe style="width: 100%; height: 480px;" src="https://www.google.com/maps/d/u/0/embed?mid=1qjID5WClZNfnmrTSppMpmCCSNXyT3epW"></iframe></div>
 
 
 ## Rocket Launch Viewing
+
+<img src="/current/atlas-v-411-pad.jpg" alt="Photograph of an Atlas V 411, the version launching, on the pad at night" style="margin-top: 0; margin-left: 20px; float: right;">
+
 
 **Price**: $75 per person, $65 w/purchased tour ticket<br>
 **Date**: Sunday, February 9 2020 (EST)<br>
