@@ -220,16 +220,12 @@ connect-src  https://api.spacexdata.com;
       
       <div id="page-body-countdown-container"></div><p><img src="/current/slc41-star-fleet.jpg" alt="Photograph of the CCAFS SLC-41 pad from a Star Fleet Tours vessel" style="float: left; margin-left: 0px; margin-right: 40px; margin-top: 5px; margin-bottom: 20px;"></p>
 <p>As of February 4, the launch of the Solar Orbiter mission for ESA on an Atlas V is scheduled for <strong>No Earlier Than Sunday, February 9 at 11:03 PM EST / Monday, February 10 at 04:03 UTC</strong> from launch pad SLC-41 at the Cape Canaveral Air Force Station in Florida.</p>
-<p>For this mission, we will be hosting exclusive pre-launch closeup boat tours of the pad, rocket and rollout to help accommodate, among others, NASA's special invited media and guests from the NASA Social.
-We'll also  consider a boat trip to view the launch itself if sufficient interest develops.
-Let us know if you're interested in the latter, and stay tuned for more information on that.
-Based on the hazard zones, we would offer a uniquely up-close view of the trajectory, at a competitive price to KSCVC options.</p>
+<p>For this mission, we will be hosting exclusive pre-launch closeup boat tours of the pad, rocket and rollout to help accommodate, among others, NASA's special invited media and guests from the NASA Social.</p>
 <h2>STATUS UPDATE</h2>
-<p>We are currently GO to run a tour of the pad and rocket rollout Saturday morning, and are GO for launch viewing Sunday night!
-Tickets for both are on sale now!
-If you've already ordered a tour ticket and want a launch ticket, you'll receive a $10 (15%) discount on the latter; contact us to get your special discount code.
-Similarly, if you purchase them together, you'll receive a $10 package discount.
-Thanks, and looking forward to seeing you all out there!</p>
+<p>The pre-launch tour was a great success; however, due to the captains advising us that the sea conditions have gotten much worse and will be very rough for the boats and a Small Craft Exercise Caution advisory being issued, the mission to view the launch is SCRUBBED.</p>
+<p>We recommend Jetty Park as the next-best alternative which is also at the Port, right down the road from the boats; it is the closest site to launch, not much further than the boats would have been in our backup bad-weather position (just an obstructed view of liftoff),  and will have food trucks and other facilities present which should provide a better experience than a boat in these conditions.</p>
+<p>We're hoping to see you all at the next one, which is currently planned to be CRS-20 at 2:45 AM on March 2 featuring a spectacular night launch and booster landing.
+Thanks for your understanding, and we hope you enjoy the launch!</p>
 <p><em>Make sure to stay tuned to our <a href="https://join.slack.com/t/spacexmeetups/shared_invite/enQtNjY4ODM0NzMwODM5LWI1NzRkOTM5MzJiZGYzMDBkODdjMDJjYzBjZmJlY2UyZjk3MTZjYzEyNGI3MjdiNTIwZjM0NmE1ODE1ZTQ2NGQ">Slack</a>, email list and social media for the latest important updates and to get in touch with us directly (see below for links).
 Thanks!</em></p>
 <p><h2 id="countdown" style="letter-spacing: 3px; text-align: center !important; margin-top: 1rem;">Check back soon!</h2>
@@ -242,7 +238,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1580922000;
+    var futureTime         = 0;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -253,7 +249,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Tickets currently SOLD OUT");
+        $('#countdown').html("Check back soon!);
     } else if (futureTime < currentTime) {
         $('#countdown').html("TICKETS ARE NOW AVAILABLE!");
         document.getElementById("book-now-button").style.display = "inherit";
