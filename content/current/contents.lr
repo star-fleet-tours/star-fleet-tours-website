@@ -6,27 +6,21 @@ short_title: Tickets
 ---
 special_link: true
 ---
-full_title: ESA Solar Orbiter Launch
+full_title: SpaceX Dragon CRS-20 Launch
 ---
 body:
 
 <div id="page-body-countdown-container"></div>
 
-<img src="/current/slc41-star-fleet.jpg" alt="Photograph of the CCAFS SLC-41 pad from a Star Fleet Tours vessel" style="float: left; margin-left: 0px; margin-right: 40px; margin-top: 5px; margin-bottom: 20px;">
+<img src="/current/f9-landing-lz1-day.jpg" alt="Photograph of the Falcon 9 landing on LZ-1" style="float: left; margin-left: 0px; margin-right: 40px; margin-top: 5px; margin-bottom: 20px;">
 
-As of February 4, the launch of the Solar Orbiter mission for ESA on an Atlas V is scheduled for **No Earlier Than Sunday, February 9 at 11:03 PM EST / Monday, February 10 at 04:03 UTC** from launch pad SLC-41 at the Cape Canaveral Air Force Station in Florida.
+As of February 19, the Falcon 9/Dragon CRS-19 launch to the International Space Station is scheduled for **No Earlier Than Monday, March 2 at 1:45 AM EST / 06:45 UTC** from launch pad SLC-40 at Cape Canaveral Air Force Station.
+This launch will feature a Falcon 9 booster lofting a Dragon cargo ship to the ISS, transporting experiments and supplies to the station as well as research payloads, and will also include a spectacular Return To Launch Site booster landing.
 
-For this mission, we will be hosting exclusive pre-launch closeup boat tours of the pad, rocket and rollout to help accommodate, among others, NASA's special invited media and guests from the NASA Social.
+**STATUS UPDATE:** *We are currently **GO** for a Star✦Fleet mission to view this launch and landing!*
+Our reservation system will go live at ***17:00 UTC (12:00 noon EST) this Friday, February 21***, so be ready to order as tickets go fast!
 
-
-## STATUS UPDATE
-
-The pre-launch tour was a great success; however, due to the captains advising us that the sea conditions have gotten much worse and will be very rough for the boats and a Small Craft Exercise Caution advisory being issued, the mission to view the launch is SCRUBBED.
-
-We recommend Jetty Park as the next-best alternative which is also at the Port, right down the road from the boats; it is the closest site to launch, not much further than the boats would have been in our backup bad-weather position (just an obstructed view of liftoff),  and will have food trucks and other facilities present which should provide a better experience than a boat in these conditions.
-
-We're hoping to see you all at the next one, which is currently planned to be CRS-20 at 2:45 AM on March 2 featuring a spectacular night launch and booster landing.
-Thanks for your understanding, and we hope you enjoy the launch!
+<br>
 
 *Make sure to stay tuned to our [Slack](https://join.slack.com/t/spacexmeetups/shared_invite/enQtNjY4ODM0NzMwODM5LWI1NzRkOTM5MzJiZGYzMDBkODdjMDJjYzBjZmJlY2UyZjk3MTZjYzEyNGI3MjdiNTIwZjM0NmE1ODE1ZTQ2NGQ), email list and social media for the latest important updates and to get in touch with us directly (see below for links).
 Thanks!*
@@ -35,6 +29,7 @@ Thanks!*
 <a id="book-now-button" href="https://book.star-fleet.tours/" style="; display: none;"><button class="content-button text-button" style="margin-top: 1em;">Book Now</button></a>
 
 <script type="text/javascript">
+"use strict"
 Number.prototype.pad = function(size) {
     var s = String(this);
     while (s.length < (size || 2)) {s = "0" + s;}
@@ -42,7 +37,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 0;
+    var futureTime         = 1582304460;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -53,7 +48,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Check back soon!);
+        $('#countdown').html("Check back soon!");
     } else if (futureTime < currentTime) {
         $('#countdown').html("TICKETS ARE NOW AVAILABLE!");
         document.getElementById("book-now-button").style.display = "inherit";
@@ -65,31 +60,31 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 </script>
 
 
-<div style="margin-top: 50px;"><iframe style="width: 100%; height: 480px;" src="https://www.google.com/maps/d/u/0/embed?mid=1qjID5WClZNfnmrTSppMpmCCSNXyT3epW"></iframe></div>
+<!-- <div style="margin-top: 50px;"><iframe style="width: 100%; height: 480px;" src="https://www.google.com/maps/d/u/0/embed?mid=1qjID5WClZNfnmrTSppMpmCCSNXyT3epW"></iframe></div> -->
 
 
-## Rocket Launch Viewing
+## Rocket Launch and Landing Viewing
 
-<img src="/current/atlas-v-411-pad.jpg" alt="Photograph of an Atlas V 411, the version launching, on the pad at night" style="margin-top: 0; margin-left: 20px; float: right;">
+<img src="/current/f9-dragon-launch-slc40-day.jpg" alt="Photograph of a Falcon 9 booster landing on LZ-1" style="margin-top: 0; margin-left: 20px; float: right;">
 
 
-**Price**: $75 per person, $65 w/purchased tour ticket<br>
-**Date**: Sunday, February 9 2020 (EST)<br>
-**Key Times**: Checkin 9:00PM | Boarding 9:30PM | Departure 10:00PM<br>
+**Price**: $75 per person<br>
+**Date**: Monday, March 2 at 1:45 AM EST<br>
+**Key Times**: Checkin 11:45PM | Boarding 12:15AM | Departure 12:45AM<br>
 
 * Unbeatable location to view all the key events of this launch
 * Unobstructed view of SLC-40, LZ-1, and many other historic CCAFS pads
-* Choice of TNT1 or 6 person private boat options
+* Choice of OO2, TNT1 or 6 person private boat options (subject to avail.)
 * Pre-mission genuine NASA launch cookie bake sale to support SCLA
-* Free water/drinks and anti-nausea tablets included with ticket
-* Includes a custom decal of the Star✦Fleet mission patch
+* Free Dramamine tablet included with ticket
+* Includes a custom decal of the Star✦Fleet-exclusive mission patch
 
 
 ## Guided Pre-Launch Pad Tour
 
 **Price**: $75 per person, $65 w/purchased launch ticket<br>
-**Date**: Saturday, February 8 2020 (EST)<br>
-**Key Times**: Checkin 8:45AM | Boarding 9:15AM | Departure 9:30AM<br>
+**Date**: NOT CURRENTLY OFFERED THIS MISSION<br>
+**Key Times**: Checkin D-30min | Boarding D-15min | Departure D-0<br>
 
 * Get an exclusive, up-close look at the rocket on the pad typically unavailable from any other angle
 * See historic Explorer, Mercury, Gemini, Apollo and Shuttle sites
@@ -97,7 +92,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 * View many sites of historic and current interest in Port Canaveral harbor and along the Cape
 * Smaller boat can get right up to the beach to provide an optimal view
 * Multiple opportunities to stop and take photos
-* Includes a custom decal of the Star✦Fleet mission patch (if offered)
+* Includes a custom decal of the Star✦Fleet mission patch
 * Comes with a genuine home-made NASA "launch day cookie" and a card with the original NASA recipe (see below)
 
 
@@ -107,8 +102,7 @@ We'll have Star Fleet decals and our special cookies available to everyone comes
 
 <img src="/current/star-fleet-logo-stickers.jpg" alt="Photo of a person's hand holding a large decal of Star Fleet's logo, with more in the background" style="margin-left: 20px; margin-top: 10px; float: right;">
 
-### Mission/Star✦Fleet Patch Decals
-
+### Mission Patch Decals
 
 **Price**: Free with any ticket<br>
 **Order**: Online (with any ticket), Onsite
@@ -118,7 +112,18 @@ We'll have Star Fleet decals and our special cookies available to everyone comes
 * Pick up at checkin for tours and/or launch
 
 
+### Star✦Fleet Logo Decals
+
+**Price**: $3 each, one free with tour ticket<br>
+**Order**: Online (with any ticket), Onsite
+
+* Extra-high-quality, long-lasting 10 cm decal
+* Pick up at checkin for tours and/or launch
+
+
 ### Full-Color Mission Patch Logo T-shirts
+
+<img src="/current/mission-patch-crs-20.png" alt="Star Fleet CRS-20 mission patch, featuring a SpaceX Dragon 1 spacecraft flying path the ISS with Earth and 20 stars in the background" style="margin-left: 20px; margin-top: 10px; float: right;">
 
 **Price**: $20 each, all sizes<br>
 **Order**: Online (separate item)<br>
@@ -132,7 +137,7 @@ We'll have Star Fleet decals and our special cookies available to everyone comes
 ### Genuine Home-Baked NASA Launch Day Cookies
 
 **Price**: Free with tour ticket, extra for $2 donation to the Space Coast Launch Ambassadors volunteer organization<br>
-**Order**: Online
+**Order**: Online, Onsite
 
 * Be part of a time-honored tradition stretching back to the Apollo astronauts
 * Made from the original NASA recipe used for launch-day cookies

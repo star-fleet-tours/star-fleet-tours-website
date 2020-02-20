@@ -20,12 +20,12 @@ https://opensource.org/licenses/MIT
     //   };
     //
     // Otherwise, specify the absence of a missionOverride:
-    // const missionOverride = null;
-    const missionOverride = {
-        missionName: "ESA Solar Orbiter",
-        launchAt: 1581307380, // the UNIX timestamp of the projected T-0 time
-        limitTwoWeeks: true,
-    };
+    const missionOverride = null;
+    // const missionOverride = {
+        // missionName: "ESA Solar Orbiter",
+        // launchAt: 1581307380, // the UNIX timestamp of the projected T-0 time
+        // limitTwoWeeks: true,
+    // };
 
     // Style all "star" symbols
     var styleStarGlyph = function() {
