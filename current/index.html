@@ -211,26 +211,25 @@ connect-src  https://api.spacexdata.com;
     <div class="text-center fh5co-heading">
       
       <h1>
-        ESA Solar Orbiter Launch
+        SpaceX Dragon CRS-20 Launch
       </h1>
       
       <div class="rule-under-heading"></div>
     </div>
     <div class="center">
       
-      <div id="page-body-countdown-container"></div><p><img src="/current/slc41-star-fleet.jpg" alt="Photograph of the CCAFS SLC-41 pad from a Star Fleet Tours vessel" style="float: left; margin-left: 0px; margin-right: 40px; margin-top: 5px; margin-bottom: 20px;"></p>
-<p>As of February 4, the launch of the Solar Orbiter mission for ESA on an Atlas V is scheduled for <strong>No Earlier Than Sunday, February 9 at 11:03 PM EST / Monday, February 10 at 04:03 UTC</strong> from launch pad SLC-41 at the Cape Canaveral Air Force Station in Florida.</p>
-<p>For this mission, we will be hosting exclusive pre-launch closeup boat tours of the pad, rocket and rollout to help accommodate, among others, NASA's special invited media and guests from the NASA Social.</p>
-<h2>STATUS UPDATE</h2>
-<p>The pre-launch tour was a great success; however, due to the captains advising us that the sea conditions have gotten much worse and will be very rough for the boats and a Small Craft Exercise Caution advisory being issued, the mission to view the launch is SCRUBBED.</p>
-<p>We recommend Jetty Park as the next-best alternative which is also at the Port, right down the road from the boats; it is the closest site to launch, not much further than the boats would have been in our backup bad-weather position (just an obstructed view of liftoff),  and will have food trucks and other facilities present which should provide a better experience than a boat in these conditions.</p>
-<p>We're hoping to see you all at the next one, which is currently planned to be CRS-20 at 2:45 AM on March 2 featuring a spectacular night launch and booster landing.
-Thanks for your understanding, and we hope you enjoy the launch!</p>
+      <div id="page-body-countdown-container"></div><p><img src="/current/f9-landing-lz1-day.jpg" alt="Photograph of the Falcon 9 landing on LZ-1" style="float: left; margin-left: 0px; margin-right: 40px; margin-top: 5px; margin-bottom: 20px;"></p>
+<p>As of February 19, the Falcon 9/Dragon CRS-19 launch to the International Space Station is scheduled for <strong>No Earlier Than Monday, March 2 at 1:45 AM EST / 06:45 UTC</strong> from launch pad SLC-40 at Cape Canaveral Air Force Station.
+This launch will feature a Falcon 9 booster lofting a Dragon cargo ship to the ISS, transporting experiments and supplies to the station as well as research payloads, and will also include a spectacular Return To Launch Site booster landing.</p>
+<p><strong>STATUS UPDATE:</strong> <em>We are currently <strong>GO</strong> for a Star✦Fleet mission to view this launch and landing!</em>
+Our reservation system will go live at <strong><em>17:00 UTC (12:00 noon EST) this Friday, February 21</em></strong>, so be ready to order as tickets go fast!</p>
+<p><br></p>
 <p><em>Make sure to stay tuned to our <a href="https://join.slack.com/t/spacexmeetups/shared_invite/enQtNjY4ODM0NzMwODM5LWI1NzRkOTM5MzJiZGYzMDBkODdjMDJjYzBjZmJlY2UyZjk3MTZjYzEyNGI3MjdiNTIwZjM0NmE1ODE1ZTQ2NGQ">Slack</a>, email list and social media for the latest important updates and to get in touch with us directly (see below for links).
 Thanks!</em></p>
 <p><h2 id="countdown" style="letter-spacing: 3px; text-align: center !important; margin-top: 1rem;">Check back soon!</h2>
 <a id="book-now-button" href="https://book.star-fleet.tours/" style="; display: none;"><button class="content-button text-button" style="margin-top: 1em;">Book Now</button></a></p>
 <script type="text/javascript">
+"use strict"
 Number.prototype.pad = function(size) {
     var s = String(this);
     while (s.length < (size || 2)) {s = "0" + s;}
@@ -238,7 +237,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 0;
+    var futureTime         = 1582304460;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -249,7 +248,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Check back soon!);
+        $('#countdown').html("Check back soon!");
     } else if (futureTime < currentTime) {
         $('#countdown').html("TICKETS ARE NOW AVAILABLE!");
         document.getElementById("book-now-button").style.display = "inherit";
@@ -258,23 +257,26 @@ function updateTimer() {
     }
 };
 var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
-</script><div style="margin-top: 50px;"><iframe style="width: 100%; height: 480px;" src="https://www.google.com/maps/d/u/0/embed?mid=1qjID5WClZNfnmrTSppMpmCCSNXyT3epW"></iframe></div><h2>Rocket Launch Viewing</h2>
-<p><img src="/current/atlas-v-411-pad.jpg" alt="Photograph of an Atlas V 411, the version launching, on the pad at night" style="margin-top: 0; margin-left: 20px; float: right;"></p>
-<p><strong>Price</strong>: $75 per person, $65 w/purchased tour ticket<br>
-<strong>Date</strong>: Sunday, February 9 2020 (EST)<br>
-<strong>Key Times</strong>: Checkin 9:00PM | Boarding 9:30PM | Departure 10:00PM<br></p>
+</script><!-- <div style="margin-top: 50px;"><iframe style="width: 100%; height: 480px;" src="https://www.google.com/maps/d/u/0/embed?mid=1qjID5WClZNfnmrTSppMpmCCSNXyT3epW"></iframe></div> -->
+
+
+<h2>Rocket Launch and Landing Viewing</h2>
+<p><img src="/current/f9-dragon-launch-slc40-day.jpg" alt="Photograph of a Falcon 9 booster landing on LZ-1" style="margin-top: 0; margin-left: 20px; float: right;"></p>
+<p><strong>Price</strong>: $75 per person<br>
+<strong>Date</strong>: Monday, March 2 at 1:45 AM EST<br>
+<strong>Key Times</strong>: Checkin 11:45PM | Boarding 12:15AM | Departure 12:45AM<br></p>
 <ul>
 <li>Unbeatable location to view all the key events of this launch</li>
 <li>Unobstructed view of SLC-40, LZ-1, and many other historic CCAFS pads</li>
-<li>Choice of TNT1 or 6 person private boat options</li>
+<li>Choice of OO2, TNT1 or 6 person private boat options (subject to avail.)</li>
 <li>Pre-mission genuine NASA launch cookie bake sale to support SCLA</li>
-<li>Free water/drinks and anti-nausea tablets included with ticket</li>
-<li>Includes a custom decal of the Star✦Fleet mission patch</li>
+<li>Free Dramamine tablet included with ticket</li>
+<li>Includes a custom decal of the Star✦Fleet-exclusive mission patch</li>
 </ul>
 <h2>Guided Pre-Launch Pad Tour</h2>
 <p><strong>Price</strong>: $75 per person, $65 w/purchased launch ticket<br>
-<strong>Date</strong>: Saturday, February 8 2020 (EST)<br>
-<strong>Key Times</strong>: Checkin 8:45AM | Boarding 9:15AM | Departure 9:30AM<br></p>
+<strong>Date</strong>: NOT CURRENTLY OFFERED THIS MISSION<br>
+<strong>Key Times</strong>: Checkin D-30min | Boarding D-15min | Departure D-0<br></p>
 <ul>
 <li>Get an exclusive, up-close look at the rocket on the pad typically unavailable from any other angle</li>
 <li>See historic Explorer, Mercury, Gemini, Apollo and Shuttle sites</li>
@@ -282,13 +284,13 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 <li>View many sites of historic and current interest in Port Canaveral harbor and along the Cape</li>
 <li>Smaller boat can get right up to the beach to provide an optimal view</li>
 <li>Multiple opportunities to stop and take photos</li>
-<li>Includes a custom decal of the Star✦Fleet mission patch (if offered)</li>
+<li>Includes a custom decal of the Star✦Fleet mission patch</li>
 <li>Comes with a genuine home-made NASA "launch day cookie" and a card with the original NASA recipe (see below)</li>
 </ul>
 <h2>Commemorative Items</h2>
 <p>We'll have Star Fleet decals and our special cookies available to everyone comes out on a tour, plus a bunch more swag from our special collection. Check it out!</p>
 <p><img src="/current/star-fleet-logo-stickers.jpg" alt="Photo of a person's hand holding a large decal of Star Fleet's logo, with more in the background" style="margin-left: 20px; margin-top: 10px; float: right;"></p>
-<h3>Mission/Star✦Fleet Patch Decals</h3>
+<h3>Mission Patch Decals</h3>
 <p><strong>Price</strong>: Free with any ticket<br>
 <strong>Order</strong>: Online (with any ticket), Onsite</p>
 <ul>
@@ -296,7 +298,15 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 <li>One free per ticket</li>
 <li>Pick up at checkin for tours and/or launch</li>
 </ul>
+<h3>Star✦Fleet Logo Decals</h3>
+<p><strong>Price</strong>: $3 each, one free with tour ticket<br>
+<strong>Order</strong>: Online (with any ticket), Onsite</p>
+<ul>
+<li>Extra-high-quality, long-lasting 10 cm decal</li>
+<li>Pick up at checkin for tours and/or launch</li>
+</ul>
 <h3>Full-Color Mission Patch Logo T-shirts</h3>
+<p><img src="/current/mission-patch-crs-20.png" alt="Star Fleet CRS-20 mission patch, featuring a SpaceX Dragon 1 spacecraft flying path the ISS with Earth and 20 stars in the background" style="margin-left: 20px; margin-top: 10px; float: right;"></p>
 <p><strong>Price</strong>: $20 each, all sizes<br>
 <strong>Order</strong>: Online (separate item)<br>
 <strong>Status</strong>: NOT AVAILIBLE THIS MISSION</p>
@@ -307,7 +317,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 </ul>
 <h3>Genuine Home-Baked NASA Launch Day Cookies</h3>
 <p><strong>Price</strong>: Free with tour ticket, extra for $2 donation to the Space Coast Launch Ambassadors volunteer organization<br>
-<strong>Order</strong>: Online</p>
+<strong>Order</strong>: Online, Onsite</p>
 <ul>
 <li>Be part of a time-honored tradition stretching back to the Apollo astronauts</li>
 <li>Made from the original NASA recipe used for launch-day cookies</li>
@@ -402,7 +412,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 <script src="/static/js/jquery.waypoints.min.js?h=a2b72d43" type="application/javascript" charset="UTF-8"></script>
 
 <!-- User Custom Scripts -->
-<script src="/static/js/custom-scripts.js?h=92b09f47" type="application/javascript" charset="UTF-8"></script>
+<script src="/static/js/custom-scripts.js?h=d92ab30a" type="application/javascript" charset="UTF-8"></script>
 
 <!-- Main JS -->
 <script src="/static/js/main.js?h=6653e38d" type="application/javascript" charset="UTF-8"></script>
