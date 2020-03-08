@@ -14,18 +14,18 @@ https://opensource.org/licenses/MIT
     // We can retrieve the upcoming SpaceX launch from an unofficial API and display it
     // automatically. If you want to override this behavior, specify a missionOverride here:
     //
-    //   const missionOverride = {
-    //       missionName: "Spacecow",
-    //       launchAt: 1234567890 // the UNIX timestamp of the projected T-0 time
-    //   };
+    // const missionOverride = {
+        // missionName: "SpaceX Crew Dragon DM-2",
+        // launchAt: 1588809600 // the UNIX timestamp of the projected T-0 time
+    // };
     //
     // Otherwise, specify the absence of a missionOverride:
-    const missionOverride = null;
-    // const missionOverride = {
-        // missionName: "ESA Solar Orbiter",
-        // launchAt: 1581307380, // the UNIX timestamp of the projected T-0 time
-        // limitTwoWeeks: true,
-    // };
+    // const missionOverride = null;
+    const missionOverride = {
+        missionName: "SpaceX Crew Dragon DM-2",
+        launchAt: 1588809600, // the UNIX timestamp of the projected T-0 time
+        limitTwoWeeks: false,
+    };
 
     // Style all "star" symbols
     var styleStarGlyph = function() {

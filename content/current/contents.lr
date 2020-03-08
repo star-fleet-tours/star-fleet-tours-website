@@ -6,28 +6,22 @@ short_title: Tickets
 ---
 special_link: true
 ---
-full_title: SpaceX Dragon CRS-20 Launch
+full_title: SpaceX Crew Dragon DM-2
 ---
 body:
 
 <div id="page-body-countdown-container"></div>
 
-<img src="/current/f9-landing-lz1-day.jpg" alt="Photograph of the Falcon 9 landing on LZ-1" style="float: left; margin-left: 0px; margin-right: 40px; margin-top: 5px; margin-bottom: 20px;">
+<img src="/current/crew-dragon-astronauts.jpg" alt="Photograph of the NASA astronauts assigned to SpaceX DM-2 performing tasks on the Crew Dragon's control panel" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
 
-As of February 25, the Falcon 9/Dragon CRS-20 launch to the International Space Station has been *delayed* to **No Earlier Than Friday, March 6 at 11:50 PM EST / (March 7 at 04:45 UTC)** from launch pad SLC-40 at Cape Canaveral Air Force Station.
-This launch will feature a Falcon 9 booster lofting a Dragon cargo ship to the ISS, transporting experiments and supplies to the station as well as research payloads, and will also include a spectacular Return To Launch Site booster landing.
-Star✦Fleet will offer the closest, clearest and best-angle view of the landing possible from anywhere, land or sea, as well as a fully unobstructed view of liftoff.
+As of March 6, the Falcon 9/Crew Dragon DM-2 launch to the International Space Station is currently scheduled for **No Earlier Than Thursday, May 7** from historic launch pad LC-39A at NASA's Kennedy Space Center.
+This milestone launch will feature the first human spaceflight from the US in nearly a decade since the Space Shuttle, and the first crewed orbital mission on a commercial spacecraft.
 
-**STATUS UPDATE:** The mission is still on and we've opened up a few more spots, and launch weather is currently at 60% chance of GO, with the main concern being liftoff winds.
-However, the captains have informed us that while it is still possible for us to go out, the waters will be pretty choppy, and they've said its possible they might not be able to go out as far as we normally do, although we'll still have a clear view and be the closest game in town.
+Star✦Fleet will offer a clear view of the pad, liftoff and ascent into orbit from a favorable angle and as close or closer than most or all other locations that do not require >$200+ KSCVC tickets, along with dedicated free parking, full facilities and reserved spots with the need to arrive as little as an hour in advance of launch.
+We'll also be offering exclusive closeup VIP pre-launch boat tours of the rocket and spacecraft on the pad (timing permitting), as well as the special NASA launch day cookies baked by Julia Bergeron herself from the same recipe and tradition handed down to her as for the astronauts since Apollo.
 
-To provide everyone the best experience, we're guaranteeing everyone a spot on the big boat, "Double O" (OO2), since its much more stable in rough seas.
-We will also offer free Dramamine anti-seasickness tables for everyone at checkin well before departure, and we won't be out there too long, just the 15-30 minute trip out to the viewing location and back.
-
-However, if have a particularly sensitive stomach and would prefer to view this launch from land, please let us know and we would be happy to offer a full refund.
-Just email us or message us on our Slack (preferred), Gitter, Facebook, or Twitter with your reservation code and full name, and we'll get that taken care of for you.
-As backup options, we would recommend the Rt. 401 USAF stands or Jetty Park in Port Canaveral as the best spot to view the spectacular launch and landing, with the parks just south of the Port as an additional alternative. Be advised Playalinda will be closed and KSCVC is sold out.
-Whatever you choose, making sure everyone has the best possible launch experience is why Star Fleet exists, so don't hesitate to ask if you have questions or would like further viewing advice.
+**STATUS UPDATE:** Check back closer to the mission, once the date, safety zones and boat availability is finalized, for more details about Star Fleet's offerings on this launch!
+We aim the have ticket available for sale at the two week mark from a confirmed launch date, and will announce the exact date and time of availability well in advance so everyone can be prepared to order on what is likely to be a very popular mission.
 
 *Make sure to stay tuned to our [Slack](https://join.slack.com/t/spacexmeetups/shared_invite/enQtNjY4ODM0NzMwODM5LWI1NzRkOTM5MzJiZGYzMDBkODdjMDJjYzBjZmJlY2UyZjk3MTZjYzEyNGI3MjdiNTIwZjM0NmE1ODE1ZTQ2NGQ), email list and social media for the latest important updates and to get in touch with us directly (see below for links).
 Thanks!*
@@ -44,7 +38,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1582304460;
+    var futureTime         = 0;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -67,17 +61,17 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 </script>
 
 
-<div style="margin-top: 50px;"><iframe style="width: 100%; height: 480px;" src="https://www.google.com/maps/d/u/0/embed?mid=1C-tpUOP1-KClf1sPJfrPXh1g9A4k0rg7"></iframe></div>
+<!-- <div style="margin-top: 50px;"><iframe style="width: 100%; height: 480px;" src="https://www.google.com/maps/d/u/0/embed?mid=1C-tpUOP1-KClf1sPJfrPXh1g9A4k0rg7"></iframe></div> -->
 
 
 ## Rocket Launch and Landing Viewing
 
-<img src="/current/f9-dragon-launch-slc40-day.jpg" alt="Photograph of a Falcon 9 booster landing on LZ-1" style="margin-top: 0; margin-left: 20px; float: right;">
+<img src="/current/crew-dragon-liftoff-night.jpg" alt="Photograph of a Falcon 9 rocket with a Crew Dragon capsule lifting off at night from LC-39A" style="margin-top: 40px; margin-left: 20px; float: right;">
 
 
 **Price**: $75 per person<br>
 **Date**: Friday, March 6 at 11:50 PM EST<br>
-**Key Times**: Checkin 9:45PM | Boarding 10:15PM | Departure 10:45PM<br>
+**Key Times**: Checkin T-2 h | Boarding T-1.5 h | Departure T-1 h<br>
 
 * Unbeatable location to view all the key events of this launch
 * Unobstructed view of SLC-40, LZ-1, and many other historic CCAFS pads
@@ -90,7 +84,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 ## Guided Pre-Launch Pad Tour
 
 **Price**: $75 per person, $65 w/purchased launch ticket<br>
-**Date**: NOT CURRENTLY OFFERED THIS MISSION<br>
+**Date**: Likely approximately 6-24 hours prior to launch<br>
 **Key Times**: Checkin D-30min | Boarding D-15min | Departure D-0<br>
 
 * Get an exclusive, up-close look at the rocket on the pad typically unavailable from any other angle
@@ -130,11 +124,11 @@ We'll have Star Fleet decals and our special cookies available to everyone comes
 
 ### Full-Color Mission Patch Logo T-shirts
 
-<img src="/current/mission-patch-crs-20.png" alt="Star Fleet CRS-20 mission patch, featuring a SpaceX Dragon 1 spacecraft flying path the ISS with Earth and 20 stars in the background" style="margin-left: 20px; margin-top: 10px; float: right;">
+<!-- <img src="/current/mission-patch-crs-20.png" alt="Star Fleet CRS-20 mission patch, featuring a SpaceX Dragon 1 spacecraft flying path the ISS with Earth and 20 stars in the background" style="margin-left: 20px; margin-top: 10px; float: right;"> -->
 
 **Price**: $20 each, all sizes<br>
 **Order**: Online (separate item)<br>
-**Status**: NOT AVAILIBLE THIS MISSION
+**Status**: TBD
 
 * Black T-shirt with full-size, full-color custom Star✦Fleet mission patch
 * Sizes unisex S-3XL, selected at checkout (tend to run slightly small)
