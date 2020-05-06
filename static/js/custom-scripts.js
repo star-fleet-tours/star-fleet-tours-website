@@ -23,7 +23,7 @@ https://opensource.org/licenses/MIT
     // const missionOverride = null;
     const missionOverride = {
         missionName: "SpaceX Crew Dragon DM-2",
-        launchAt: 1588809600, // the UNIX timestamp of the projected T-0 time
+        launchAt: 1590611220, // the UNIX timestamp of the projected T-0 time
         limitTwoWeeks: false,
     };
 
