@@ -6,7 +6,7 @@ short_title: Tickets
 ---
 special_link: true
 ---
-full_title: SpaceX Crew Dragon DM-2
+full_title: SpaceX NASA Crew-2 Mission
 ---
 body:
 
@@ -14,19 +14,17 @@ body:
 
 <img src="/current/crew-dragon-astronauts.jpg" alt="Photograph of the NASA astronauts assigned to SpaceX DM-2 performing tasks on the Crew Dragon's control panel" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
 
-As of May 6, the Falcon 9/Crew Dragon DM-2 launch to the International Space Station is currently scheduled for **No Earlier Than Thursday, May 27 at 20:27 UTC (4:27 PM EDT)** from historic launch pad LC-39A at NASA's Kennedy Space Center.
-This milestone launch will feature the first human spaceflight from the US in nearly a decade since the Space Shuttle, and the first crewed orbital mission on a commercial spacecraft.
+We're back with you all from COVID quarentine for the Falcon 9/Crew Dragon NASA Crew-2 launch to the International Space Station!
+The mission is currently scheduled for **No Earlier Than Thursday, April 22 at 10:11 UTC (6:11 AM EDT)** from historic launch pad LC-39A at NASA's Kennedy Space Center.
+This milestone launch will feature the first human spaceflight in a re-used capsule and liquid booster, and launch just before dawn, looks to feature a spectacular twilight effect if clouds cooperate.
 
-**STATUS UPDATE:** We're very excited about this mission, as are all of you, and we've been waiting and monitoring the COVID-19 situation and exploring what might be possible to do given these unprecedented times.
-Based on the guidance we've received, **we've made the difficult decision to cancel the planned Star Fleet trip to view this launch, and echo the advice of NASA, public health experts and the spaceflight community to please enjoy this launch at home.**
-Safety is our number one concern, and particularly given the relatively high risk profile of getting a large number of people from all around the country in a relatively modest sized space for an hour or more, no launch is worth risking people's health over.
+We'd like to dedicate this mission to our longtime supporter and spaceflight community stalwart [Wayward Plane](http://waywardplane.com/), and will be donating all proceeds from our special NASA cookies, $10 from every pre-launch tour and any additional tip/donation you wish to give to [Wayward's Mission to Beat Cancer](https://www.gofundme.com/f/waywards-mission-to-beat-cancer).
+Wayward was one of the very first members of the spaceflight community to back Star Fleet, and has been an invaluable supporter, volunteer and friend to us ever since.
+We hope you'll join us in giving back to someone who's given their all to help hundreds of launch viewers and space enthusiasts through Twitter, Launch Rats and much more. #Wayward4Life!
 
-If you're a local and are determined to view this launch, you could consider getting in touch with our Port Canaveral charter captains for a private trip, but we're not encouraging anyone to travel or expose themselves, their families or the community to the virus for this.
-While this is a historic moment, given the many exciting upcoming developments for NASA, SpaceX and other space companies and organizations, there will surely be many more to watch in person for many years to come, so we urge all of you to take care of your health now so we can all witness them together in the future.
-Thanks for being part of our Star Fleet family in these difficult times, and please reach out if you have further questions.
-
-We hope you are able to join us on another trip soon, and until then, we hope you stay home, stay safe, and enjoy plenty of space!
-
+**STATUS UPDATE:** We have very high demand for this mission and will be running a limited-size socially-distanced trip due to COVID-19 safety protocols.
+Tickets go on sale at **16:00 UTC (12:00 noon EDT) on Saturday, April 10** and given the limited supply, may sell out within minutes or seconds, so be ready to order!
+If you have any questions, we will have our email and social media online again to answer them, so feel free to ask.
 *Make sure to stay tuned to our [Slack](https://join.slack.com/t/spacexmeetups/shared_invite/enQtNjY4ODM0NzMwODM5LWI1NzRkOTM5MzJiZGYzMDBkODdjMDJjYzBjZmJlY2UyZjk3MTZjYzEyNGI3MjdiNTIwZjM0NmE1ODE1ZTQ2NGQ), email list and social media for the latest important updates and to get in touch with us directly (see below for links).
 Thanks!*
 
@@ -42,7 +40,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 0;
+    var futureTime         = 1618070400;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -65,6 +63,22 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 </script>
 
 
+## COVID-19 Safety Information
+
+Safety is our number one concern, and no launch is worth risking people's health over.
+Therefore, in addition to all Star Fleet staff being vaccinated at least two weeks prior to the trip, we're implementing multiple procedures to ensure we all stay as safe as possible, including the following:
+
+* Limiting the number of passengers on our vessels to ensure we all can follow social distancing requirements (1.5-2 m between parties) while having an enjoyable trip.
+* Ensuring social distancing and minimal contact during checkin and on the boat
+* Requiring all Star Fleet volunteers and passengers to wear a face covering for the duration of the experience
+* Washing our hands and common surfaces prior to use
+* Providing hand sanitizer free for all passengers, at checkin and on the boat
+* Asking passengers who may be exhibiting symptoms, are at-risk for COVID or have a positive test to enjoy this launch from the comfort of their homes, or another safe location
+
+If you have any questions or concerns, please do not hesitate to reach out and ask!
+We hope you are able to join us on a trip soon, and until then, we hope you stay home, stay safe, and enjoy plenty of space!
+
+
 <!-- <div style="margin-top: 50px;"><iframe style="width: 100%; height: 480px;" src="https://www.google.com/maps/d/u/0/embed?mid=1C-tpUOP1-KClf1sPJfrPXh1g9A4k0rg7"></iframe></div> -->
 
 
@@ -74,31 +88,30 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 
 
 **Price**: $75 per person<br>
-**Date**: Friday, March 6 at 11:50 PM EST<br>
-**Key Times**: Checkin T-2 h | Boarding T-1.5 h | Departure T-1 h<br>
+**Date**: Thursday, April 22 2021 at 6:11 AM EDT<br>
+**Key Times**: Checkin 4:15 AM | Boarding 4:50 AM | Departure 5:10 AM<br>
 
-* Unbeatable location to view all the key events of this launch
-* Unobstructed view of SLC-40, LZ-1, and many other historic CCAFS pads
+* Great location to view all the key events of this launch
+* Unobstructed view of LC-39A and many other historic CCAFS pads
 * Choice of OO2, TNT1 or 6 person private boat options (subject to avail.)
-* Pre-mission genuine NASA launch cookie bake sale to support SCLA
+* Pre-launch NASA cookie bake sale to support [Wayward Plane](https://www.gofundme.com/f/waywards-mission-to-beat-cancer)
 * Free Dramamine tablet included with ticket
-* Includes a custom decal of the Star✦Fleet-exclusive mission patch
+* Includes a custom decal of the Star✦Fleet mission patch (if avail.)
 
 
 ## Guided Pre-Launch Pad Tour
 
 **Price**: $75 per person, $65 w/purchased launch ticket<br>
-**Date**: Likely approximately 6-24 hours prior to launch<br>
-**Key Times**: Checkin D-30min | Boarding D-15min | Departure D-0<br>
+**Date**: Wednesday, April 21 2021 from 6:00 PM - 9:30 PM EDT<br>
+**Key Times**: Checkin 5:45 PM | Boarding 6:00 PM | Departure 6:15 PM<br>
 
-* Get an exclusive, up-close look at the rocket on the pad typically unavailable from any other angle
+* Get an exclusive, up-close look at the rocket and spacecraft on the pad unavailable from any other angle
 * See historic Explorer, Mercury, Gemini, Apollo and Shuttle sites
-* Enjoy a unique ocean-side view of every past, present and future CCAFS and KSC pad
-* View many sites of historic and current interest in Port Canaveral harbor and along the Cape
-* Smaller boat can get right up to the beach to provide an optimal view
-* Multiple opportunities to stop and take photos
-* Includes a custom decal of the Star✦Fleet mission patch
+* Enjoy a unique ocean-side view of past, present and future CCAFS and KSC pads
+* View many sites of interest in Port Canaveral harbor and along the Cape
+* Includes a custom decal of the Star✦Fleet mission patch (if avail.)
 * Comes with a genuine home-made NASA "launch day cookie" and a card with the original NASA recipe (see below)
+* For every passenger, $10 is donated to [Wayward Mission to Beat Cancer](https://www.gofundme.com/f/waywards-mission-to-beat-cancer)
 
 
 ## Commemorative Items
@@ -110,11 +123,12 @@ We'll have Star Fleet decals and our special cookies available to everyone comes
 ### Mission Patch Decals
 
 **Price**: Free with any ticket<br>
-**Order**: Online (with any ticket), Onsite
+**Order**: TBD
 
 * Professionally printed 10 cm decal of the mission patch
 * One free per ticket
 * Pick up at checkin for tours and/or launch
+* Design current in work
 
 
 ### Star✦Fleet Logo Decals
@@ -122,7 +136,7 @@ We'll have Star Fleet decals and our special cookies available to everyone comes
 **Price**: $3 each, one free with tour ticket<br>
 **Order**: Online (with any ticket), Onsite
 
-* Extra-high-quality, long-lasting 10 cm decal
+* Extra-high-quality, long-lasting 10 cm Stickermule decal
 * Pick up at checkin for tours and/or launch
 
 
@@ -132,7 +146,7 @@ We'll have Star Fleet decals and our special cookies available to everyone comes
 
 **Price**: $20 each, all sizes<br>
 **Order**: Online (separate item)<br>
-**Status**: TBD
+**Status**: NOT OFFERED this mission
 
 * Black T-shirt with full-size, full-color custom Star✦Fleet mission patch
 * Sizes unisex S-3XL, selected at checkout (tend to run slightly small)
@@ -141,7 +155,7 @@ We'll have Star Fleet decals and our special cookies available to everyone comes
 
 ### Genuine Home-Baked NASA Launch Day Cookies
 
-**Price**: Free with tour ticket, extra for $2 donation to the Space Coast Launch Ambassadors volunteer organization<br>
+**Price**: One free with pre-launch tour ticket; otherwise $2 donation to [Wayward's Mission to Beat Cancer](https://www.gofundme.com/f/waywards-mission-to-beat-cancer)<br>
 **Order**: Online, Onsite
 
 * Be part of a time-honored tradition stretching back to the Apollo astronauts
@@ -149,4 +163,5 @@ We'll have Star Fleet decals and our special cookies available to everyone comes
 * Baked by the same person (Julia Bergeron), in the same batch as the cookies for the actual launch team for the mission
 * Each individually-wrapped cookie includes a card with a note on its history and original recipe, so you can make your own at home and carry on the tradition
 * Buy and pickup fresh on site at launch checkin, and included with all pre-launch tours
+* All proceeds go directly to [Wayward's Mission to Beat Cancer](https://www.gofundme.com/f/waywards-mission-to-beat-cancer)
 ---
