@@ -1,19 +1,19 @@
 # Star Fleet Tours Website
 
-*Copyright © 2019- Star Fleet Tours*
+*Copyright © 2019-2021 Star Fleet Tours*
 
 This repo is the source for the Star Fleet Tours [website](https://www.star-fleet.tours/).
-It is built using [Lektor](https://www.getlektor.com/), deployed via [Travis CI](https://travis-ci.org/star-fleet-tours/star-fleet-tours-website) and served by [Github Pages](https://pages.github.com/), hosted on a custom domain.
+It is built using [Lektor](https://www.getlektor.com/), previewed via Netlify, deployed via Github Actions CI, served by [Github Pages](https://pages.github.com/), and hosted on a custom domain.
 
-Created and maintained by [C.A.M. Gerlach](https://github.com/CAM-Gerlach) and [Steven Giraldo](https://github.com/Stevengrm), the founders and organizers of Star Fleet Tours, with invaluable help from the one and only [Evan Coury](https://github.com/EvanDotPro).
+Created and maintained by [C.A.M. Gerlach](https://github.com/CAM-Gerlach), [Steven Giraldo](https://github.com/Stevengrm) and [Evan Courey](https://github.com/EvanDotPro), the founders and organizers of Star Fleet Tours, with invaluable help from the Star Fleet community.
 Enjoy!
 
 
 
 ## Usage
 
-You can view it live on the web, built by Travis CI in real-time from the latest version of the theme, at the link in the repo description, or build it locally by cloning the repo ``lektor-icon`` repo and running ``lektor server`` in the ``star-fleet-tours-website`` directory (ensure you're using a version of Lektor >=3.1 for theme support).
-The theme has full support for configuration either via the ``contents.lr`` source files, or via the
+You can view it live on the web, built by Github Actions in real-time from the latest version of the theme, at the link in the repo description, or build it locally by cloning the repo ``lektor-icon`` repo and running ``lektor server`` in the ``star-fleet-tours-website`` directory (ensure you're using a version of Lektor >=3.1 for theme support).
+The theme has full support for configuration either via the ``contents.lr`` source files, or the Lektor web GUI.
 
 
 
