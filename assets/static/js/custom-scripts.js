@@ -15,17 +15,17 @@ https://opensource.org/licenses/MIT
     // automatically. If you want to override this behavior, specify a missionOverride here:
     //
     // const missionOverride = {
-        // missionName: "SpaceX Crew Dragon DM-2",
+        // missionName: "SpaceX NASA Crew-2",
         // launchAt: 1588809600 // the UNIX timestamp of the projected T-0 time
     // };
     //
     // Otherwise, specify the absence of a missionOverride:
-    // const missionOverride = null;
     const missionOverride = {
-        missionName: "SpaceX Crew Dragon DM-2",
-        launchAt: 1590611220, // the UNIX timestamp of the projected T-0 time
+        missionName: "SpaceX NASA Crew-2",
+        launchAt: 1619086260, // the UNIX timestamp of the projected T-0 time
         limitTwoWeeks: false,
     };
+    // const missionOverride = null;
 
     // Style all "star" symbols
     var styleStarGlyph = function() {
@@ -88,7 +88,7 @@ https://opensource.org/licenses/MIT
     function displayLaunchCountdown({hero, pageBodyCountdownContainer, missionName, launchAt, limitTwoWeeks}) {
         // How far in the future is this launch?
         const now = (new Date()).getTime() / 1000;
-        if (now < launchAt - 14*86400 && limitTwoWeeks) {
+        if (now < launchAt - 14 * 86400 && limitTwoWeeks) {
             // More than two weeks to go
             // Countdowns this far out aren't exciting, so do nothing
             return;
@@ -136,7 +136,7 @@ https://opensource.org/licenses/MIT
             }
 
             const days = Math.floor(delta / (24 * 3600));
-            const hours = Math.floor(delta % (24 * 2600) / 3600);
+            const hours = Math.floor(delta % (24 * 3600) / 3600);
             const minutes = Math.floor((delta % 3600) / 60);
             const seconds = delta % 60;
             countdownClockHeading.innerText = [
