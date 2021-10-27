@@ -6,29 +6,22 @@ short_title: Tickets
 ---
 special_link: true
 ---
-full_title: SpaceX NASA Crew-2 Mission
+full_title: SpaceX NASA Crew-3 Mission
 ---
 body:
 
 <div id="page-body-countdown-container"></div>
 
-<img src="/current/nasa-crew-2-crew-lineup.jpg" alt="Photograph of the NASA astronauts assigned to SpaceX NASA Crew-2" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
+<img src="/current/nasa-crew-3-crew-lineup.jpg" alt="NASA photograph of the astronauts assigned to SpaceX Crew-3" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
 
-We're back with you all from COVID quarantine for the Falcon 9/Crew Dragon NASA Crew-2 launch to the International Space Station!
-The mission has been **DELAYED** one day and is now scheduled for **No Earlier Than Friday, April 23 at 09:49 UTC (5:49 AM EDT)** from historic launch pad LC-39A at NASA's Kennedy Space Center.
-This milestone launch will feature the first human spaceflight in a re-used capsule and liquid booster, and launch just before dawn, looks to feature a spectacular twilight effect if clouds cooperate.
+After another spell of COVID-related hibernation, we're here for you all again for the Falcon 9/Crew Dragon NASA Crew-2 launch to the International Space Station!
+The mission is currently scheduled for launch on **Sunday, October 31 at 06:21 UTC (2:21 AM EDT)** (ooh, spooky!) from historic launch pad LC-39A at NASA's Kennedy Space Center.
+This late-night launch will be the first flight of SpaceX's brand new Crew Dragon *Endurance*, carrying three NASA and one German astronaut (the first to fly on a SpaceX capsule) to the International Space Station.
+Note that on this mission, we have a **NEW meeting location** for the launch trip, right outside of Orlando/Canaveral Princess between Rusty's and Gator's restaurants just down the street from our previous one.
 
-We'd like to dedicate this mission to our longtime supporter and spaceflight community stalwart [Wayward Plane](http://waywardplane.com/), and will be donating all proceeds from our special NASA cookies, $10 from every pre-launch tour and any additional tip/donation you wish to give to [Wayward's Mission to Beat Cancer](https://www.gofundme.com/f/waywards-mission-to-beat-cancer).
-Wayward was one of the very first members of the spaceflight community to back Star Fleet, and has been an invaluable supporter, volunteer and friend to us ever since.
-We hope you'll join us in giving back to someone who's given their all to help hundreds of launch viewers and space enthusiasts through Twitter, Launch Rats and much more. #Wayward4Life!
-
-**STATUS UPDATE:** Due to weather conditions downrange, the launch has been **DELAYED** one day to **5:49 AM EDT on Friday, April 23**.
-Everything looks excellent for launch on Friday, we were able to rebook the boats and your tickets are still fully valid for that day as per our policy, but **the times are now 20-30 minutes earlier** to account for the new launch time, so please check below for that.
-**Tours are still on for tonight** as scheduled, as the rocket and capsule remains vertical on the pad, and the weather will still be great here.
-Importantly, however, due to the expansion from one boat and 15 people to almost a dozen boats and 60 people by popular demand, **we have moved the tour checkin times 30 minutes earlier** as well to ensure everyone has enough time to get on board; see the updated schedule below.
-
-If you aren't able to go out with us, you can have your tickets transferred to a pre-launch tour (if you haven't already purchased one) so you can still see the rocket and capsule up close on the launch pad; we are happy to give you a full refund of your tickets.
-Either way, **please let us know no later than 12 noon EDT Thursday, April 22** so we can ensure you're taken care of.
+**STATUS UPDATE:** The mission is currently **GO FOR LAUNCH** on **Sunday, October 31 at 06:21 UTC (2:21 AM EDT)**.
+While still a little less than a week out, weather conditions are currently looking good for both the launch itself and our launch and pre-launch tours, as they typically are this time of year in Florida.
+Both the time of launch and the day before look to have moderate temperatures right around 70 degrees F (21 degrees C), with breezy winds, relatively gentle waves and clear skies, making for excellent viewing conditions, and barring the usual chance of technical issues, chances look relatively good at the moment to see the launch go off on time.
 
 If you have any questions, we will have our email and social media online again to answer them, so feel free to ask.
 *Make sure to stay tuned to our [Slack](https://join.slack.com/t/spacexmeetups/shared_invite/enQtNjY4ODM0NzMwODM5LWI1NzRkOTM5MzJiZGYzMDBkODdjMDJjYzBjZmJlY2UyZjk3MTZjYzEyNGI3MjdiNTIwZjM0NmE1ODE1ZTQ2NGQ), email list and social media for the latest important updates and to get in touch with us directly (see below for links).
@@ -46,7 +39,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1618070400;
+    var futureTime         = 1635436800;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -69,107 +62,72 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 </script>
 
 
+<!-- <div style="margin-top: 50px;"><iframe style="width: 100%; height: 480px;" src="https://www.google.com/maps/d/u/0/embed?mid=1C-tpUOP1-KClf1sPJfrPXh1g9A4k0rg7"></iframe></div> -->
+
+
+<img src="/current/crew-dragon-liftoff-night.jpg" alt="Photograph of a Falcon 9 rocket with a Crew Dragon capsule lifting off at night from LC-39A" style="margin-top: 40px; margin-left: 20px; margin-bottom:0; float: right;">
+
+
+## Rocket Launch Viewing
+
+**Price**: $90/person all boats<br>
+**Date**: Sunday, October 31 2021 from 1:30 AM - 3:00 AM EDT<br>
+**Key Times**: Checkin 12:30 AM | Boarding 1:00 AM | Departure 1:30 AM<br>
+**Location**: **NEW** Orlando Princess, 670 Glen Cheek Drive, Cape Canaveral FL 32920<br>
+
+* Great location to view all the key events of this launch
+* Direct view of LC-39A and many other historic CCAFS pads
+* Magical for night launches as light reflects off the water
+* Opportunity to see downrange booster entry and landing
+* Free parking, launch updates and generous scrub policy
+<br>
+
+
+## Pre-Launch Pad Trip
+
+<img src="/current/crew-dragon-vertical-pad-water.jpg" alt="Photograph of a Crew Dragon on LC-39A from a Star Fleet vessel" style="margin-top: 1em; margin-right: 40px; float: left;">
+
+**Price**: $95 per person,<br>$75 w/purchased launch ticket<br>
+**Date**: Saturday, October 30 2021 2:00 PM - 4:30 PM and 4:30 - 7:00 PM EDT<br>
+**Key Times**: Checkin T-30 min | Boarding T-15 min | Departure T-0 min<br>
+**Location**: Sunrise Marina, 505 Glen Cheek Drive, Cape Canaveral FL 32920<br>
+
+* Get an exclusive, up-close look at the rocket and spacecraft on the pad unavailable from any other angle
+* See historic Apollo and Shuttle sites, including LC-34, LC-36 and LC-39A/B
+* Enjoy a unique ocean-side view of every active CCAFS and KSC launch pad
+* View many sites of interest in Port Canaveral harbor and along the Cape
+* Comes with a genuine home-made NASA "launch day cookie" (see below)
+* Additional trips at later times during the day may be made available
+<br>
+<br>
+<br>
+
+
+## Home-Baked NASA Launch Day Cookies
+
+**Price**: One free with pre-launch tour ticket; otherwise $2 donation to the [SCLA](https://scla.space/)<br>
+**Order**: Online, Onsite
+
+* Be part of a time-honored tradition stretching back to the Apollo astronauts
+* Made from the original NASA recipe used for launch-day cookies
+* Baked by the same person (Julia Bergeron), in the same batch as the cookies for the actual launch team for the mission
+* Buy and pickup fresh on site at launch checkin, and included with all pre-launch tours
+* All proceeds go directly to the [Space Coast Launch Ambassadors](https://scla.space/)
+
+
 ## COVID-19 Safety Information
 
 Safety is our number one concern, and no launch is worth risking people's health over.
-Therefore, in addition to all Star Fleet staff being vaccinated at least two weeks prior to the trip, we're implementing multiple procedures to ensure we all stay as safe as possible, including the following:
+Therefore, in addition to all Star Fleet staff and volunteers being vaccinated well prior to the trip, we're implementing multiple procedures to ensure we all stay as safe as possible, including the following:
 
-* Limiting the number of passengers on our vessels to ensure we all can follow social distancing requirements (1.5-2 m between parties) while having an enjoyable trip.
-* Ensuring social distancing and minimal contact during checkin and on the boat
-* Requiring all Star Fleet volunteers and passengers to wear a face covering for the duration of the experience
+* Limiting the number of passengers on our vessels to ensure we all can follow social distancing requirements (1 m between parties) while having an enjoyable trip.
+* Ensuring social distancing during checkin
+* Asking that all Star Fleet volunteers and unvaccinated passengers to wear a face covering for the duration of the experience
 * Washing our hands and common surfaces prior to use
-* Providing hand sanitizer free for all passengers, at checkin and on the boat
 * Asking passengers who may be exhibiting symptoms, are at-risk for COVID or have a positive test to enjoy this launch from the comfort of their homes, or another safe location
 
 If you have any questions or concerns, please do not hesitate to reach out and ask!
 We hope you are able to join us on a trip soon, and until then, we hope you stay home, stay safe, and enjoy plenty of space!
 
 
-<!-- <div style="margin-top: 50px;"><iframe style="width: 100%; height: 480px;" src="https://www.google.com/maps/d/u/0/embed?mid=1C-tpUOP1-KClf1sPJfrPXh1g9A4k0rg7"></iframe></div> -->
-
-
-<img src="/current/crew-dragon-liftoff-night.jpg" alt="Photograph of a Falcon 9 rocket with a Crew Dragon capsule lifting off at night from LC-39A" style="margin-top: 40px; margin-left: 20px; float: right;">
-
-
-## Rocket Launch and Landing Viewing
-
-**Price**: $75/person standard; $95/person upper deck & small boat<br>
-**Date**: Friday, April 23 2021 at 5:49 AM EDT<br>
-**Key Times**: Checkin 3:45 AM | Boarding 4:30 AM | Departure 4:45 AM<br>
-
-* Great location to view all the key events of this launch
-* Unobstructed view of LC-39A and many other historic CCAFS pads
-* Choice of OO2, TNT1 or 6 person private boat options (subject to avail.)
-* Pre-launch NASA cookie bake sale to support [Wayward Plane](https://www.gofundme.com/f/waywards-mission-to-beat-cancer)
-* Free Dramamine tablet included with ticket
-* Includes a custom decal of the Star✦Fleet mission patch (if avail.)
-
-
-## Guided Pre-Launch Pad Tour
-
-<img src="/current/crew-dragon-vertical-pad-water.jpg" alt="Photograph of a Crew Dragon on LC-39A from a Star Fleet vessel" style="margin-top: 1em; margin-right: 40px; float: left;">
-
-**Price**: $75 per person, $65 w/purchased launch ticket<br>
-**Date**: Wednesday, April 21 2021 from 6:00 PM - 9:00 PM EDT<br>
-**Key Times**: Checkin 5:00 PM | Boarding 5:30 PM | Departure 6:00 PM<br>
-
-* Get an exclusive, up-close look at the rocket and spacecraft on the pad unavailable from any other angle
-* See historic Explorer, Mercury, Gemini, Apollo and Shuttle sites
-* Enjoy a unique ocean-side view of past, present and future CCAFS and KSC pads
-* View many sites of interest in Port Canaveral harbor and along the Cape
-* Includes a custom decal of the Star✦Fleet mission patch (if avail.)
-* Comes with a genuine home-made NASA "launch day cookie" and a card with the original NASA recipe (see below)
-* For every passenger, $10 is donated to [Wayward Mission to Beat Cancer](https://www.gofundme.com/f/waywards-mission-to-beat-cancer)
-
-
-## Commemorative Items
-
-We'll have Star Fleet decals and our special cookies available to everyone comes out on a tour, plus a bunch more swag from our special collection. Check it out!
-
-<img src="/current/star-fleet-logo-stickers.jpg" alt="Photo of a person's hand holding a large decal of Star Fleet's logo, with more in the background" style="margin-left: 20px; margin-top: 10px; float: right;">
-
-### Mission Patch Decals
-
-**Price**: Free with any ticket<br>
-**Order**: TBD
-
-* Professionally printed 10 cm decal of the mission patch
-* One free per ticket
-* Pick up at checkin for tours and/or launch
-* Design current in work
-
-
-### Star✦Fleet Logo Decals
-
-**Price**: $3 each, one free with tour ticket<br>
-**Order**: Online (with any ticket), Onsite
-
-* Extra-high-quality, long-lasting 10 cm Stickermule decal
-* Pick up at checkin for tours and/or launch
-
-
-### Full-Color Mission Patch Logo T-shirts
-
-<!-- <img src="/current/mission-patch-crs-20.png" alt="Star Fleet CRS-20 mission patch, featuring a SpaceX Dragon 1 spacecraft flying path the ISS with Earth and 20 stars in the background" style="margin-left: 20px; margin-top: 10px; float: right;"> -->
-
-**Price**: $20 each, all sizes<br>
-**Order**: Online (separate item)<br>
-**Status**: NOT OFFERED this mission
-
-* Black T-shirt with full-size, full-color custom Star✦Fleet mission patch
-* Sizes unisex S-3XL, selected at checkout (tend to run slightly small)
-* **Important**: T-shirts *must* be ordered at least *five full business days* in advance of current launch date and *cannot* be refunded after that point
-
-
-### Genuine Home-Baked NASA Launch Day Cookies
-
-**Price**: One free with pre-launch tour ticket; otherwise $2 donation to [Wayward's Mission to Beat Cancer](https://www.gofundme.com/f/waywards-mission-to-beat-cancer)<br>
-**Order**: Online, Onsite
-
-* Be part of a time-honored tradition stretching back to the Apollo astronauts
-* Made from the original NASA recipe used for launch-day cookies
-* Baked by the same person (Julia Bergeron), in the same batch as the cookies for the actual launch team for the mission
-* Each individually-wrapped cookie includes a card with a note on its history and original recipe, so you can make your own at home and carry on the tradition
-* Buy and pickup fresh on site at launch checkin, and included with all pre-launch tours
-* All proceeds go directly to [Wayward's Mission to Beat Cancer](https://www.gofundme.com/f/waywards-mission-to-beat-cancer)
 ---
