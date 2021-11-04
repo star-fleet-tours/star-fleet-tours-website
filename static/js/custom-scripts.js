@@ -22,7 +22,7 @@ https://opensource.org/licenses/MIT
     // Otherwise, specify the absence of a missionOverride:
     const missionOverride = {
         missionName: "SpaceX NASA Crew-3",
-        launchAt: 1636256160, // the UNIX timestamp of the projected T-0 time
+        launchAt: 0, // the UNIX timestamp of the projected T-0 time
         limitTwoWeeks: true,
     };
     // const missionOverride = null;
