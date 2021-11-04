@@ -18,14 +18,13 @@ After another spell of COVID-related hibernation, we're here for you all again f
 The mission is scheduled for launch from historic pad LC-39A at NASA's Kennedy Space Center.
 This late-night launch will be the first flight of SpaceX's brand new Crew Dragon *Endurance*, carrying three NASA and one German astronaut (the first to fly on a SpaceX capsule) to the International Space Station.
 
-**STATUS UPDATE:** The mission is currently **DELAYED AGAIN** to **Saturday, November 6 at 11:36 PM EDT (03:36 UTC November 7)** due to a minor medical issue with one of the crew.
+**STATUS UPDATE:** The Star Fleet trip is now **CANCELED** due to hazardous boating weather forecast all this weekend, with strong winds, rain and high seas of six feet or more.
+Furthermore, we have unofficial reports that the launch has been delayed indefinitely.
 
-As before, **pre-launch tours are still GO** at the originally scheduled times, as the rocket and capsule are still vertical at that pad and the weather around the Cape looks good.
-Your launch tickets are still valid for Saturday (note **NEW** meeting time and location, and make sure to pay attention to our communication channels in case we have to change it, depending on how many people cancel and what boats are available), but as before, if you are unable to make it, you are welcome to convert your ticket to a pre-launch tour at no extra cost.
-We'll be running a tour from 2:30-5 pm EDT tomorrow, and may be able to schedule additional timeslots if that one fills up.
-
-Alternatively, if you are unable to make that as well, we can offer you a full refund on your ticket or a credit for a future launch or tour of your choice.
-Please reach out to us to let us know what we can do for you!
+Everyone who purchased launch tickets will be fully refunded, with no action needed on your part.
+Once we process it on our end, you should see the money in your account in 7-10 business days.
+We may schedule a smaller trip for a new launch date, but that depending on interest and availability.
+We're sorry things worked out this way for everyone, and we hope to see you on a future trip!
 
 If you have any questions, we will have our email and social media online again to answer them, so feel free to ask.
 *Make sure to stay tuned to our [Slack](https://join.slack.com/t/spacexmeetups/shared_invite/enQtNjY4ODM0NzMwODM5LWI1NzRkOTM5MzJiZGYzMDBkODdjMDJjYzBjZmJlY2UyZjk3MTZjYzEyNGI3MjdiNTIwZjM0NmE1ODE1ZTQ2NGQ), email list and social media for the latest important updates and to get in touch with us directly (see below for links).
@@ -43,7 +42,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1635436800;
+    var futureTime         = 0;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -54,7 +53,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Stay home, stay healthy!");
+        $('#countdown').html("Mission canceled");
     } else if (futureTime < currentTime) {
         $('#countdown').html("TICKETS ARE NOW AVAILABLE!");
         document.getElementById("book-now-button").style.display = "inherit";
@@ -75,7 +74,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 ## Rocket Launch Viewing
 
 **Price**: $90/person all boats<br>
-**Date**: Saturday, November 6 2021 from 10:00 PM - 1:00 AM EDT<br>
+**Date**: **CANCELED**<br>
 **Key Times**: Checkin 9:00 PM | Boarding 9:30 PM | Departure 10:00 PM<br>
 **Location**: Sunrise Marina, 505 Glen Cheek Drive, Cape Canaveral FL 32920<br>
 
