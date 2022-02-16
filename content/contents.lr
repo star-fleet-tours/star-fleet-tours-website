@@ -74,7 +74,7 @@ description:
 
 Making sure everyone has an amazing timing watching rockets means everything to us—its why we do what we do.
 As such, we're with you every step of the way if you have questions, concerns and  critique.
-Furthermore, the boat captains and crew we work with from [Time and Tide](http://www.timeandtidetours.com/), [Ocean Obsession](https://fishobsession.com/) and [Sea Leveler](https://www.sealeveler.com/) are all highly rated for their excellent quality and service.
+Furthermore, the boat captains and crew we work with from [Time and Tide](http://www.timeandtidetours.com/), [Orlando Princess](https://orlandoprincess.com/) and [Sea Leveler](https://www.sealeveler.com/) are all highly rated for their excellent quality and service.
 -----
 icon: boat-sunset.jpg
 -----
@@ -141,31 +141,31 @@ initial_tab_index: 1
 items:
 
 ##### mission_tab #####
-section_id: oo2
+section_id: op
 -----
-title: Ocean Obsession II
+title: Orlando Princess
 -----
 subtitle:
 
-The largest vessel currently employed in the Star✦Fleet, the "Double O" is a perennial favorite thanks to its upper observation deck, spacious air-conditioned cabin, communal atmosphere, and greater stability thanks to its size.
-Operated by [Ocean Obsession](https://fishobsession.com/).
+The largest vessels currently employed in the Star✦Fleet, the Orlando Princess and Canaveral Princess are perennial favorites thanks to their upper observation decks, spacious air-conditioned cabins, communal atmosphere, and greater stability thanks to their size.
+Operated by [Orlando Princess](https://orlandoprincess.com/).
 -----
 description:
 
-* **Capacity**: 80 (2 decks)
+* **Capacity**: 95 (2 decks)
 * **Ocean**: Yes
-* **Length**: 20 m/65 ft
+* **Length**: 30 m/95 ft
 * **Speed**: 15 kt/28 km/h
 * **A/C**: Yes
-* **Stability**: Moderate
-* Primary launch party boat
+* **Stability**: Moderate-High
+* Primary launch party boats
 * Enclosed cabin with seats
 * Full galley with freezer
 * Hot food & cold beer/soda
 * PA for live launch audio
 * Obs deck tickets separate
 -----
-image: oo2-promo-corrected.jpg
+image: princess-promo.jpg
 -----
 
 
@@ -176,7 +176,7 @@ title: Time & Tide I
 -----
 subtitle:
 
-"TnT 1" provides a more intimate and open feel due to its smaller size, and can transit areas too shallow for the "Double O".
+"TnT 1" provides a more intimate and open feel due to its smaller size, and can transit areas too shallow for the larger boats.
 It is the primary ship used for the viewing trips to the many historic Cape Canaveral and Kennedy Space Center launch pads.
 Operated by [Time and Tide](http://www.timeandtidetours.com/).
 -----
