@@ -21,8 +21,8 @@ https://opensource.org/licenses/MIT
     //
     // Otherwise, specify the absence of a missionOverride:
     const missionOverride = {
-        missionName: "SpaceX NASA Crew-3",
-        launchAt: 0, // the UNIX timestamp of the projected T-0 time
+        missionName: "SLS Rollout Start",
+        launchAt: 1647550800, // the UNIX timestamp of the projected T-0 time
         limitTwoWeeks: true,
     };
     // const missionOverride = null;
@@ -116,7 +116,7 @@ https://opensource.org/licenses/MIT
 
         const missionNameHeading = document.createElement("h3");
         missionNameHeading.className = "launch-countdown-mission-name";
-        missionNameHeading.innerText = missionName + " launch:";
+        missionNameHeading.innerText = missionName + ":";
         countdownDiv.appendChild(missionNameHeading);
 
         const countdownClockHeading = document.createElement("h3");
