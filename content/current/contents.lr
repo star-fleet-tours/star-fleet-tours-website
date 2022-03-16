@@ -35,7 +35,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1647446400;
+    var futureTime         = 1647450000;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -66,7 +66,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 
 ## SLS Rollout/Launch Pad Sunrise Trip
 
-**Price**: $111 per person<br>
+**Price**: $112 per person<br>
 **Date**: Friday, March 18, 2022 from 6:15-9:15 AM<br>
 **Key Times**: Checkin T-30 min | Boarding T-15 min | Departure T-0 min<br>
 **Location**: Blue Points Marina, 726 Scallop Drive Port Canaveral FL 32920<br>
