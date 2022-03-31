@@ -67,7 +67,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 **Date**: Friday April 1, 2022<br>
 **Trip Times**: 6:15 PM - 9:15 PM EDT<br>
 **Key Times**: Checkin T-30 min | Boarding T-15 min | Departure T-0 min<br>
-**Location**: Sunrise Marina, 505 Glen CHeek Dr, Port Canaveral FL 32920<br>
+**Location**: Sunrise Marina, 505 Glen Cheek Dr, Port Canaveral FL 32920<br>
 
 * See NASA's new SLS rocket, the most powerful in the world, standing on its launch pad for the first time, from an up-close vantage point and a unique angle
 * Chance to see one or potentially two SpaceX Falcon 9s on the pad, one with the Transporter-4 mission, and one with a Dragon capsule for Axiom-1, the first fully-commercial mission to the International Space Station (subject to launch schedules)
