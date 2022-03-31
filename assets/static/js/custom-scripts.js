@@ -21,8 +21,8 @@ https://opensource.org/licenses/MIT
     //
     // Otherwise, specify the absence of a missionOverride:
     const missionOverride = {
-        missionName: "SLS Rollout Start",
-        launchAt: 1647550800, // the UNIX timestamp of the projected T-0 time
+        missionName: "SLS Dress Rehearsal Start (Approx)",
+        launchAt: 1648915200, // the UNIX timestamp of the projected T-0 time
         limitTwoWeeks: true,
     };
     // const missionOverride = null;

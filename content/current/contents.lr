@@ -14,7 +14,7 @@ body:
 
 <img src="/current/sls-rollout-render.jpg" alt="NASA/MSFC render of the SLS rolling out to LC-39B" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
 
-Star Fleet is currently planning to go out for two special weekend boat trips to see the NASA Space Launch System rocket on LC-39B!
+Star Fleet is currently planning to go out again for a sunset boat trips to see the NASA Space Launch System rocket on LC-39B, just before its Wet Dress Rehearsal, the final test before launch!
 Join us to see the world's most powerful completed rocket as it stands tall on its launch pad for the very first time.
 
 *Make sure to stay tuned to our [Twitter feed](https://twitter.com/StarFleetTours), as well as our [Slack](https://join.slack.com/t/spacexmeetups/shared_invite/enQtNjY4ODM0NzMwODM5LWI1NzRkOTM5MzJiZGYzMDBkODdjMDJjYzBjZmJlY2UyZjk3MTZjYzEyNGI3MjdiNTIwZjM0NmE1ODE1ZTQ2NGQ), email list and social media for the latest important updates and to get in touch with us directly (see below for more links).
@@ -32,7 +32,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1647450000;
+    var futureTime         = 1648656000;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -61,15 +61,16 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 <img src="/current/sls-vab-photo.jpg" alt="Photograph of the NASA SLS rocket in the Vehicle Assembly Building prior to rollout" style="margin-top: 45px; margin-right: 40px; margin-bottom:0; float: left;">
 
 
-## SLS Launch Pad Weekend Trip
+## SLS Launch Pad Sunset Trip
 
 **Price**: $112 per person<br>
-**Date**: Saturday, March 26, 2022<br>
-**Trip Times**: 11:00 AM - 2:00 PM EDT, 6:15 PM - 9:15 PM EDT<br>
+**Date**: Friday April 1, 2022<br>
+**Trip Times**: 6:15 PM - 9:15 PM EDT<br>
 **Key Times**: Checkin T-30 min | Boarding T-15 min | Departure T-0 min<br>
-**Location**: Blue Points Marina, 726 Scallop Drive Port Canaveral FL 32920<br>
+**Location**: Sunrise Marina, 505 Glen CHeek Dr, Port Canaveral FL 32920<br>
 
 * See NASA's new SLS rocket, the most powerful in the world, standing on its launch pad for the first time, from an up-close vantage point and a unique angle
+* Chance to see one or potentially two SpaceX Falcon 9s on the pad, one with the Transporter-4 mission, and one with a Dragon capsule for Axiom-1, the first fully-commercial mission to the International Space Station (subject to launch schedules)
 * See historic Apollo and Shuttle sites, including LC-34, LC-36 and LC-39A/B
 * Enjoy a unique ocean-side view of every active CCAFS and KSC launch pad
 * View many sites of interest in Port Canaveral harbor and along the Cape
