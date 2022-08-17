@@ -21,8 +21,8 @@ https://opensource.org/licenses/MIT
     //
     // Otherwise, specify the absence of a missionOverride:
     const missionOverride = {
-        missionName: "SLS Dress Rehearsal Start (Approx)",
-        launchAt: 1648915200, // the UNIX timestamp of the projected T-0 time
+        missionName: "NASA SLS Artemis 1 Launch",
+        launchAt: 1661776380, // the UNIX timestamp of the projected T-0 time
         limitTwoWeeks: true,
     };
     // const missionOverride = null;
