@@ -18,7 +18,7 @@ Please ensure you read, understand and agree to everything here to ensure everyo
 
 ### Reserving your spot
 
-In order to reserve your spot on the boats, you *must* click the "Book Now" button on the "Tickets" page in the navigation bar above, follow the indicated steps, and pay the ticket price.
+In order to reserve your spot on the boats, you *must* click the `Book` button on the `Tickets` page in the navigation bar above, follow the indicated steps, and pay the ticket price.
 For the avoidance of doubt, anything else, including any verbal or written communication from us, does not constitute a reservation, confirmation or ticket.
 Due to very high demand and a limited number of slots, we unfortunately *cannot* hold your spot for you without a confirmed payment.
 Your confirmation email constitutes your ticket and proof of payment; if you do not successfully receive one (including in your spam/junk folder) after 10 minutes, then please contact us to ensure your payment is received and you are in our system.
@@ -42,17 +42,6 @@ We will still go out to get a unique view of the rocket, see marine life, view t
 If for any reason the launch either occurs or is rescheduled and we do not go out, e.g. unlikely event of an unforeseen emergency or serious technical issue with one of the boats, unsafe weather not sufficient to scrub the launch, a lengthy (≈>2 week) or indefinite delay/complete cancellation of the launch, your money will be refunded, minus any non-refundable portion of the credit card processing fee.
 
 
-### Boat assignment
-
-Please note that unless you purchase a ticket specifically marked as for the "OO2 Upper Deck" or "Private Boat" (i.e. a "Standard Ticket"), you are are purchasing a ticket for the trip as a whole rather than a specific boat, and while we will do our best to accommodate your boat preferences, we cannot guarantee you will always get your first choice.
-This priority system is due in part to the agreements we have with the boat operators that make our launch viewing experiences possible, as well as the limited capacity of each boat, and and is designed to be as fair to everyone as it can under the circumstances.
-The sooner you reserve, and the more people reserve after you, the better chance you had at getting your desired boat.
-The reservation status page you will be emailed after ordering will display your current estimated boat assignment in real-time, but it may change up until two hours prior to the scheduled launch time or all standard tickets being purchased, whichever comes first, at which point assignments and reservations will be frozen.
-
-For the small 6-person boats, you may be assigned to nominal boat groups, but they are under one common ticket type and you are free to swap between them and pick which actual boat of the four you go out on at any time prior to boarding, by mutual agreement, so long as we have 6 people on each boat.
-If there is any disagreement on which group gets which physical boat, boat choice priority goes to the group with the lowest boat number, which was determined based on largest party size.
-
-
 ### Checkin and departure time
 
 Please have your entire party present and accounted for at the checkin location a minimum of *one hour prior to the most recent announced departure time*, which is in turn typically two hours prior to the current official launch time.
@@ -60,8 +49,9 @@ We *strongly recommend* you leave more time to ensure you get a free parking spo
 At one hour prior to departure, online reservations will be closed and in-person checkin will begin; walkups and standbys will be accepted at this time.
 
 We will be checking people in and giving out colored wristbands to keep track of what boat you are on; *you will need one to board your boat* and the captains will be checking for the correct color to make sure you get on your desired vessel.
-Our system will provide you a QR code that we will scan on check-in shortly before departure.
+If you use our own reservation system to purchase tickets, it will provide you a QR code that we will scan on check-in shortly before departure.
 Simply print this and bring it with you, or display it on your mobile device for us to scan.
+Otherwise, if you've booked through our payment gateway or directly with a Star Fleet Officer, we'll just look up your name for you.
 At 30 minutes to go, we will move to the dock and line up to board our respective vessels.
 If you are not checked in by this time, you will be in danger of *loosing your spot to standbys*.
 If an emergency arises, please contact one of us immediately to maximize the possibility that arrangements can be made.
@@ -74,14 +64,14 @@ Due to the number of people on the trip, we will _not_ be able to delay our depa
 
 ### Viewing locations
 
-**Ocean-side** will be the location of most boats, which will be viewing the launch and landing from roughly (28.42N, 80.49W), just south of the exclusion zone, offshore on the ocean side of the Cape.
+**Ocean-side** will be the location of trips unless specifically noted, which will be viewing the launch and landing from roughly (28.42N, 80.49W), just south of the exclusion zone, offshore on the ocean side of the Cape.
 This location offers a clear line of sight all the way to the launch and landing pads, and is close to directly under the trajectory for optimal viewing.
 It is optimized for the spectacular twin-booster landing, and is the closest and best (legal) location available to the public on land or sea at 8 km away (next closest are Jetty and 401 at 11 km with an obstructed view), and the closest location possible to the ocean landing on the droneship just off the coast.
 
-Launch-wise, it is further than KSC or Playalinda, but is close or closer as any of the other publicly accessible alternatives at around 18-22 km and is straight across the water, offering easy sound propagation of the roar of launch.
+Launch-wise, it is further than KSC or Playalinda, but is around as close or closer as any of the other publicly accessible alternatives at around 18-22 km and is straight across the water, offering a clear line of sight.
 Further, it offers an unmatched view of all of the major CCAFS/KSC launch and landing pads, including the VAB, LZ-1/LC-13 (F9/FH landing), SLC-37 (Delta 4/Heavy), SLC-40 (F9/Dragon), SLC-41 (Atlas 5/Starliner), and LC-39A (F9/Crew Dragon/FH).
 
-**River-side** will be the location of TnT2 and possibly other boats if desired, which will view the launch and landing from the Banana River west of the Cape.
+**River-side** trips, if offered for a particular launch, which will view the launch and landing from the Banana River west of the Cape.
 It has a less direct line of sight (across the Cape) to the pads and is a little further from landing at 9 km, but offers a unique and highly recommended end-on view of the boosters seemingly flying right toward the viewer, only to land at the last moment, and also has more favorable lightning conditions for afternoon/evening launches.
 It is generally closer to launch at 16-18 km and offers much gentler seas, more relaxed viewing conditions and more scenic vistas.
 You can also see the various pads from here as well as the VAB, albeit less directly.
@@ -89,15 +79,17 @@ You can also see the various pads from here as well as the VAB, albeit less dire
 
 ### Checkin location and parking
 
-We meet at Grills Bike Pit, across the street from [Grills Seafood Deck](https://www.grillsseafood.com/port-canaveral/), at 505 Glen Cheek Drive, Cape Canaveral, FL, 32920.
+We usually meet at Grills Bike Pit, across the street from [Grills Seafood Deck](https://www.grillsseafood.com/port-canaveral/), at 505 Glen Cheek Drive, Cape Canaveral, FL, 32920.
 
 <div class="iframe-container">
     <iframe width="1067" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-80.64342498779298%2C28.388682090082845%2C-80.58677673339845%2C28.428430072372695&amp;layer=cyclemap&amp;marker=28.40855794557726%2C-80.6151008605957" style="border: 1px solid black"></iframe>
 </div>
 
-The boats dock right across the street, so this is quite convenient.
+Most of the boats dock right across the street, so this is quite convenient.
 The Cove lot near Grills and the other restaurants will be free.
 Get there early to secure a spot, as other lots may charge a substantial fee.
+
+**IMPORTANT**: This can sometimes be a nearby dock for different special trips; please see the **Location** field next to the ticket type you've selected for the exact address you should meet at.
 
 We will have a checkin desk setup, a number of chairs available, and possible a tent under which people can hang out while we wait to board.
 Look for the signs with our "mission patch".
@@ -113,10 +105,8 @@ All boats will have a cooler/refrigeration for storing cold drinks; we will coor
 We plan to be out as long as necessary to watch the launch, plus approximately 30 minutes to allow for viewing the respective landed boosters, taking photographs, partying and enjoying the moment.
 Travel time to and from the viewing location is approximately 30-45 minutes each way.
 
-We won't go out if the seas are too bad, and with our provided dramamine, very few people reported having any issue.
-However, if you are particularly sensitive to motion sickness, we suggest you pick TnT 2, which will be in the calm waters of the Bananna River.
-If you want to go out on the ocean but would prefer less potential for sea-sickness, OO2 will be more stable, due to its much larger size.
-We will provide some dramamine, but consider bringing your own favorite medication or natural aid.
+We won't go out if the seas are too bad, and certainly not if it is unsafe.
+However, if you are particularly sensitive to motion sickness, bringing dramamine or a natural aid is recommended just in case.
 Avoid acids (e.g. orange juice) in the morning if you can, as this is known to upset the stomach on the water.
 
 ---
