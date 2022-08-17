@@ -6,22 +6,24 @@ short_title: Tickets
 ---
 special_link: true
 ---
-full_title: NASA Space Launch System Pad Rollout
+full_title: NASA SLS Artemis 1 Launch
 ---
 body:
 
 <div id="page-body-countdown-container"></div>
 
-<img src="/current/sls-rollout-render.jpg" alt="NASA/MSFC render of the SLS rolling out to LC-39B" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
+<img src="/current/sls-pad-sunset-ocean-hero.jpg" alt="Photo of the NASA SLS rocket at sunset on pad LC-39B taken on a Star Fleet boat tour" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
 
-Star Fleet is currently planning to go out again for a sunset boat trips to see the NASA Space Launch System rocket on LC-39B, just before its Wet Dress Rehearsal, the final test before launch!
-Join us to see the world's most powerful completed rocket as it stands tall on its launch pad for the very first time.
+Star Fleet is ready to go out once again for sunset boat trips to see the NASA Space Launch System rocket on LC-39B as it prepares for the historic Artemis 1 mission.
+Join us to see the world's most powerful completed rocket as it stands tall on its launch pad for its very first launch!
 
-*Make sure to stay tuned to our [Twitter feed](https://twitter.com/StarFleetTours), as well as our [Slack](https://join.slack.com/t/spacexmeetups/shared_invite/enQtNjY4ODM0NzMwODM5LWI1NzRkOTM5MzJiZGYzMDBkODdjMDJjYzBjZmJlY2UyZjk3MTZjYzEyNGI3MjdiNTIwZjM0NmE1ODE1ZTQ2NGQ), email list and social media for the latest important updates and to get in touch with us directly (see below for more links).
+We are also going out for a launch viewing boat trip for Artemis 1, where (safety zones allowing) we will be at a closer viewing location just outside the launch hazard area, with a clear view of the pad about 10 mi / 16 km away, with a much more favorable angle to the easterly trajectory relative to any land-based locations.
+
+*Make sure to stay tuned to our [Twitter feed](https://twitter.com/StarFleetTours) for the latest important updates and to get in touch with us directly (see below for more links).
 Thanks!*
 
 <h2 id="countdown" style="letter-spacing: 3px; text-align: center !important; margin-top: 1rem;">Check back soon!</h2>
-<a id="book-now-button" href="https://book.star-fleet.tours/" style="; display: none;"><button class="content-button text-button" style="margin-top: 1em;">Book Now</button></a>
+<a id="book-now-button" href="https://book.stripe.com/14k7sB0Xq6W5gpyeUX" style="; display: none;"><button class="content-button text-button" style="margin-top: 1em;">Book Launch Viewing Tickets</button></a>
 
 <script type="text/javascript">
 "use strict"
@@ -32,7 +34,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1648656000;
+    var futureTime         = 1660669200;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -45,7 +47,7 @@ function updateTimer() {
     if (futureTime == 0) {
         $('#countdown').html("Stay tuned!");
     } else if (futureTime < currentTime) {
-        $('#countdown').html("TICKETS ARE NOW AVAILABLE!");
+        $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224");
         document.getElementById("book-now-button").style.display = "inherit";
     } else if (futureTime > currentTime) {
         $('#countdown').html("Tickets Available In T-" + dayFloor.pad() + ":" + hourFloor.pad() + ":" + minuteFloor.pad() + ":" + secondFloor.pad());
@@ -58,39 +60,74 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 <!-- <div style="margin-top: 50px;"><iframe style="width: 100%; height: 480px;" src="https://www.google.com/maps/d/u/0/embed?mid=1C-tpUOP1-KClf1sPJfrPXh1g9A4k0rg7"></iframe></div> -->
 
 
-<img src="/current/sls-vab-photo.jpg" alt="Photograph of the NASA SLS rocket in the Vehicle Assembly Building prior to rollout" style="margin-top: 45px; margin-right: 40px; margin-bottom:0; float: left;">
+<img src="/current/sls-pad-sunset-ocean-portrait.jpg" alt="Close-up photo of the NASA SLS rocket at sunset on pad LC-39B with a flock of birds, taken on a Star Fleet boat tour" style="margin-top: 45px; margin-right: 40px; margin-bottom:0; float: left;">
 
 
 ## SLS Launch Pad Sunset Trip
 
-**Price**: $112 per person<br>
-**Date**: Friday April 1, 2022<br>
-**Trip Times**: 6:15 PM - 9:15 PM EDT<br>
+**Price**: $120 per person (all-included)<br>
+**Dates**: Friday-Sunday August 19-21 & 26-28, 2022<br>
+**Trip Time**: 6:00 PM - 9:00 PM EDT<br>
 **Key Times**: Checkin T-30 min | Boarding T-15 min | Departure T-0 min<br>
-**Location**: Blue Points Marina, 726 Scallop Drive Port Canaveral FL 32920<br>
+**Location**: Sunrise Marina, 505 Glen Cheek Rd, Port Canaveral FL 32920<br>
 
-* See NASA's new SLS rocket, the most powerful in the world, standing on its launch pad for the first time, from an up-close vantage point and a unique angle
-* Chance to see one or potentially two SpaceX Falcon 9s on the pad, one with the Transporter-4 mission, and one with a Dragon capsule for Axiom-1, the first fully-commercial mission to the International Space Station (subject to launch schedules)
+* See NASA's new SLS moon rocket, the most powerful in the world, standing on its launch pad for the historic Artemis 1 launch, from an up-close vantage point and a unique angle
+* Chance to see a SpaceX Falcon 9 on its adjacent launch pad (subject to launch schedules)
 * See historic Apollo and Shuttle sites, including LC-34, LC-36 and LC-39A/B
 * Enjoy a unique ocean-side view of every active CCAFS and KSC launch pad
 * View many sites of interest in Port Canaveral harbor and along the Cape
-* Comes with a genuine home-made NASA "launch day cookie" (see below)
+* Travel on a fast, modern 12 or 6 passenger deep-sea charter vessel
 * Additional trips may be made available based on passenger demand
 <br>
 <br>
+
+
+
+## SLS Guided Tour + SpaceX Launch Viewing
+
+<img src="/current/sls-and-falcon9-ocean.jpg" alt="Photo featuring both the NASA SLS rocket and the SpaceX Falcon 9 rocket on adjacent pads, taken on a Star Fleet boat tour" style="margin-top: 20px; margin-right: 40px; margin-bottom:0; float: right;">
+
+**Price**: $130 per person (all-included)<br>
+**Dates**: Saturday August 27, 2022<br>
+**Trip Time**: 6:15 PM - 10:15 PM EDT<br>
+**Key Times**: Checkin D-30 min | Boarding D-15 min | Departure D-0 min<br>
+**Location**: Sunrise Marina, 505 Glen Cheek Rd, Port Canaveral FL 32920<br>
+
+
+* Everything on the SLS Launch Pad Sunset Trip
+* Join an expertly guided tour with local space personality Julia Bergeron
+* See a SpaceX Falcon 9 standing ready for launch on pad 39A*
+* Get exclusive photos of the SLS and Falcon 9 rockets together at sunset*
+* After the main tour, watch the SpaceX Starlink 4-23 launch at 9:53 PM from the boat*
+* *IMPORTANT NOTE: If current launch schedules hold, which are subject to change without warning.<br>
+  If the launch is delayed, the Star Fleet trip will still go out as scheduled.
+<br>
 <br>
 
 
-## Home-Baked NASA Launch Day Cookies
 
-**Price**: One free with pre-launch tour ticket; otherwise $2 donation to the [SCLA](https://scla.space/)<br>
-**Order**: Online, Onsite
+## NASA SLS Artemis 1 Launch Boat Viewing
 
-* Be part of a time-honored tradition stretching back to the Apollo astronauts
-* Made from the original NASA recipe used for launch-day cookies
-* Baked by the same person (Julia Bergeron), in the same batch as the cookies for the actual launch team for the mission
-* Buy and pickup fresh on site at launch checkin, and included with all pre-launch tours
-* All proceeds go directly to the [Space Coast Launch Ambassadors](https://scla.space/)
+<img src="/current/sls-launch-graphic.jpg" alt="NASA-generated rendering of the Space Launch System launching" style="margin-top: 20px; margin-right: 40px; margin-bottom:0; float: left;">
+
+**Price**: $95<br>
+**Dates**: Saturday August 29, 2022<br>
+**Launch Time**: 8:33 AM EDT (12:33 UTC)<br>
+**Trip Time**: 7:30 AM EDT (11:00 UTC)<br>
+**Key Times**: Checkin 6:00 AM EDT | Boarding 6:30 AM EDT | Departure 7:00 AM EDT<br>
+**Location**: 670 Glen Cheek Drive, Cape Canaveral FL 32920<br>
+
+
+* Watch the SLS rocket, the world's most powerful, launch for the 1st time on Artemis 1
+* See a clear view of the pad from just outside the hazard area, ≈16 km / ≈10 mi away
+* Get an exclusive angle from along the rocket's ocean-bound trajectory
+* View from a larger vessel (Orlando/Canaveral Princess) with a top observation deck
+* Free parking, a guaranteed spot and no need to show up many hours early
+<br>
+<br>
+**IMPORTANT:** *Tickets are generally non-refundable; please see the [details page](/details) before booking for more information about our refund, transfer and scrub/delay policies.*
+<br>
+<br>
 
 
 ---
