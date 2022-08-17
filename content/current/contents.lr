@@ -23,7 +23,7 @@ We are also going out for a launch viewing boat trip for Artemis 1, where (safet
 Thanks!*
 
 <h2 id="countdown" style="letter-spacing: 3px; text-align: center !important; margin-top: 1rem;">Check back soon!</h2>
-<a id="book-now-button" href="https://book.star-fleet.tours/" style="; display: none;"><button class="content-button text-button" style="margin-top: 1em;">Book Now</button></a>
+<a id="book-now-button" href="https://book.stripe.com/14k7sB0Xq6W5gpyeUX" style="; display: none;"><button class="content-button text-button" style="margin-top: 1em;">Book Launch Viewing Tickets</button></a>
 
 <script type="text/javascript">
 "use strict"
@@ -47,8 +47,8 @@ function updateTimer() {
     if (futureTime == 0) {
         $('#countdown').html("Stay tuned!");
     } else if (futureTime < currentTime) {
-        $('#countdown').html("To book pre-launch tours, call or text 941-879-4240");
-        // document.getElementById("book-now-button").style.display = "inherit";
+        $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224");
+        document.getElementById("book-now-button").style.display = "inherit";
     } else if (futureTime > currentTime) {
         $('#countdown').html("Tickets Available In T-" + dayFloor.pad() + ":" + hourFloor.pad() + ":" + minuteFloor.pad() + ":" + secondFloor.pad());
     }
