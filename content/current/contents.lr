@@ -19,14 +19,16 @@ Join us to see the world's most powerful completed rocket as it stands tall on i
 
 We are also going out for a launch viewing boat trip for Artemis 1, where (safety zones allowing) we will be at a closer viewing location just outside the launch hazard area, with a clear view of the pad about 10 mi / 16 km away, with a much more favorable angle to the easterly trajectory relative to any land-based locations.
 
-**UPDATE:** The SLS Artemis 1 *launch* viewing tickets are currently sold out, but we are working on obtaining additional boat capacity and will let you know here and on Twitter as soon as we do.
-Pre-launch trips are still available, with the exception of guided options for the Saturday, August 27 "doubleheader" boat tour (unguided boats are still offered for a reduced price); reach out to our phone number below to book.
+**UPDATE:** We've now secured additional boats for the launch viewing trip, so we've opened up booking again.
+To note, the additional boats is nearly identical, but departs from a nearby dock a short walk away.
+We'll send everyone an email in a couple days with their formal ticket that will confirm which boat they will be on, and at which location of the two they should meet us (though we'll have people at each to direct you).
+Pre-launch trips are still available (with the exception of our Saturday, August 27 "doubleheader" boat trip which sold out almost immediately); reach out to our phone number below to book.
 
 *Make sure to stay tuned to our [Twitter feed](https://twitter.com/StarFleetTours) for the latest important updates and to get in touch with us directly (see below for more links).
 Thanks!*
 
 <h2 id="countdown" style="letter-spacing: 3px; text-align: center !important; margin-top: 1rem;">Check back soon!</h2>
-<a id="book-now-button" href="https://book.stripe.com/14k7sB0Xq6W5gpyeUX" style="; display: none;"><button disabled class="content-button text-button" style="margin-top: 1em;">Launch Tickets Temporarily Sold Out</button></a>
+<a id="book-now-button" href="https://book.stripe.com/14k7sB0Xq6W5gpyeUX" style="; display: none;"><button class="content-button text-button" style="margin-top: 1em;">Book Launch Viewing Tickets</button></a>
 
 <script type="text/javascript">
 "use strict"
@@ -91,8 +93,8 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 <img src="/current/sls-and-falcon9-ocean.jpg" alt="Photo featuring both the NASA SLS rocket and the SpaceX Falcon 9 rocket on adjacent pads, taken on a Star Fleet boat tour" style="margin-top: 20px; margin-right: 40px; margin-bottom:0; float: right;">
 
 **Price**: $130 per person (guided), $120 per person (unguided)<br>
-**Dates**: Saturday August 27, 2022<br>
-**Trip Time**: 6:15 PM - 10:15 PM EDT<br>
+**Status**: SOLD OUT<br>
+**Date/Time**: Saturday August 27, 2022, 6:15 PM - 10:15 PM EDT<br>
 **Key Times**: Checkin D-30 min | Boarding D-15 min | Departure D-0 min<br>
 **Location**: Sunrise Marina, 505 Glen Cheek Rd, Port Canaveral FL 32920<br>
 
@@ -113,16 +115,16 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 <img src="/current/sls-launch-graphic.jpg" alt="NASA-generated rendering of the Space Launch System launching" style="margin-top: 20px; margin-right: 40px; margin-bottom:0; float: left;">
 
 **Price**: $95<br>
-**Status**: Currently SOLD OUT, but attempting to procure more boats<br>
 **Launch Time**: Monday, August 29 at 8:33 AM EDT (12:33 UTC)<br>
 **Trip Time**: Monday, August 29 at 7:00 AM EDT (11:00 UTC)<br>
 **Key Times**: Checkin 6:00 AM EDT | Boarding 6:30 AM EDT | Departure 7:00 AM EDT<br>
-**Location**: 670 Glen Cheek Drive, Cape Canaveral FL 32920<br>
+**Locations**: *Orlando Princess*, 670 Glen Cheek Drive, Cape Canaveral FL 32920<br>
+               *Sunrise Marina (Double O)*, 505 Glen Cheek Rd, Port Canaveral FL 32920<br>
 
 * Watch the SLS rocket, the world's most powerful, launch for the 1st time on Artemis 1
 * See a clear view of the pad from just outside the hazard area, ≈16 km / ≈10 mi away
 * Get an exclusive angle from along the rocket's ocean-bound trajectory
-* View from a larger vessel (Orlando/Canaveral Princess) with a top observation deck
+* View from a larger vessel (Orlando Princess/Ocean Obsession) with a top observation deck
 * Free parking, a guaranteed spot and no need to show up many hours early
 <br>
 <br>
