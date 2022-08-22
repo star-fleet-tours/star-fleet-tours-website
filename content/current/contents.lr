@@ -19,16 +19,16 @@ Join us to see the world's most powerful completed rocket as it stands tall on i
 
 We are also going out for a launch viewing boat trip for Artemis 1, where (safety zones allowing) we will be at a closer viewing location just outside the launch hazard area, with a clear view of the pad about 10 mi / 16 km away, with a much more favorable angle to the easterly trajectory relative to any land-based locations.
 
-**UPDATE:** We've now secured additional boats for the launch viewing trip, so we've opened up booking again.
-To note, the additional boats is nearly identical, but departs from a nearby dock a short walk away.
-We'll send everyone an email in a couple days with their formal ticket that will confirm which boat they will be on, and at which location of the two they should meet us (though we'll have people at each to direct you).
-Pre-launch trips are still available (with the exception of our Saturday, August 27 "doubleheader" boat trip which sold out almost immediately); reach out to our phone number below to book.
+**UPDATE:** Launch tickets are now SOLD OUT yet again, and unfortunately it doesn't look like there are any more large ocean-rated boats we haven't yet booked at this time.
+A few pre-launch trip tickets for the sunset cruise Friday, August 26 are still available; reach out to our phone number below to book.
+We're in the process of sending emails to everyone who booked launch tickets with your boat assignment, meeting location and reminders of all the key information for launch day.
+Look out for an email from `FleetCommand@Star-Fleet.Tours` (and make sure to check your spam).
 
-*Make sure to stay tuned to our [Twitter feed](https://twitter.com/StarFleetTours) for the latest important updates and to get in touch with us directly (see below for more links).
+*Stay tuned to our [Twitter feed](https://twitter.com/StarFleetTours) for the latest important updates and to get in touch with us directly (see below for more links).
 Thanks!*
 
 <h2 id="countdown" style="letter-spacing: 3px; text-align: center !important; margin-top: 1rem;">Check back soon!</h2>
-<a id="book-now-button" href="https://book.stripe.com/14k7sB0Xq6W5gpyeUX" style="; display: none;"><button class="content-button text-button" style="margin-top: 1em;">Book Launch Viewing Tickets</button></a>
+<a id="book-now-button" href="https://book.stripe.com/14k7sB0Xq6W5gpyeUX" style="; display: none;"><button disabled class="content-button text-button" style="margin-top: 1em;">Launch Viewing SOLD OUT</button></a>
 
 <script type="text/javascript">
 "use strict"
@@ -71,7 +71,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 ## SLS Launch Pad Sunset Trip
 
 **Price**: $120 per person (all-included)<br>
-**Dates**: Friday-Sunday August 19-21 & 26-28, 2022<br>
+**Dates**: Friday-Sunday 26, 27 (SOLD OUT), 28 (SOLD OUT) 2022<br>
 **Trip Time**: 6:00 PM - 9:00 PM EDT<br>
 **Key Times**: Checkin T-30 min | Boarding T-15 min | Departure T-0 min<br>
 **Location**: Sunrise Marina, 505 Glen Cheek Rd, Port Canaveral FL 32920<br>
@@ -92,8 +92,8 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 
 <img src="/current/sls-and-falcon9-ocean.jpg" alt="Photo featuring both the NASA SLS rocket and the SpaceX Falcon 9 rocket on adjacent pads, taken on a Star Fleet boat tour" style="margin-top: 20px; margin-right: 40px; margin-bottom:0; float: right;">
 
-**Price**: $130 per person (guided), $120 per person (unguided)<br>
 **Status**: SOLD OUT<br>
+**Price**: $130 per person (guided), $120 per person (unguided)<br>
 **Date/Time**: Saturday August 27, 2022, 6:15 PM - 10:15 PM EDT<br>
 **Key Times**: Checkin D-30 min | Boarding D-15 min | Departure D-0 min<br>
 **Location**: Sunrise Marina, 505 Glen Cheek Rd, Port Canaveral FL 32920<br>
@@ -114,9 +114,9 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 
 <img src="/current/sls-launch-graphic.jpg" alt="NASA-generated rendering of the Space Launch System launching" style="margin-top: 20px; margin-right: 40px; margin-bottom:0; float: left;">
 
+**Status**: SOLD OUT<br>
 **Price**: $95<br>
 **Launch Time**: Monday, August 29 at 8:33 AM EDT (12:33 UTC)<br>
-**Trip Time**: Monday, August 29 at 7:00 AM EDT (11:00 UTC)<br>
 **Key Times**: Checkin 6:00 AM EDT | Boarding 6:30 AM EDT | Departure 7:00 AM EDT<br>
 **Locations**: *Orlando Princess*, 670 Glen Cheek Drive, Cape Canaveral FL 32920<br>
                *Sunrise Marina (Double O)*, 505 Glen Cheek Rd, Port Canaveral FL 32920<br>
