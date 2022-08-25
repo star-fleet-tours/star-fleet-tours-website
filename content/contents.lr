@@ -64,7 +64,7 @@ description:
 We offer the best viewing spots possible from the water, each carefully adjusted each launch for the best possible view.
 No other venue gets you closer to SpaceX's spectacular booster landings, gives you an unobstructed view of every CCAFS and KSC launch and landing pad, or is as favorably located relative to the launch trajectory as we are.
 -----
-icon: fh-arabsat-ascent.jpg
+icon: fh-boat-launch.jpg
 -----
 
 ##### service #####
@@ -76,7 +76,7 @@ Making sure everyone has an amazing timing watching rockets means everything to 
 As such, we're with you every step of the way if you have questions, concerns and critique.
 Furthermore, the boat captains and crew we work with from [Orlando Princess](https://orlandoprincess.com/), [Ocean Obsession](https://fishobsession.com/), [Sea Leveler](https://www.sealeveler.com/) and more are all highly rated for their excellent quality and service.
 -----
-icon: boat-sunset.jpg
+icon: sls-pad-sunset-ocean.jpg
 -----
 
 ##### service #####
@@ -87,7 +87,7 @@ description:
 Beyond the launch itself, going out with us you have the chance to gaze at a clear view of all the active pads, including LC-36, SLC-37B, LC-39, SLC-40, and SLC-41.
 With our pre-launch trips, you get right up close to these and many other historic pads, including Mercury, Gemini, Apollo and more, plus see the rocket on the pad at a distance previously exclusive to press and VIPs.
 -----
-icon: sls-pad-sunset-ocean.jpg
+icon: steven-looking-lc39a.jpg
 -----
 
 ##### service #####
@@ -99,7 +99,7 @@ Star✦Fleet is not just any boat service; we're a community of people, young an
 Beforehand, you can interact on our Twitter, Facebook, Slack, and more to share stories, tips, photos, rides and hotels.
 On the boats, you're sure to make friends and feel at home with astronauts, enthusiasts, tourists and locals alike.
 -----
-icon: tnt2-crowd-poster.jpg
+icon: after-mission-group-photo.jpg
 -----
 
 ##### service #####
@@ -110,7 +110,7 @@ description:
 Our organizers have multiple years of experience following rockets and watching launches, carefully plan every aspect of each trip, and (when available) provide live launch commentary and clear pointers on where to look and when.
 Not only does this help us find the best safe time and location to position our boats, but we're also happy to share our launch viewing insight to help you get the most out of your experience.
 -----
-icon: cam-steven-wide.jpg
+icon: steven-gesturing-lc39a.jpg
 -----
 
 ##### service #####
@@ -275,11 +275,11 @@ gallery_items:
 
 
 ##### gallery_item #####
-title: Ready for Launch
+title: Welcome Aboard!
 -----
-subtitle: All set to go out and see a rocket!
+subtitle: Star✦Fleet's leaders greet the crew
 -----
-image: poster-family-grills.jpg
+image: cam-steven-wide.jpg
 -----
 url:
 -----
@@ -301,11 +301,11 @@ direct_link: false
 
 
 ##### gallery_item #####
-title: Action Stations!
+title: On the Shoulders of Giants
 -----
-subtitle: OO2's crew is on watch (Mike Hara)
+subtitle: Historic sights on the way out
 -----
-image: oo2-observing.jpg
+image: vab-astro-beach-house.jpg
 -----
 url:
 -----
@@ -314,11 +314,38 @@ direct_link: false
 
 
 ##### gallery_item #####
-title: We Have Liftoff
+title: Atten-tion!
 -----
-subtitle: The Falcon soars aloft (Nik Delgado)
+subtitle: A young passenger spots a Falcon
 -----
-image: fh-boat-launch.jpg
+image: lc39a-kid-pointing.jpg
+-----
+url:
+-----
+direct_link: false
+-----
+
+
+
+##### gallery_item #####
+title: Go for Launch
+-----
+subtitle: Our photographers ready to capture liftoff
+-----
+image: f9-on-pad-photogs.jpg
+-----
+url:
+-----
+direct_link: false
+-----
+
+
+##### gallery_item #####
+title: Breaking the Bonds of Earth
+-----
+subtitle: A Falcon soars aloft (Nik Delgado)
+-----
+image: fh-arabsat-ascent.jpg
 -----
 url:
 -----
@@ -342,35 +369,9 @@ direct_link: false
 ##### gallery_item #####
 title: The Voyage Home
 -----
-subtitle: A sunset welcomes the Fleet back
+subtitle: Wrapping up a priceless memory
 -----
-image: sunset-harbor.jpg
------
-url:
------
-direct_link: false
------
-
-
-##### gallery_item #####
-title: Attention!
------
-subtitle: The OO2 crew in a parting shot
------
-image: oo2-poster-lineup.jpg
------
-url:
------
-direct_link: false
------
-
-
-##### gallery_item #####
-title: Debriefing
------
-subtitle: A happy family after a great day
------
-image: poster-family-boat.jpg
+image: pad-boat-headed-home.jpg
 -----
 url:
 -----
