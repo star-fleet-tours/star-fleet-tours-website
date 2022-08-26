@@ -61,10 +61,10 @@ title: Optimal Location
 -----
 description:
 
-We offer two different locations (ocean- and river-side), each carefully adjusted each launch for the best possible view.
-No other venue gets you closer to SpaceX's spectacular booster landings, gives you as unobstructed of a view every CCAFS and KSC launch and landing pad, or is as favorably located relative to the launch trajectory and sound propagation as we do.
+We offer the best viewing spots possible from the water, each carefully adjusted each launch for the best possible view.
+No other venue gets you closer to SpaceX's spectacular booster landings, gives you an unobstructed view of every CCAFS and KSC launch and landing pad, or is as favorably located relative to the launch trajectory as we are.
 -----
-icon: fh-arabsat-ascent.jpg
+icon: fh-boat-launch.jpg
 -----
 
 ##### service #####
@@ -73,10 +73,10 @@ title: Stellar Experience
 description:
 
 Making sure everyone has an amazing timing watching rockets means everything to us—its why we do what we do.
-As such, we're with you every step of the way if you have questions, concerns and  critique.
-Furthermore, the boat captains and crew we work with from [Time and Tide](http://www.timeandtidetours.com/), [Orlando Princess](https://orlandoprincess.com/) and [Sea Leveler](https://www.sealeveler.com/) are all highly rated for their excellent quality and service.
+As such, we're with you every step of the way if you have questions, concerns and critique.
+Furthermore, the boat captains and crew we work with from [Orlando Princess](https://orlandoprincess.com/), [Ocean Obsession](https://fishobsession.com/), [Sea Leveler](https://www.sealeveler.com/) and more are all highly rated for their excellent quality and service.
 -----
-icon: boat-sunset.jpg
+icon: sls-pad-sunset-ocean.jpg
 -----
 
 ##### service #####
@@ -84,10 +84,10 @@ title: Historic Pad Views
 -----
 description:
 
-Beyond the launch itself, going out with us you have the chance to gaze at a clear view of all the active pads, including LC-36, SLC-37B, LC-39A, SLC-40, and SLC-41.
+Beyond the launch itself, going out with us you have the chance to gaze at a clear view of all the active pads, including LC-36, SLC-37B, LC-39, SLC-40, and SLC-41.
 With our pre-launch trips, you get right up close to these and many other historic pads, including Mercury, Gemini, Apollo and more, plus see the rocket on the pad at a distance previously exclusive to press and VIPs.
 -----
-icon: fh-arabsat-pads.jpg
+icon: steven-looking-lc39a.jpg
 -----
 
 ##### service #####
@@ -96,10 +96,10 @@ title: Vibrant Community
 description:
 
 Star✦Fleet is not just any boat service; we're a community of people, young and old, from all around the world united by our love for spaceflight.
-Beforehand, you can interact on our Slack org, Gitter chat and Google Group, to share stories, tips, photos, rides and hotels.
+Beforehand, you can interact on our Twitter, Facebook, Slack, and more to share stories, tips, photos, rides and hotels.
 On the boats, you're sure to make friends and feel at home with astronauts, enthusiasts, tourists and locals alike.
 -----
-icon: tnt2-crowd-poster.jpg
+icon: after-mission-group-photo.jpg
 -----
 
 ##### service #####
@@ -110,7 +110,7 @@ description:
 Our organizers have multiple years of experience following rockets and watching launches, carefully plan every aspect of each trip, and (when available) provide live launch commentary and clear pointers on where to look and when.
 Not only does this help us find the best safe time and location to position our boats, but we're also happy to share our launch viewing insight to help you get the most out of your experience.
 -----
-icon: cam-steven-wide.jpg
+icon: steven-gesturing-lc39a.jpg
 -----
 
 ##### service #####
@@ -118,11 +118,11 @@ title: Perks and Extras
 -----
 description:
 
-Unlike other venues, you only need arrive an hour early, we have free parking, and your spot is guaranteed.
+Unlike other venues, you typically only need arrive an hour early, we have free parking, and your spot is guaranteed.
 Your ticket is still valid any day so long as we haven't left the dock, and we allow and encourage re-sale, which is easy given our high demand.
 On many missions, we offer several commemorative items as add-ons, and include water, drinks, dramamine, sunscreen and more free on the boats.
 -----
-icon: t-shirt-stp2-patch.jpg
+icon: star-fleet-logo-stickers-crop.jpg
 -----
 ----
 
@@ -143,7 +143,7 @@ items:
 ##### mission_tab #####
 section_id: op
 -----
-title: Orlando Princess
+title: Princess sisters
 -----
 subtitle:
 
@@ -152,108 +152,108 @@ Operated by [Orlando Princess](https://orlandoprincess.com/).
 -----
 description:
 
-* **Capacity**: 95 (2 decks)
-* **Ocean**: Yes
-* **Length**: 30 m/95 ft
-* **Speed**: 15 kt/28 km/h
+* **Trips**: Launch
+* **Capacity**: 95/85 (2 decks)
+* **Length**: 95/85 ft (≈30 m)
+* **Speed**: 15 kt (28 km/h)
 * **A/C**: Yes
 * **Stability**: Moderate-High
 * Primary launch party boats
 * Enclosed cabin with seats
-* Full galley with freezer
-* Hot food & cold beer/soda
+* Upper observation deck
+* Galley with freezer
+* Full private restroom
 * PA for live launch audio
-* Obs deck tickets separate
 -----
 image: princess-promo.jpg
 -----
 
 
 ##### mission_tab #####
-section_id: tnt1
+section_id: oo2
 -----
-title: Time & Tide I
+title: Ocean Obsession II
 -----
 subtitle:
 
-"TnT 1" provides a more intimate and open feel due to its smaller size, and can transit areas too shallow for the larger boats.
-It is the primary ship used for the viewing trips to the many historic Cape Canaveral and Kennedy Space Center launch pads.
-Operated by [Time and Tide](http://www.timeandtidetours.com/).
+While somewhat smaller than the Princess boats with less upper deck space, the "Double O2" has a very similar design and comparable features, including an observation deck, an air-conditioned fully enclosed cabin, and good stability in choppy seas.
+Operated by [Ocean Obsession](https://fishobsession.com/).
 -----
 description:
 
-* **Capacity**: 18
-* **Ocean**: Yes
-* **Length**: 11.5 m/38 ft
-* **Speed**: 15 kt/28 km/h
-* **A/C**: No
-* **Stability**: Lower
-* Primary pad tour boat
-* Custom Delta design
-* Partially enclosed cabin
-* Open stern for easy viewing
-* Water/soda on board
-* Plenty of shade
+* **Trips**: Launch
+* **Capacity**: 80 (2 decks)
+* **Length**: 65 ft (≈20 m)
+* **Speed**: 15 kt (28 km/h)
+* **A/C**: Yes
+* **Stability**: Moderate-High
+* Secondary launch party boat
+* Enclosed cabin with seats
+* Upper observation deck
+* Galley with freezer
+* PA for live launch audio
+* Full private restroom
 -----
-image: tnt1-promo.jpg
+image: oo2-promo-corrected.jpg
 -----
 
 
 ##### mission_tab #####
-section_id: tnt2
+section_id: razorsedge
 -----
-title: Time & Tide II
+title: Razor's Edge
 -----
 subtitle:
 
-"TnT 2" is limited to the Banana River viewing location rather than the ocean off the Cape, but offers a more stable, relaxing experience, a built-in aquarium with marine life, and a unique angle on returning boosters headed directly toward it.
-Operated by [Time and Tide](http://www.timeandtidetours.com/).
+This smaller boat is the fastest ship in the fleet, and is very well-appointed with the latest electronics, a highly comfortable premium interior, multiple seating areas bow and stern, air conditioning and an advanced stabilization system.
+Operated by [Razor's Edge Charters](https://razorsedgecharters.com/).
 -----
 description:
 
-* **Capacity**: 13
-* **Ocean**: No
-* **Length**: 10.5 m/34 ft
-* **Speed**: N/A
-* **A/C**: No
-* **Stability**: High
-* Primary river boat
-* Custom Micheal Fritz
-* Open seating design
-* 360 degree visibility
-* On-board aquarium
-* Water/soda on board
+* **Trips**: Pre-launch & launch
+* **Capacity**: 12
+* **Length**: 37 ft (11 m)
+* **Speed**: 45 kt (85 km/h)
+* **A/C**: Yes
+* **Stability**: Moderate
+* New-build, modern vessel
+* Triple Yamaha outboards
+* Bow and stern seating areas
+* Premium interior comfort
+* Advanced stabilization system
+* Restroom in center console
 -----
-image: tnt2-promo.jpg
+image: razorsedge-promo.jpg
 -----
 
 
 ##### mission_tab #####
-section_id: 6packs
+section_id: seatrident
 -----
-title: Sea Leveler Boats
+title: Sea Trident
 -----
 subtitle:
 
-These five smaller boats are a bit pricier per passenger, but are faster, fully ocean-capable, offer a private viewing experience with much more space per person, and can be bought out to allow your whole family their very own ship in the Fleet.
+This smaller boat combines high speeds and advanced electronics with a more private viewing experience, greater space per person and a nearly brand-new interior.
+What's more, it can be bought out to allow your whole family their very own ship in the Fleet.
 Operated by [Sea Leveler](https://www.sealeveler.com/).
 -----
 description:
 
-* **Capacity**: 6 each
-* **Ocean**: Yes
-* **Length**: 10 m/33 ft
-* **Speed**: ~20 kt/33-39 km/h
-* **A/C**: Some
+* **Trips**: Pre-launch & launch
+* **Capacity**: 6
+* **Length**: 40 ft (13 m)
+* **Speed**: 35 kt (65 km/h)
+* **A/C**: No
 * **Stability**: Lower
-* Private viewing boats
-* *Seas The Day*: Open layout
-* *Sea-Sons*: A/C saloon
-* *Tightwork II*: Open stern
-* *Sea Leveler*: Enclosed cabin
-* *Sea Sharker*: More shade
+* Nearly brand new vessel
+* Dual Suzuki outboards
+* Spacious open layout
+* Advanced electronics
+* Sound system for launch audio
+* Restroom in center console
 -----
-image: sealeveler-composite.jpg
+image: seatrident-promo.jpg
 -----
 ----
 
@@ -275,11 +275,11 @@ gallery_items:
 
 
 ##### gallery_item #####
-title: Ready for Launch
+title: Welcome Aboard!
 -----
-subtitle: All set to go out and see a rocket!
+subtitle: Star✦Fleet's leaders greet the crew
 -----
-image: poster-family-grills.jpg
+image: cam-steven-wide.jpg
 -----
 url:
 -----
@@ -301,11 +301,11 @@ direct_link: false
 
 
 ##### gallery_item #####
-title: Action Stations!
+title: On the Shoulders of Giants
 -----
-subtitle: OO2's crew is on watch (Mike Hara)
+subtitle: Historic sights on the way out
 -----
-image: oo2-observing.jpg
+image: vab-astro-beach-house.jpg
 -----
 url:
 -----
@@ -314,11 +314,38 @@ direct_link: false
 
 
 ##### gallery_item #####
-title: We Have Liftoff
+title: Atten-tion!
 -----
-subtitle: The Falcon soars aloft (Nik Delgado)
+subtitle: A young passenger spots a Falcon
 -----
-image: fh-boat-launch.jpg
+image: lc39a-kid-pointing.jpg
+-----
+url:
+-----
+direct_link: false
+-----
+
+
+
+##### gallery_item #####
+title: Go for Launch
+-----
+subtitle: Our photographers ready to capture liftoff
+-----
+image: f9-on-pad-photogs.jpg
+-----
+url:
+-----
+direct_link: false
+-----
+
+
+##### gallery_item #####
+title: Breaking the Bonds of Earth
+-----
+subtitle: A Falcon soars aloft (Nik Delgado)
+-----
+image: fh-arabsat-ascent.jpg
 -----
 url:
 -----
@@ -342,35 +369,9 @@ direct_link: false
 ##### gallery_item #####
 title: The Voyage Home
 -----
-subtitle: A sunset welcomes the Fleet back
+subtitle: Wrapping up a priceless memory
 -----
-image: sunset-harbor.jpg
------
-url:
------
-direct_link: false
------
-
-
-##### gallery_item #####
-title: Attention!
------
-subtitle: The OO2 crew in a parting shot
------
-image: oo2-poster-lineup.jpg
------
-url:
------
-direct_link: false
------
-
-
-##### gallery_item #####
-title: Debriefing
------
-subtitle: A happy family after a great day
------
-image: poster-family-boat.jpg
+image: pad-boat-headed-home.jpg
 -----
 url:
 -----
