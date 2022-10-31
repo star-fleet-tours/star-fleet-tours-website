@@ -31,7 +31,7 @@ plus, you'll get to see a unique angle on the other KSC and CCSFS pads on the wa
 Thanks!*
 
 <h2 id="countdown" style="letter-spacing: 3px; text-align: center !important; margin-top: 1rem;">Check back soon!</h2>
-<a id="book-now-button" href="https://book.stripe.com/cN29AJbC41BLb5eaER" style="; display: none;"><button class="content-button text-button" style="margin-top: 1em; width: 100%; max-width: 20em;">Book Upper Deck</button></a>
+<a id="book-now-button" href="" style="; display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; width: 100%; max-width: 20em;">Upper Deck SOLD OUT</button></a>
 <a id="book-now-button-2" href="https://book.stripe.com/cN26ox35y1BL5KU00e" style="; display: none;"><button class="content-button text-button" style="margin-top: 1em; width: 100%; max-width: 20em;">Book Lower Deck</button></a>
 
 <script type="text/javascript">
