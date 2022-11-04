@@ -6,33 +6,34 @@ short_title: Tickets
 ---
 special_link: true
 ---
-full_title: SpaceX Falcon Heavy USSF-44 Launch & Sunset Pad Viewing
+full_title: NASA SLS Artemis 1 Launch
 ---
 body:
 
 <div id="page-body-countdown-container"></div>
 
-<img src="/current/fh-landing-day.jpg" alt="Falcon Heavy twin side boosters landing at LZ-1 and LZ-2 during the day"  style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
+<img src="/current/sls-pad-sunset-ocean-hero.jpg" alt="Photo of the NASA SLS rocket at sunset on pad LC-39B taken on a Star Fleet boat tour" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
 
-After three full years, the wait is finally over for the next flight of the Falcon Heavy, the world's most powerful operational rocket!
-It'll be launching on **Tuesday, November 1 at 9:41 AM EDT** (13:41 UTC) with the USSF-44 top-secret national security payload for the US Space Force, in its first operational government mission.
-Star Fleet will be going out for both the launch itself, and a sunset boat trip to see the rocket up close on the pad the evening before.
+Star Fleet will be going out for launch viewing boat trips for the next attempt of Artemis 1, which is currently poised on its pad for midnight liftoff on *Monday, November 14 at 12:07 AM EST (05:07 UTC)*.
+We expect to be at a viewing location just outside the launch hazard area, with a clear view of the pad approximately 10 mi / 16 km away (hazard zone dependent), with a much more favorable angle to the easterly trajectory relative to land-based locations.
 
-This launch will feature a uniquely spectacular twin booster Return to Launch Site landing, and we'll be in an ideal position to view it.
-Our current nominal planned viewing location, as with previous Falcon Heavy missions, provides both the closest and clearest view of the booster landing available anywhere.
-It has a clear view of both pads all the way down to the landing legs, and is around or less than 4 mi / 6 km from the landing trajectory as the twin boosters light their engines and arc in almost right over our heads, and around or less than 6 mi / ≈9 km from the landing pad itself.
-Distance from the launch pad is around 12-14 mi / 19-22 km, but also with a clear view and a more favorable angle to the trajectory than any land-based spot, at a closest approach of around 9-11 mi / 14-17 km.
-However, depending on the exact position of the hazard zones and subject to range and USCG clearance, we may actually be able to get up to several miles closer to both launch and landing, which is currently pending confirmation.
+We also plan to offer sunset boat trips for the weekend prior to the launch (assuming the weather cooperates) to see the Space Launch System rocket on LC-39B as it prepares for its historic mission.
+Join us to see the world's most powerful completed rocket as it stands tall on its launch pad for its very first launch!
 
-Meanwhile, our sunset boat trip will feature an up close and personal view of the rocket standing tall on the pad, backlit by the setting sun, from as close as 500 yd/m away;
-plus, you'll get to see a unique angle on the other KSC and CCSFS pads on the way there and back as well.
+**UPDATE:** As of *Monday, November 7*, we are currently preparing our booking system and confirming final plans with the boat operators, in order to open up tickets in the next couple days.
+As we've done previously, we'll update this page in the next couple days with a live countdown to the availability of tickets at least ≈24 hours prior to tickets going live, and announce the same on our social media.
+Sea conditions are forecast to be too rough for safe and comfortable pre-launch pad tours this weekend, but we plan to run them next weekend if the weather cooperates, and will announce them once confirmed.
+
+**REVISED DELAY/SCRUB POLICY**: Note that due to the time of this launch, we've been able to relax our previous scrub policy for this attempt, such that tickets remain fully valid for a rescheduled attempt so long as the launch is officially aborted/scrubbed prior to the designated checkin time.
+At or after that point, if the launch scrubs, we will be committed with the boat operator to go out and see the rocket lit up on the pad, and we will be unable to refund the tickets.
+However, we can offer a 10% discount and priority access to booking to passengers who go out with us on further attempts within the same launch period.
 
 *Stay tuned to our [Twitter feed](https://twitter.com/StarFleetTours) for the latest important updates and to get in touch with us directly (see below for more links).
 Thanks!*
 
 <h2 id="countdown" style="letter-spacing: 3px; text-align: center !important; margin-top: 1rem;">Check back soon!</h2>
-<a id="book-now-button" href="" style="; display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; width: 100%; max-width: 20em;">Upper Deck SOLD OUT</button></a>
-<a id="book-now-button-2" href="https://book.stripe.com/cN26ox35y1BL5KU00e" style="; display: none;"><button class="content-button text-button" style="margin-top: 1em; width: 100%; max-width: 20em;">Book Lower Deck</button></a>
+<a id="book-now-button" href="" style="; display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; width: 100%; max-width: 17em;">Book Upper Deck</button></a>
+<a id="book-now-button-2" href="" style="; display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; width: 100%; max-width: 17em;">Book Main Deck</button></a>
 
 <script type="text/javascript">
 "use strict"
@@ -43,7 +44,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 100000;
+    var futureTime         = 0;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -54,9 +55,9 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Tickets sold out, sorry");
-    } else if (futureTime < currentTime) {
-        $('#countdown').html("To book <i>pad tour</i> tickets,<br>call or text 321-209-2224");
+        $('#countdown').html("Ticket countdown coming soon!");
+    } else if (futureTime <= currentTime) {
+        $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224");
         document.getElementById("book-now-button").style.display = "inherit";
         document.getElementById("book-now-button-2").style.display = "inherit";
     } else if (futureTime > currentTime) {
@@ -70,42 +71,44 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 <!-- <div style="margin-top: 50px;"><iframe style="width: 100%; height: 480px;" src="https://www.google.com/maps/d/u/0/embed?mid=1C-tpUOP1-KClf1sPJfrPXh1g9A4k0rg7"></iframe></div> -->
 
 
-<img src="/current/fh-launch-day.jpg" alt="Falcon Heavy launching during the day, from a public domain USAF photo" style="margin-top: 60px; margin-left: 40px; margin-bottom:0; float: right;">
 
-## SpaceX Falcon Heavy USSF-44 Launch & Landing Boat Viewing
+## NASA SLS Artemis 1 Launch Boat Viewing
 
-**Price**: $95 (main deck), $125 (upper deck)<br>
-**Launch Time**: Tuesday, November 1 at 9:41 AM EDT (13:41 UTC)<br>
-**Key Times**: Checkin 7:30 AM EDT | Boarding 8:00 AM EDT | Departure 8:30 AM EDT<br>
+<img src="/current/sls-launch-graphic.jpg" alt="NASA-generated rendering of the Space Launch System launching" style="margin-top: 20px; margin-right: 40px; margin-bottom:0; float: left;">
+
+**Price**: $90 (main deck), $99 (upper deck)<br>
+**Launch Time**: Monday, November 14 at 12:07 AM EST (05:07 UTC)<br>
+**Key Times**: Checkin 9:30 AM EST | Boarding 10:00 AM EST | Departure 10:30 AM EST<br>
 **Location**: *Sunrise Marina*, 505 Glen Cheek Dr, Cape Canaveral FL 32920<br>
 
-* Closest and clearest viewing for landing available anywhere
-* Clear view of both LZ-1 and LZ-2 down to the landing legs
-* Only <≈4 mi / <≈6 km from landing trajectory and <≈6 mi / <≈9 km from pads
-* Favorable angle downrange of trajectory, only ≈9-11 mi / <≈14-17 km away
-* Clear view of launch pad at <≈12-14 mi / <≈19-22 km distance
-* Free parking, a guaranteed spot and no need to show up many hours early
+* Watch the SLS rocket, the world's most powerful, launch for the 1st time on Artemis 1
+* See a clear pad view across the water, ≈16 km / ≈10 mi away (hazard zone dependent)
+* Get an exclusive angle from along the rocket's ocean-bound trajectory
+* View from a larger vessel (Princesses/Double-O II) with a top observation deck
+* Free parking, a guaranteed viewing spot and no need to show up more than 2 hours early
+* If scrubbed prior to checkin, ticket still valid for the next attempt (in same launch period)
 <br>
 <br>
-**DELAY/SCRUB POLICY:** *Tickets are generally non-refundable.*<br>
-See our [details page](/details) for more information.
+**REVISED DELAY/SCRUB POLICY**: Note that due to the time of this launch, we've been able to relax our previous scrub policy for this attempt, such that tickets remain fully valid for a rescheduled attempt so long as the launch is officially aborted/scrubbed prior to the designated checkin time.
+At or after that point, if the launch scrubs, we will be committed with the boat operator to go out and see the rocket lit up on the pad, and we will be unable to refund the tickets.
+However, we can offer a 10% discount and priority access to booking to passengers who go out with us on further attempts within the same launch period.
 <br>
 <br>
 
 
+<img src="/current/sls-pad-sunset-ocean-portrait.jpg" alt="Close-up photo of the NASA SLS rocket at sunset on pad LC-39B with a flock of birds, taken on a Star Fleet boat tour" style="margin-top: 60px; margin-left: 20px; margin-right: 0px; margin-bottom:0; float: right;">
 
-<img src="/current/fh-pad-water.jpg" alt="Close-up photo of the SpaceX Falcon Heavy rocket on its pad LC-39A, taken on a Star Fleet boat tour" style="margin-top: 55px; margin-right: 40px; margin-bottom:100px; float: left;">
 
-
-## Falcon Heavy LC-39A Sunset Pad Trip
+## SLS Launch Pad Sunset Trip
 
 **Price**: $140 per person<br>
-**Dates**: Monday, October 31<br>
-**Trip Time**: 5:00 PM - 9:00 PM EDT<br>
+**Dates**: Friday, November 11 - Sunday, November 13<br>
+**Trip Time**: 4:00 PM - 7:00 PM EST<br>
 **Key Times**: Checkin T-30 min | Boarding T-15 min | Departure T-0 min<br>
-**Location**: *Blue Points Marina*, 726 Scallop Dr, Port Canaveral, FL 32920<br>
+**Location**: *TBD* Port Canaveral, Cape Canaveral FL 32920<br>
 
-* Experience the SpaceX Falcon Heavy, the world's most powerful operational rocket
+* See NASA's new SLS moon rocket, the most powerful in the world, standing on its launch pad for the historic Artemis 1 launch, from an up-close vantage point and a unique angle
+* Chance to view other active rockets on their pads (subject to launch schedules)
 * See historic Apollo and Shuttle sites, including LC-34, LC-36 and LC-39A/B
 * Enjoy a unique ocean-side view of every active CCAFS and KSC launch pad
 * View many sites of interest in Port Canaveral harbor and along the Cape
