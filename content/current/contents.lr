@@ -24,48 +24,9 @@ Join us to see the world's most powerful completed rocket as it stands tall on i
 As we've done previously, we'll update this page in the next couple days with a live countdown to the availability of tickets at least ≈24 hours prior to tickets going live, and announce the same on our social media.
 Sea conditions are forecast to be too rough for safe and comfortable pre-launch pad tours this weekend, but we plan to run them next weekend if the weather cooperates, and will announce them once confirmed.
 
-**REVISED DELAY/SCRUB POLICY**: Note that due to the time of this launch, we've been able to relax our previous scrub policy for this attempt, such that tickets remain fully valid for a rescheduled attempt so long as the launch is officially aborted/scrubbed prior to the designated checkin time.
-At or after that point, if the launch scrubs, we will be committed with the boat operator to go out and see the rocket lit up on the pad, and we will be unable to refund the tickets.
-However, we can offer a 10% discount and priority access to booking to passengers who go out with us on further attempts within the same launch period.
-
 *Stay tuned to our [Twitter feed](https://twitter.com/StarFleetTours) for the latest important updates and to get in touch with us directly (see below for more links).
 Thanks!*
 
-<h2 id="countdown" style="letter-spacing: 3px; text-align: center !important; margin-top: 1rem;">Check back soon!</h2>
-<a id="book-now-button" href="" style="; display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; width: 100%; max-width: 17em;">Book Upper Deck</button></a>
-<a id="book-now-button-2" href="" style="; display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; width: 100%; max-width: 17em;">Book Main Deck</button></a>
-
-<script type="text/javascript">
-"use strict"
-Number.prototype.pad = function(size) {
-    var s = String(this);
-    while (s.length < (size || 2)) {s = "0" + s;}
-    return s;
-};
-function updateTimer() {
-    var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 0;
-    var timeRemaining      = futureTime - currentTime;
-    var minute             = 60;
-    var hour               = 60 * 60;
-    var day                = 60 * 60 * 24;
-    var dayFloor           = Math.floor(timeRemaining / day);
-    var hourFloor          = Math.floor((timeRemaining - dayFloor * day) / hour);
-    var minuteFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour) / minute);
-    var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
-    var countdownCompleted = "Completed";
-    if (futureTime == 0) {
-        $('#countdown').html("Ticket countdown coming soon!");
-    } else if (futureTime <= currentTime) {
-        $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224");
-        document.getElementById("book-now-button").style.display = "inherit";
-        document.getElementById("book-now-button-2").style.display = "inherit";
-    } else if (futureTime > currentTime) {
-        $('#countdown').html("Tickets Available In T-" + dayFloor.pad() + ":" + hourFloor.pad() + ":" + minuteFloor.pad() + ":" + secondFloor.pad());
-    }
-};
-var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
-</script>
 
 
 <!-- <div style="margin-top: 50px;"><iframe style="width: 100%; height: 480px;" src="https://www.google.com/maps/d/u/0/embed?mid=1C-tpUOP1-KClf1sPJfrPXh1g9A4k0rg7"></iframe></div> -->
@@ -110,7 +71,45 @@ The **upper deck** tickets includes full access to the main deck, and adds on th
 <br>
 
 
-<img src="/current/sls-pad-sunset-ocean-portrait.jpg" alt="Close-up photo of the NASA SLS rocket at sunset on pad LC-39B with a flock of birds, taken on a Star Fleet boat tour" style="margin-top: 60px; margin-left: 20px; margin-right: 0px; margin-bottom:0; float: right;">
+<h2 id="countdown" style="letter-spacing: 2px; text-align: center !important; font-size: 2rem; margin-top: 0.5rem;">Check back soon!</h2>
+<a id="book-now-button" href="" style="; display: none;"><button disabled class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em;">Book Upper Deck</button></a>
+<a id="book-now-button-2" href="" style="; display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; margin-bottom: 0.5em; width: 100%; max-width: 17em;">Book Main Deck</button></a>
+
+<script type="text/javascript">
+"use strict"
+Number.prototype.pad = function(size) {
+    var s = String(this);
+    while (s.length < (size || 2)) {s = "0" + s;}
+    return s;
+};
+function updateTimer() {
+    var currentTime        = new Date().getTime() / 1000;
+    var futureTime         = 0;
+    var timeRemaining      = futureTime - currentTime;
+    var minute             = 60;
+    var hour               = 60 * 60;
+    var day                = 60 * 60 * 24;
+    var dayFloor           = Math.floor(timeRemaining / day);
+    var hourFloor          = Math.floor((timeRemaining - dayFloor * day) / hour);
+    var minuteFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour) / minute);
+    var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
+    var countdownCompleted = "Completed";
+    if (futureTime == 0) {
+        $('#countdown').html("Ticket countdown coming soon!");
+    } else if (futureTime <= currentTime) {
+        /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224"); */
+        document.getElementById("countdown").style.display = "none";
+        document.getElementById("book-now-button").style.display = "inherit";
+        document.getElementById("book-now-button-2").style.display = "inherit";
+    } else if (futureTime > currentTime) {
+        $('#countdown').html("Tickets Available In T-" + dayFloor.pad() + ":" + hourFloor.pad() + ":" + minuteFloor.pad() + ":" + secondFloor.pad());
+    }
+};
+var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
+</script>
+
+
+<img src="/current/sls-pad-sunset-ocean-portrait.jpg" alt="Close-up photo of the NASA SLS rocket at sunset on pad LC-39B with a flock of birds, taken on a Star Fleet boat tour" style="margin-top: 50px; margin-left: 20px; margin-right: 0px; margin-bottom:0; float: right;">
 
 
 ## SLS Launch Pad Sunset Trip
@@ -129,7 +128,8 @@ The **upper deck** tickets includes full access to the main deck, and adds on th
 * Travel on a fast, modern 6-12 passenger deep-sea charter vessel
 * Additional trips may be made available based on passenger demand
 <br>
-<br>
+
+<span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;">Call/text 321-209-2224 for pre-launch trips</span>
 
 
 ---
