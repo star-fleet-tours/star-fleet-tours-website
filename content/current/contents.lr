@@ -14,15 +14,14 @@ body:
 
 <img src="/current/sls-pad-sunset-ocean-hero.jpg" alt="Photo of the NASA SLS rocket at sunset on pad LC-39B taken on a Star Fleet boat tour" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
 
-Star Fleet will be going out for launch viewing boat trips for the next attempt of Artemis 1, which is currently poised on its pad for midnight liftoff on *Monday, November 14 at 12:07 AM EST (05:07 UTC)*.
+If the weather cooperates, Star Fleet will be going out for launch viewing boat trips for the next attempt of Artemis 1, which is currently poised on its pad for midnight liftoff on *Monday, November 14 at 12:07 AM EST (05:07 UTC)*.
 We expect to be at a viewing location just outside the launch hazard area, with a clear view of the pad approximately 10 mi / 16 km away (hazard zone dependent), with a much more favorable angle to the easterly trajectory relative to land-based locations.
 
-We also plan to offer sunset boat trips for the weekend prior to the launch (assuming the weather cooperates) to see the Space Launch System rocket on LC-39B as it prepares for its historic mission.
-Join us to see the world's most powerful completed rocket as it stands tall on its launch pad for its very first launch!
+Additionally, we planned to offer sunset boat trips for the weekend prior to the launch to see the rocket up close on its pad, but these are currently on hold due to rough seas forecast this week through this weekend.
 
-**UPDATE:** As of *Monday, November 7*, we are currently preparing our booking system and confirming final plans with the boat operators, in order to open up tickets in the next couple days.
-As we've done previously, we'll update this page in the next couple days with a live countdown to the availability of tickets at least ≈24 hours prior to tickets going live, and announce the same on our social media.
-Sea conditions are forecast to be too rough for safe and comfortable pre-launch pad tours this weekend, but we plan to run them next weekend if the weather cooperates, and will announce them once confirmed.
+**UPDATE:** As of *Monday, November 7*, we have things prepared to start offering tickets for the launch viewing trip.
+However, we are currently monitoring the possibility of rough sea conditions to ensure we are likely to have a safe and comfortable experience, as well as possible delays to the launch date due to Tropical Storm Nicole, so are holding off on formally booking tickets for the trip right away.
+If and when we can confirm we'll be going out, likely in the next few days, we'll update this page with a live countdown to the availability of tickets at least ≈24 hours prior to tickets going live, and keep you up to date in the meantime on our social media.
 
 *Stay tuned to our [Twitter feed](https://twitter.com/StarFleetTours) for the latest important updates and to get in touch with us directly (see below for more links).
 Thanks!*
@@ -71,7 +70,7 @@ The **upper deck** tickets includes full access to the main deck, and adds on th
 <br>
 
 
-<h2 id="countdown" style="letter-spacing: 2px; text-align: center !important; font-size: 2rem; margin-top: 0.5rem;">Check back soon!</h2>
+<h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0.5rem;">Check back soon!</h2>
 <a id="book-now-button" href="" style="; display: none;"><button disabled class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em;">Book Upper Deck</button></a>
 <a id="book-now-button-2" href="" style="; display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; margin-bottom: 0.5em; width: 100%; max-width: 17em;">Book Main Deck</button></a>
 
@@ -95,7 +94,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Ticket countdown coming soon!");
+        $('#countdown').html("Check back soon!");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224"); */
         document.getElementById("countdown").style.display = "none";
@@ -115,7 +114,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 ## SLS Launch Pad Sunset Trip
 
 **Price**: $140 per person<br>
-**Dates**: Friday, November 11 - Sunday, November 13<br>
+**Dates**: TBD, due to seas/weather<br>
 **Trip Time**: 4:00 PM - 7:00 PM EST<br>
 **Key Times**: Checkin T-30 min | Boarding T-15 min | Departure T-0 min<br>
 **Location**: *TBD* Port Canaveral, Cape Canaveral FL 32920<br>
@@ -126,10 +125,12 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 * Enjoy a unique ocean-side view of every active CCAFS and KSC launch pad
 * View many sites of interest in Port Canaveral harbor and along the Cape
 * Travel on a fast, modern 6-12 passenger deep-sea charter vessel
-* Additional trips may be made available based on passenger demand
+* Trips are on hold pending safe and comfortable boating conditions
 <br>
 
-<span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;">Call/text 321-209-2224 for pre-launch trips</span>
+<span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;">Check back soon!</span>
+
+<!-- <span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;">Call/text 321-209-2224 for pre-launch trips</span> -->
 
 
 ---
