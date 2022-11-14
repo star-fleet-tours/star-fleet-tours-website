@@ -14,14 +14,12 @@ body:
 
 <img src="/current/sls-pad-sunset-ocean-hero.jpg" alt="Photo of the NASA SLS rocket at sunset on pad LC-39B taken on a Star Fleet boat tour" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
 
-If the weather cooperates, Star Fleet will be going out for launch viewing boat trips for the next attempt of Artemis 1, which is currently poised on its pad for midnight liftoff on *Monday, November 14 at 12:07 AM EST (05:07 UTC)*.
-We expect to be at a viewing location just outside the launch hazard area, with a clear view of the pad approximately 10 mi / 16 km away (hazard zone dependent), with a much more favorable angle to the easterly trajectory relative to land-based locations.
+Currently, the SLS rocket for the Artemis 1 mission remains poised on its pad for a scheduled early morning liftoff on *Monday, November 14 at 1:04 AM EST (06:04 UTC)*.
+We are currently planning to go out on a special sunset boat trip to see it up close on the pad the evening before, as well as arranging private launch viewing for interested passengers.
 
-Additionally, we planned to offer sunset boat trips for the weekend prior to the launch to see the rocket up close on its pad, but these are currently on hold due to rough seas forecast this week through this weekend.
-
-**UPDATE:** As of *Monday, November 7*, we have things prepared to start offering tickets for the launch viewing trip.
-However, we are currently monitoring the possibility of rough sea conditions to ensure we are likely to have a safe and comfortable experience, as well as possible delays to the launch date due to Tropical Storm Nicole, so are holding off on formally booking tickets for the trip right away.
-If and when we can confirm we'll be going out, likely in the next few days, we'll update this page with a live countdown to the availability of tickets at least ≈24 hours prior to tickets going live, and keep you up to date in the meantime on our social media.
+**UPDATE:** As of *Sunday, November 13*, due to continued uncertainty about the launch date holding and limited boat availability for a 1-3 AM launch, coupled with a family medical situation, we're unfortunately unable to hold a full launch viewing trip.
+However, we will be offering pre-launch sunset trips to see the rocket up close on the pad the evening before launch night.
+You can also contact us and we'll help connect you with one of our captain for a private charter, or suggest other great viewing locations.
 
 *Stay tuned to our [Twitter feed](https://twitter.com/StarFleetTours) for the latest important updates and to get in touch with us directly (see below for more links).
 Thanks!*
@@ -36,9 +34,9 @@ Thanks!*
 
 <img src="/current/sls-launch-graphic.jpg" alt="NASA-generated rendering of the Space Launch System launching" style="margin-top: 20px; margin-right: 40px; margin-bottom:0; float: left;">
 
-**Price**: $90 (main deck), $99 (upper deck)<br>
-**Launch Time**: Monday, November 14 at 12:07 AM EST (05:07 UTC)<br>
-**Key Times**: Checkin 9:30 AM EST | Boarding 10:00 AM EST | Departure 10:30 AM EST<br>
+**Price**: NOT AVAILIBLE AT THIS TIME<br>
+**Launch Time**: Monday, November 16 at 1:04 AM EST (06:04 UTC)<br>
+**Key Times**: Checkin T-2.5 h | Boarding T-2 h | Departure T-1.5 h<br>
 **Location**: *Sunrise Marina*, 505 Glen Cheek Dr, Cape Canaveral FL 32920<br>
 
 * Watch the SLS rocket, the world's most powerful, launch for the 1st time on Artemis 1
@@ -70,7 +68,7 @@ The **upper deck** tickets includes full access to the main deck, and adds on th
 <br>
 
 
-<h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0.5rem;">Check back soon!</h2>
+<h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0;">Check back soon!</h2>
 <a id="book-now-button" href="" style="; display: none;"><button disabled class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em;">Book Upper Deck</button></a>
 <a id="book-now-button-2" href="" style="; display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; margin-bottom: 0.5em; width: 100%; max-width: 17em;">Book Main Deck</button></a>
 
@@ -94,7 +92,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Check back soon!");
+        $('#countdown').html("For private launch vewing, <br>call/text 321-209-2224");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224"); */
         document.getElementById("countdown").style.display = "none";
@@ -114,10 +112,10 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 ## SLS Launch Pad Sunset Trip
 
 **Price**: $140 per person<br>
-**Dates**: TBD, due to seas/weather<br>
-**Trip Time**: 4:00 PM - 7:00 PM EST<br>
+**Dates**: November 15, 2022<br>
+**Trip Time**: 4:00 PM - 8:00 PM EST<br>
 **Key Times**: Checkin T-30 min | Boarding T-15 min | Departure T-0 min<br>
-**Location**: *TBD* Port Canaveral, Cape Canaveral FL 32920<br>
+**Location**: 726 Scallop Dr, Port Canaveral, FL 32920<br>
 
 * See NASA's new SLS moon rocket, the most powerful in the world, standing on its launch pad for the historic Artemis 1 launch, from an up-close vantage point and a unique angle
 * Chance to view other active rockets on their pads (subject to launch schedules)
@@ -125,12 +123,13 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 * Enjoy a unique ocean-side view of every active CCAFS and KSC launch pad
 * View many sites of interest in Port Canaveral harbor and along the Cape
 * Travel on a fast, modern 6-12 passenger deep-sea charter vessel
-* Trips are on hold pending safe and comfortable boating conditions
+* Additional trips may be scheduled if the launch date is delayed
 <br>
 
-<span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;">Check back soon!</span>
+<!-- <span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;">Check back soon!</span> -->
 
-<!-- <span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;">Call/text 321-209-2224 for pre-launch trips</span> -->
+<span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; line-height: 1.2em;
+letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;">For pre-launch trips, <br>call/text 321-209-2224 </span>
 
 
 ---
