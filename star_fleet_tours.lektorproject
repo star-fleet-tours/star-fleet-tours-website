@@ -38,6 +38,6 @@ nav_extralinks = SCLA: https://scla.space/
 footer_links = Instagram: https://instagram.com/starfleettours/, Twitter: https://twitter.com/StarFleetTours, Facebook: https://www.facebook.com/starfleettours, GitHub: https://github.com/star-fleet-tours, Slack: https://spacexmeetups.slack.com/, Gitter: https://gitter.im/star-fleet-tours/public, Email: mailto:fleetcommand@star-fleet.tours
 footer_license_name = CC-BY-SA 4.0 (Content); MIT (Code)
 footer_license_link = https://github.com/star-fleet-tours/star-fleet-tours-website/blob/master/LICENSE.txt
-gitter_room = star-fleet-tours/public
+gitter_room =
 disqus_name =
 atom_enable =
