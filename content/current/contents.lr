@@ -15,7 +15,7 @@ body:
 <img src="/current/fh-landing-day.jpg" alt="Falcon Heavy twin side boosters landing at LZ-1 and LZ-2 during the day"  style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
 
 Join Star Fleet for the next flight of the Falcon Heavy, the world's most powerful operational rocket!
-It'll be launching on **Sunday, December 10 at 8:14 PM EST** (01:14 UTC) on the classified USSF-52 mission for the US Space Force, carrying the top-secret X-37B robotic spaceplane as its primary payload.
+It'll be launching on **Sunday, December 11 at 8:14 PM EST** (01:14 UTC) on the classified USSF-52 mission for the US Space Force, carrying the top-secret X-37B robotic spaceplane as its primary payload.
 Weather-permitting, Star Fleet plans to go out for both the launch itself, and boat trip to see the rocket up close on the pad the day prior.
 
 This launch will feature a uniquely spectacular twin booster Return to Launch Site landing, and we'll be in an ideal position to view it.
@@ -24,15 +24,11 @@ It has a clear view of both pads all the way down to the landing legs, and is ar
 Distance from the launch pad is around 12 mi / 19 km, but also with a clear view and a more favorable angle to the trajectory than any land-based spot, at a closest approach of around 9 mi / 14 km.
 However, depending on the exact position of the hazard zones and subject to range and USCG clearance, we may actually be able to get up to several miles closer to both launch and landing.
 
-Meanwhile, our pad viewing boat trip will feature an up close and personal view of the rocket standing tall on the launch mount from as close as 500 yd (m) away.
-Plus, you'll get to see a unique angle on the other KSC and CCSFS pads on the way there and back as well.
-
-**LATEST LAUNCH UPDATE**: Marine and launch weather forecasts are both looking very unfavorable for launch Sunday evening.
-The Space Force predicting 90% chance of precipitation, 60% probability of lightning and a chance of severe storms for the afternoon and evening hours.
-Furthermore, winds are forecast to gust up to 35 knots (≈40 mi/hr, ≈65 km/h) with four to five foot waves.
-If this forecast holds, a launch is unlikely to occur on the scheduled date, and it would be unpleasant and potentially unsafe to be out on the water.
-Therefore, we are holding ticket sales for both the launch and pre-launch trips as we continue to closely monitor the latest forecasts, but will open them in the event the forecast indicates conditions will be safe or the launch is rescheduled to another available day.
-Thanks so much for your patience, and stay tuned for the latest from Star Fleet Command!
+**LATEST LAUNCH UPDATE**: With the 24 hour launch delay to the night of Monday, December 11 and expected good launch weather, we have opened up reservations for this trip!
+While seas are expected to be moderately choppy around launch time, our captains have confirmed it will be safe to go out in our larger vessel, Ocean Obsession II, though we may not be able to get quite as close as usual should seas prove worse than expected.
+While Star Fleet leadership are not able to be present in person for scheduling reasons, due to high popular demand from our long-time, dedicated passengers, we will still be offering a trip with our volunteer hosts and our experienced captains, for those still interested in seeing the launch.
+As always, please reach out and ask via phone (321-209-2224) or social media should you have any questions.
+Thanks!
 
 *Be sure to check our [Twitter](https://twitter.com/StarFleetTours), [Instagram](https://instagram.com/starfleettours/) and [Facebook](https://www.facebook.com/starfleettours/) for the latest updates on all our activities, as well as announcements of smaller/informal trips, and feel free to reach out over DM if you're interested in a private charter for a specific mission.
 Thanks!*
@@ -46,10 +42,10 @@ Thanks!*
 
 ## Rocket Launch Viewing
 
-**Price**: $95/person (dependent on boats available)<br>
-**Launch Time**: Sunday, December 10 at 8:14 PM EST (01:14 UTC)<br>
-**Key Times**: T-2 hours | T-1.5 hours | Departure T-1 hour<br>
-**Location**: Sunrise Marina, Port Canaveral, Cape Canaveral FL 32920<br>
+**Price**: $99/person<br>
+**Launch Time**: Sunday, December 11 at 8:14 PM EST (01:14 UTC)<br>
+**Key Times**: Checkin 6:00 | Boarding 6:30 | Departure 7:00<br>
+**Location**: Sunrise Marina, 505 Glen Cheek Dr., Port Canaveral, FL 32920<br>
 
 * Great location to view all the key events of the launch
 * Typically 4-5 miles / 6-8 km from launch or landing
@@ -66,8 +62,8 @@ See our [details page](/details) for more information.
 <br>
 
 <h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0;">Check back soon!</h2>
-<a id="book-now-button" href="" style="; display: none;"><button disabled class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em;">Book Upper Deck</button></a>
-<a id="book-now-button-2" href="" style="; display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; margin-bottom: 0.5em; width: 100%; max-width: 17em;">Book Main Deck</button></a>
+<a id="book-now-button" href="https://book.stripe.com/bIY009eOgeox1uE5kz" style="display: none;"><button  class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em;">Book Now</button></a>
+<a id="book-now-button-2" href="" style="display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; margin-bottom: 0.5em; width: 100%; max-width: 17em;">Book Main Deck</button></a>
 <br>
 
 <script type="text/javascript">
@@ -79,7 +75,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 0;
+    var futureTime         = 1;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -95,7 +91,7 @@ function updateTimer() {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224"); */
         document.getElementById("countdown").style.display = "none";
         document.getElementById("book-now-button").style.display = "inherit";
-        document.getElementById("book-now-button-2").style.display = "inherit";
+        /* document.getElementById("book-now-button-2").style.display = "inherit"; */
     } else if (futureTime > currentTime) {
         $('#countdown').html("Tickets Available In T-" + dayFloor.pad() + ":" + hourFloor.pad() + ":" + minuteFloor.pad() + ":" + secondFloor.pad());
     }
@@ -110,7 +106,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 ## Pre-Launch Pad Trip
 
 **Price**: ≈$100 per person (boat-dependent)<br>
-**Dates**: Day of launch, TBD<br>
+**Dates**: **Not scheduled for this launch**<br>
 **Trip Time**: ≈3 hours<br>
 **Key Times**: Checkin T-30 min | Boarding T-15 min | Departure T-0 min<br>
 **Location**: Port Canaveral, Cape Canaveral FL 32920<br>
@@ -125,8 +121,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 
 <!-- <span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;">Check back soon!</span> -->
 
-<span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; line-height: 1.2em;
-letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;">For pre-launch trips, <br>call/text 321-209-2224 </span>
+<!-- <span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; line-height: 1.2em; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;">For pre-launch trips, <br>call/text 321-209-2224 </span> -->
 
 
 ---
