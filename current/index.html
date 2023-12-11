@@ -128,16 +128,11 @@
     <div class="center">
       <div id="page-body-countdown-container"></div><p><img src="/current/fh-landing-day.jpg" alt="Falcon Heavy twin side boosters landing at LZ-1 and LZ-2 during the day"  style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;"></p>
 <p>Join Star Fleet for the next flight of the Falcon Heavy, the world's most powerful operational rocket!
-It'll be launching on <strong>Sunday, December 11 at 8:14 PM EST</strong> (01:14 UTC) on the classified USSF-52 mission for the US Space Force, carrying the top-secret X-37B robotic spaceplane as its primary payload.
-Weather-permitting, Star Fleet plans to go out for both the launch itself, and boat trip to see the rocket up close on the pad the day prior.</p>
-<p>This launch will feature a uniquely spectacular twin booster Return to Launch Site landing, and we'll be in an ideal position to view it.
-Our current nominal planned viewing location, as with previous Falcon Heavy missions, provides both the closest and clearest view of the booster landing available anywhere.
-It has a clear view of both pads all the way down to the landing legs, and is around or less than 4 mi / 6 km from the landing trajectory as the twin boosters light their engines and arc in almost right over our heads, and around or less than 6 mi / ≈9 km from the landing pad itself.
-Distance from the launch pad is around 12 mi / 19 km, but also with a clear view and a more favorable angle to the trajectory than any land-based spot, at a closest approach of around 9 mi / 14 km.
-However, depending on the exact position of the hazard zones and subject to range and USCG clearance, we may actually be able to get up to several miles closer to both launch and landing.</p>
-<p><strong>LATEST LAUNCH UPDATE</strong>: With the 24 hour launch delay to the night of Monday, December 11 and expected good launch weather, we have opened up reservations for this trip!
-While seas are expected to be moderately choppy around launch time, our captains have confirmed it will be safe to go out in our larger vessel, Ocean Obsession II, though we may not be able to get quite as close as usual should seas prove worse than expected.
-While Star Fleet leadership are not able to be present in person for scheduling reasons, due to high popular demand from our long-time, dedicated passengers, we will still be offering a trip with our volunteer hosts and our experienced captains, for those still interested in seeing the launch.
+It'll be launching on <strong>Sunday, December 11 at 8:14 PM EST</strong> (01:14 UTC) on the classified USSF-52 mission for the US Space Force, carrying the top-secret X-37B robotic spaceplane as its primary payload.</p>
+<p><strong>LATEST LAUNCH UPDATE</strong>: Unfortunately, our boat operator for this mission just notified us that due to a serious unexpected engine problem, the Ocean Obsession II will be unable to go out for the launch today.
+Accordingly, <strong>the launch viewing trip has to be canceled for this mission</strong>, and have initiated full refunds to everyone who booked, which should arrive in 5-10 business days.
+We're really sorry for the disappointment, and hope everyone still enjoys the launch from an alternate viewing location.
+Check out our <a href="https://old.reddit.com/r/spacex/wiki/faq/watching#wiki_i.27m_at_cape_canaveral._where.27s_the_best_place_to_watch_the_launch.3F">viewing guide</a> for options; Playalinda (if open) or Max Brewer Bridge/Titusville are your best options for launch; while for landing, Jetty Park (no pad view) or Route 528 are your best bets.
 As always, please reach out and ask via phone (321-209-2224) or social media should you have any questions.
 Thanks!</p>
 <p><em>Be sure to check our <a href="https://twitter.com/StarFleetTours">Twitter</a>, <a href="https://instagram.com/starfleettours/">Instagram</a> and <a href="https://www.facebook.com/starfleettours/">Facebook</a> for the latest updates on all our activities, as well as announcements of smaller/informal trips, and feel free to reach out over DM if you're interested in a private charter for a specific mission.
@@ -149,7 +144,7 @@ Thanks!</em></p>
 <p><img src="/current/fh-launch-day.jpg" alt="Falcon Heavy launching during the day, from a public domain USAF photo" style="margin-top: 60px; margin-left: 40px; margin-bottom:0; float: right;"></p>
 <h2>Rocket Launch Viewing</h2>
 <p><strong>Price</strong>: $99/person<br>
-<strong>Launch Time</strong>: Sunday, December 11 at 8:14 PM EST (01:14 UTC)<br>
+<strong>Launch Date</strong>: Sunday, December 11 at 8:14 PM EST (01:14 UTC)<br>
 <strong>Key Times</strong>: Checkin 6:00 | Boarding 6:30 | Departure 7:00<br>
 <strong>Location</strong>: Sunrise Marina, 505 Glen Cheek Dr., Port Canaveral, FL 32920<br></p>
 <ul>
@@ -168,7 +163,7 @@ See our <a href="/details">details page</a> for more information.
 <br></li>
 </ul>
 <p><h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0;">Check back soon!</h2>
-<a id="book-now-button" href="https://book.stripe.com/bIY009eOgeox1uE5kz" style="display: none;"><button  class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em;">Book Now</button></a>
+<a id="book-now-button" href="" style="display: none;"><button  class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em;">Book Now</button></a>
 <a id="book-now-button-2" href="" style="display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; margin-bottom: 0.5em; width: 100%; max-width: 17em;">Book Main Deck</button></a>
 <br></p>
 <script type="text/javascript">
@@ -180,7 +175,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1;
+    var futureTime         = 0;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -191,7 +186,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Check back soon for updates!");
+        $('#countdown').html("Trip canceled by boat operator due to engine trouble :(");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224"); */
         document.getElementById("countdown").style.display = "none";
