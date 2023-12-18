@@ -15,13 +15,18 @@ body:
 <img src="/current/fh-landing-day.jpg" alt="Falcon Heavy twin side boosters landing at LZ-1 and LZ-2 during the day"  style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
 
 Join Star Fleet for the next flight of the Falcon Heavy, the world's most powerful operational rocket!
-It'll be launching on **Sunday, December 11 at 8:14 PM EST** (01:14 UTC) on the classified USSF-52 mission for the US Space Force, carrying the top-secret X-37B robotic spaceplane as its primary payload.
+It'll be now be launching on **Thursday, December 28 at 7:00 PM EST** (00:00 UTC Dec 29) with the classified USSF-52 mission for the US Space Force, carrying the top-secret X-37B robotic spaceplane as its primary payload.
+Weather-permitting, Star Fleet plans to go out for both the launch itself, and boat trip to see the rocket up close on the pad the day prior.
 
-**LATEST LAUNCH UPDATE**: Unfortunately, our boat operator for this mission just notified us that due to a serious unexpected engine problem, the Ocean Obsession II will be unable to go out for the launch today.
-Accordingly, **the launch viewing trip has to be canceled for this mission**, and have initiated full refunds to everyone who booked, which should arrive in 5-10 business days.
-We're really sorry for the disappointment, and hope everyone still enjoys the launch from an alternate viewing location.
-Check out our [viewing guide](https://old.reddit.com/r/spacex/wiki/faq/watching#wiki_i.27m_at_cape_canaveral._where.27s_the_best_place_to_watch_the_launch.3F) for options; Playalinda (if open) or Max Brewer Bridge/Titusville are your best options for launch; while for landing, Jetty Park (no pad view) or Route 528 are your best bets.
-As always, please reach out and ask via phone (321-209-2224) or social media should you have any questions.
+This launch will feature a uniquely spectacular twin booster Return to Launch Site landing, and we'll be in an ideal position to view it.
+Our current nominal planned viewing location, as with previous Falcon Heavy missions, provides both the closest and clearest view of the booster landing available anywhere.
+It has a clear view of both pads all the way down to the landing legs, and is around or less than 4 mi / 6 km from the landing trajectory as the twin boosters light their engines and arc in almost right over our heads, and around or less than 6 mi / ≈9 km from the landing pad itself.
+Distance from the launch pad is around 12 mi / 19 km, but also with a clear view and a more favorable angle to the trajectory than any land-based spot, at a closest approach of around 9 mi / 14 km.
+However, depending on the exact position of the hazard zones and subject to range and USCG clearance, we may actually be able to get up to several miles closer to both launch and landing.
+
+**LATEST LAUNCH UPDATE**: With a new date of Thursday, December 28 and availability for the boats now confirmed, we plan to open up reservations for this mission on Friday December 22 (seven days in advance) pending confirmation of safe weather conditions for the launch and the boats!
+Additionally, if people are interested, we're hoping to send at least one smaller boat out for a pre-launch trip to see the rocket up close on the pad—let us know if you are!
+Please reach out and ask via phone (321-209-2224) or social media should you have any questions.
 Thanks!
 
 *Be sure to check our [Twitter](https://twitter.com/StarFleetTours), [Instagram](https://instagram.com/starfleettours/) and [Facebook](https://www.facebook.com/starfleettours/) for the latest updates on all our activities, as well as announcements of smaller/informal trips, and feel free to reach out over DM if you're interested in a private charter for a specific mission.
@@ -37,8 +42,8 @@ Thanks!*
 ## Rocket Launch Viewing
 
 **Price**: $99/person<br>
-**Launch Date**: Sunday, December 11 at 8:14 PM EST (01:14 UTC)<br>
-**Key Times**: Checkin 6:00 | Boarding 6:30 | Departure 7:00<br>
+**Launch Date**: Thursday, December 28 at 7:00 PM EST (00:00 UTC)<br>
+**Key Times**: Checkin 5:00 | Boarding 5:30 | Departure 5:45<br>
 **Location**: Sunrise Marina, 505 Glen Cheek Dr., Port Canaveral, FL 32920<br>
 
 * Great location to view all the key events of the launch
@@ -69,7 +74,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 0;
+    var futureTime         = 1703268000;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -80,7 +85,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Trip canceled by boat operator due to engine trouble :(");
+        $('#countdown').html("Check back soon for updates!");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224"); */
         document.getElementById("countdown").style.display = "none";
@@ -115,7 +120,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 
 <!-- <span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;">Check back soon!</span> -->
 
-<!-- <span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; line-height: 1.2em; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;">For pre-launch trips, <br>call/text 321-209-2224 </span> -->
+<span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; line-height: 1.2em; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;">For pre-launch trips, <br>call/text 321-209-2224 </span>
 
 
 ---
