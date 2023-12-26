@@ -24,7 +24,8 @@ It has a clear view of both pads all the way down to the landing legs, and is ar
 Distance from the launch pad is around 12 mi / 19 km, but also with a clear view and a more favorable angle to the trajectory than any land-based spot, at a closest approach of around 9 mi / 14 km.
 However, depending on the exact position of the hazard zones and subject to range and USCG clearance, we may actually be able to get up to several miles closer to both launch and landing.
 
-**LATEST LAUNCH UPDATE**: With a new date of Thursday, December 28 and availability for the boats now confirmed, we're opening up reservations for this mission on Friday December 22 (seven days in advance) given weather conditions are currently looking safe for the launch and the boats!
+**LATEST LAUNCH UPDATE**: Due to high interest in this launch, our currently reserved main boat is completely booked, so reservations are now suspended.
+We are currently working to secure additional boat capacity in order to allow additional passengers to book, and should have an update on that for everyone soon.
 Additionally, if people are interested, we're hoping to send at least one smaller boat out for a pre-launch trip to see the rocket up close on the pad—let us know if you are!
 Please reach out and ask via phone (321-209-2224) or social media should you have any questions.
 Thanks!
@@ -74,7 +75,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1703268000;
+    var futureTime         = 0;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -85,7 +86,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Check back soon for updates!");
+        $('#countdown').html("Currently SOLD OUT!<br>Check back soon for updates");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224"); */
         document.getElementById("countdown").style.display = "none";
