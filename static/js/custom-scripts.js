@@ -21,8 +21,8 @@ https://opensource.org/licenses/MIT
     //
     // Otherwise, specify the absence of a missionOverride:
     const missionOverride = {
-        missionName: "Falcon Heavy USSF-52 X-37B",
-        launchAt: 1703811600, // the UNIX timestamp of the projected T-0 time
+        missionName: "SpaceX Crew Dragon Axiom-3",
+        launchAt: 1705529460, // the UNIX timestamp of the projected T-0 time
         limitTwoWeeks: true,
     };
     // const missionOverride = null;
