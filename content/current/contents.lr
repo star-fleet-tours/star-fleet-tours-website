@@ -6,28 +6,27 @@ short_title: Tickets
 ---
 special_link: true
 ---
-full_title: Falcon Heavy USSF-52 X-37B
+full_title: SpaceX Crew Dragon Axiom Mission 3
 ---
 body:
 
 <div id="page-body-countdown-container"></div>
 
-<img src="/current/fh-landing-day.jpg" alt="Falcon Heavy twin side boosters landing at LZ-1 and LZ-2 during the day"  style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
+<img src="/current/astronauts-ax-3.jpg" alt="Lineup photo of the astronauts on Axiom Mission 3"  style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
 
-Join Star Fleet for the next flight of the Falcon Heavy, the world's most powerful operational rocket!
-It'll be now be launching on **Thursday, December 28 at 8:00 PM EST** (01:00 UTC Dec 29) with the classified USSF-52 mission for the US Space Force, carrying the top-secret X-37B robotic spaceplane as its primary payload.
-Weather-permitting, Star Fleet plans to go out for both the launch itself, and boat trip to see the rocket up close on the pad the day prior.
+Join Star Fleet for the next flight of the Crew Dragon, the world's first and only operational commercial crew capsule!
+It'll be now be launching on **Thursday, December 28 at 8:00 PM EST** (01:00 UTC Dec 29) with the Ax-3 mission for Axiom Space, carrying a spaceflight veteran and three private astronauts, including the first-ever spaceflight of a Turkish citizen and the first commercially-flown ESA astronaut.
+Weather- and demand-permitting, Star Fleet plans to go out for both the launch itself, and boat trip to see the rocket up close on the pad the day prior.
 
-This launch will feature a uniquely spectacular twin booster Return to Launch Site landing, and we'll be in an ideal position to view it.
-Our current nominal planned viewing location, as with previous Falcon Heavy missions, provides both the closest and clearest view of the booster landing available anywhere.
-It has a clear view of both pads all the way down to the landing legs, and is around or less than 4 mi / 6 km from the landing trajectory as the twin boosters light their engines and arc in almost right over our heads, and around or less than 6 mi / ≈9 km from the landing pad itself.
-Distance from the launch pad is around 12 mi / 19 km, but also with a clear view and a more favorable angle to the trajectory than any land-based spot, at a closest approach of around 9 mi / 14 km.
-However, depending on the exact position of the hazard zones and subject to range and USCG clearance, we may actually be able to get up to several miles closer to both launch and landing.
+This launch will feature a spectacular Return to Launch Site booster landing, and we'll be in an ideal position to view it.
+Our current nominal planned viewing location provide the closest and clearest view of the booster landing available anywhere.
+It has a clear view of both pads all the way down to the landing legs, and is around or less than 4 mi / 6 km from the landing trajectory as the booster lights its engines and arcs in almost right over our heads, and around or less than 6 mi / ≈9 km from the landing pad itself.
+Distance from the launch pad is around 12 mi / 19 km, also with a clear view and a more favorable angle to the trajectory than most land-based spots, at a closest approach of around 9 mi / 14 km.
+Note that depending on the exact position of the hazard zones and subject to range and USCG clearance, we may be able to get up to several miles closer to both launch and landing, or may have to be further back if safety and weather conditions dictate.
 
-**LATEST LAUNCH UPDATE**: Due to high interest in this launch, our currently reserved main boat is completely booked, so reservations are now suspended.
-We are currently working to secure additional boat capacity in order to allow additional passengers to book, and should have an update on that for everyone soon.
+**LATEST LAUNCH UPDATE**: With the launch date of Wednesday, January 17 and availability for the Ocean Obsession II confirmed, we're now opening up reservations for this mission!
 Additionally, if people are interested, we're hoping to send at least one smaller boat out for a pre-launch trip to see the rocket up close on the pad—let us know if you are!
-Please reach out and ask via phone (321-209-2224) or social media should you have any questions.
+Please reach out and ask via phone (321-209-2224) or social media if you have any questions.
 Thanks!
 
 *Be sure to check our [Twitter](https://twitter.com/StarFleetTours), [Instagram](https://instagram.com/starfleettours/) and [Facebook](https://www.facebook.com/starfleettours/) for the latest updates on all our activities, as well as announcements of smaller/informal trips, and feel free to reach out over DM if you're interested in a private charter for a specific mission.
@@ -37,14 +36,14 @@ Thanks!*
 
 
 
-<img src="/current/fh-launch-day.jpg" alt="Falcon Heavy launching during the day, from a public domain USAF photo" style="margin-top: 60px; margin-left: 40px; margin-bottom:0; float: right;">
+<img src="/current/crew-dragon-liftoff-night.jpg" alt="Falcon Heavy launching with Crew Dragon during the night, from a public domain SpaceX photo" style="margin-top: 60px; margin-left: 40px; margin-bottom:0; float: right;">
 
 
 ## Rocket Launch Viewing
 
 **Price**: $99/person<br>
-**Launch Date**: Thursday, December 28 at 8:00 PM EST (01:00 UTC)<br>
-**Key Times**: Checkin 6:00PM | Boarding 6:30PM | Departure 6:45PM<br>
+**Launch Date**: Wednesday, January 17 at 5:11 PM EST (22:11 UTC)<br>
+**Key Times**: Checkin 3:00PM | Boarding 3:30PM | Departure 3:45PM<br>
 **Location**: Sunrise Marina, 505 Glen Cheek Dr., Port Canaveral, FL 32920<br>
 
 * Great location to view all the key events of the launch
@@ -62,7 +61,7 @@ See our [details page](/details) for more information.
 <br>
 
 <h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0;">Check back soon!</h2>
-<a id="book-now-button" href="https://book.stripe.com/dR6cMVgWo2FPddm7sI" style="display: none;"><button  class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em;">Book Now</button></a>
+<a id="book-now-button" href="https://book.stripe.com/dR68wF8pS94d1uE7sJ" style="display: none;"><button  class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em;">Book Now</button></a>
 <a id="book-now-button-2" href="" style="display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; margin-bottom: 0.5em; width: 100%; max-width: 17em;">Book Main Deck</button></a>
 <br>
 
@@ -75,7 +74,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 0;
+    var futureTime         = 1;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -100,13 +99,13 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 </script>
 
 
-<img src="/current/fh-pad-water.jpg" alt="Close-up photo of the SpaceX Falcon Heavy rocket on its pad LC-39A, taken on a Star Fleet boat tour" style="margin-top: 55px; margin-right: 40px; margin-bottom:100px; float: left;">
+<img src="/current/crew-dragon-vertical-pad-water.jpg" alt="Close-up photo of the SpaceX Falcon 9 rocket with the Crew Dragon capsule on its pad LC-39A, taken on a Star Fleet boat tour" style="margin-top: 55px; margin-right: 40px; margin-bottom:100px; float: left;">
 
 
 ## Pre-Launch Pad Trip
 
 **Price**: ≈$100 per person (boat-dependent)<br>
-**Dates**: **Not scheduled for this launch**<br>
+**Dates**: Wednesday, January 17<br>
 **Trip Time**: ≈3 hours<br>
 **Key Times**: Checkin T-30 min | Boarding T-15 min | Departure T-0 min<br>
 **Location**: Port Canaveral, Cape Canaveral FL 32920<br>
