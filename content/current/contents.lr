@@ -106,7 +106,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 **Price**: ≈$100 per person (boat-dependent)<br>
 **Dates**: Wednesday, January 17<br>
 **Trip Time**: ≈3 hours<br>
-**Key Times**: Checkin T-30 min | Boarding T-15 min | Departure T-0 min<br>
+**Key Times**: Checkin D-30 min | Boarding D-15 min | Departure D-0 min<br>
 **Location**: Port Canaveral, Cape Canaveral FL 32920<br>
 
 * Get an exclusive, up-close look at the rocket and spacecraft on the pad unavailable from any other angle
@@ -116,6 +116,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 * View many sites of interest in Port Canaveral harbor and along the Cape
 * Travel on a fast, modern 6-12 passenger deep-sea charter vessel
 <br>
+
 
 <!-- <span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;">Check back soon!</span> -->
 
