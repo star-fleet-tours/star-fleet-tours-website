@@ -134,9 +134,8 @@ Our current nominal planned viewing location provide the closest and clearest vi
 It has a clear view of both pads all the way down to the landing legs, and is around or less than 4 mi / 6 km from the landing trajectory as the booster lights its engines and arcs in almost right over our heads, and around or less than 6 mi / ≈9 km from the landing pad itself.
 Distance from the launch pad is around 12 mi / 19 km, also with a clear view and a more favorable angle to the trajectory than most land-based spots, at a closest approach of around 9 mi / 14 km.
 Note that depending on the exact position of the hazard zones and subject to range and USCG clearance, we may be able to get up to several miles closer to both launch and landing, or may have to be further back if safety and weather conditions dictate.</p>
-<p><strong>LATEST LAUNCH UPDATE</strong>: With the launch date of Wednesday, January 17 and availability for the Ocean Obsession II confirmed, we're now opening up reservations for this mission!
-Additionally, if people are interested, we're hoping to send at least one smaller boat out for a pre-launch trip to see the rocket up close on the pad—let us know if you are!
-Please reach out and ask via phone (321-209-2224) or social media if you have any questions.
+<p><strong>LATEST LAUNCH UPDATE</strong>: We've now reached capacity on the first available boats!
+If you're interested but haven't booked yet, please text or call the Star Fleet number, 321-209-2224, to get added to our standby list, and we'll notify you if and when we're able to add additional capacity or spots open up.
 Thanks!</p>
 <p><em>Be sure to check our <a href="https://twitter.com/StarFleetTours">Twitter</a>, <a href="https://instagram.com/starfleettours/">Instagram</a> and <a href="https://www.facebook.com/starfleettours/">Facebook</a> for the latest updates on all our activities, as well as announcements of smaller/informal trips, and feel free to reach out over DM if you're interested in a private charter for a specific mission.
 Thanks!</em></p>
@@ -178,7 +177,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1;
+    var futureTime         = 0;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -189,7 +188,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Currently SOLD OUT!<br>Check back soon for updates");
+        $('#countdown').html("Currently SOLD OUT!<br>Call or text 321-209-2224 to join the waitlist.");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224"); */
         document.getElementById("countdown").style.display = "none";
@@ -205,7 +204,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 <p><strong>Price</strong>: ≈$100 per person (boat-dependent)<br>
 <strong>Dates</strong>: Wednesday, January 17<br>
 <strong>Trip Time</strong>: ≈3 hours<br>
-<strong>Key Times</strong>: Checkin T-30 min | Boarding T-15 min | Departure T-0 min<br>
+<strong>Key Times</strong>: Checkin D-30 min | Boarding D-15 min | Departure D-0 min<br>
 <strong>Location</strong>: Port Canaveral, Cape Canaveral FL 32920<br></p>
 <ul>
 <li>Get an exclusive, up-close look at the rocket and spacecraft on the pad unavailable from any other angle</li>
