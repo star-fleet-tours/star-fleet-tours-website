@@ -15,7 +15,7 @@ body:
 <img src="/current/astronauts-ax-3.jpg" alt="Lineup photo of the astronauts on Axiom Mission 3"  style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
 
 Join Star Fleet for the next flight of the Crew Dragon, the world's first and only operational commercial crew capsule!
-It'll be be launching on **Wednesday, January 17 at 5:11 PM EST** (22:11 UTC) with the Ax-3 mission for Axiom Space, carrying a spaceflight veteran and three private astronauts, including the first-ever spaceflight of a Turkish citizen and the first commercially-flown ESA astronaut.
+It'll be be launching on **Thursday, January 18 at 4:49 PM EST** (22:11 UTC) with the Ax-3 mission for Axiom Space, carrying a spaceflight veteran and three private astronauts, including the first-ever spaceflight of a Turkish citizen and the first commercially-flown ESA astronaut.
 Weather- and demand-permitting, Star Fleet plans to go out for both the launch itself, and boat trip to see the rocket up close on the pad the day prior.
 
 This launch will feature a spectacular Return to Launch Site booster landing, and we'll be in an ideal position to view it.
@@ -24,8 +24,9 @@ It has a clear view of both pads all the way down to the landing legs, and is ar
 Distance from the launch pad is around 12 mi / 19 km, also with a clear view and a more favorable angle to the trajectory than most land-based spots, at a closest approach of around 9 mi / 14 km.
 Note that depending on the exact position of the hazard zones and subject to range and USCG clearance, we may be able to get up to several miles closer to both launch and landing, or may have to be further back if safety and weather conditions dictate.
 
-**LATEST LAUNCH UPDATE**: We've now reached capacity on the first available boats!
-If you're interested but haven't booked yet, please text or call the Star Fleet number, 321-209-2224, to get added to our standby list, and we'll notify you if and when we're able to add additional capacity or spots open up.
+**LATEST LAUNCH UPDATE**: As we've announced on social media and by email to all booked passengers, the launch was delayed one day to 4:49 PM Thursday, January 18.
+All existing reservations continue to be valid for the new date, and passengers may request a full refund if they are no longer able to make the new launch window.
+For those who haven't booked yet but would like to, please text or call the Star Fleet number, 321-209-2224, and we'll notify you if and when we're able to add additional capacity or spots open up.
 Thanks!
 
 *Be sure to check our [Twitter](https://twitter.com/StarFleetTours), [Instagram](https://instagram.com/starfleettours/) and [Facebook](https://www.facebook.com/starfleettours/) for the latest updates on all our activities, as well as announcements of smaller/informal trips, and feel free to reach out over DM if you're interested in a private charter for a specific mission.
@@ -41,9 +42,9 @@ Thanks!*
 ## Rocket Launch Viewing
 
 **Price**: $99/person<br>
-**Launch Date**: Wednesday, January 17 at 5:11 PM EST (22:11 UTC)<br>
-**Key Times**: Checkin 3:00PM | Boarding 3:30PM | Departure 3:45PM<br>
-**Location**: Sunrise Marina, 505 Glen Cheek Dr., Port Canaveral, FL 32920<br>
+**Launch Date**: Thursday, January 18 at 4:49 PM EST (22:11 UTC)<br>
+**Key Times**: Checkin 2:45PM | Boarding 3:15PM | Departure 3:30PM<br>
+**Location**: Sunrise Marina, 510 Glen Cheek Dr., Port Canaveral, FL 32920<br>
 
 * Great location to view all the key events of the launch
 * Typically 4-5 miles / 6-8 km from launch or landing
@@ -84,7 +85,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Currently SOLD OUT!<br>Call or text 321-209-2224 to join the waitlist.");
+        $('#countdown').html("Call or text 321-209-2224 to book");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224"); */
         document.getElementById("countdown").style.display = "none";
@@ -104,7 +105,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 ## Pre-Launch Pad Trip
 
 **Price**: ≈$100 per person (boat-dependent)<br>
-**Dates**: Wednesday, January 17<br>
+**Dates**: Thursday, January 18<br>
 **Trip Time**: ≈3 hours<br>
 **Key Times**: Checkin D-30 min | Boarding D-15 min | Departure D-0 min<br>
 **Location**: Port Canaveral, Cape Canaveral FL 32920<br>
@@ -120,7 +121,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 
 <!-- <span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;">Check back soon!</span> -->
 
-<span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; line-height: 1.2em; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;">For pre-launch trips, <br>call/text 321-209-2224 </span>
+<span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; line-height: 1.2em; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;">For pre-launch trips, <br>call/text 321-209-2224</span>
 
 
 ---
