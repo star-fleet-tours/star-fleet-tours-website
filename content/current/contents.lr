@@ -19,9 +19,9 @@ It'll be be launching on **Thursday, March 14 at 7:00 AM CDT** (12:00 UTC) with 
 
 Our [viewing location at the mouth of the South Bay](https://www.google.com/maps/search/26.052814,+-97.185356), approximately 4 miles / 7 km from the launch site with a direct line of sight across the water, provides some of the closest and clearest views of the pad, rocket and liftoff available to the public.
 
-**LATEST LAUNCH UPDATE**: As of the evening of March 11, The launch remains on track for 7:00 AM March 14, in a window that stretches until 9 AM in case of any delays; backup dates are March 15 and 16, same time.
-Due to high demand, in addition to the double-decker, open-plan Double Sunshine, we're now also taking out the sleek, seaworthy Diver 1, which offers a large open bow as well as a comfortable enclosed cabin, at the same location and same price to you.
-Make sure to book soon, as we have a lot of demand on this launch, and boats sell out quickly.
+**LATEST LAUNCH UPDATE**: As of the evening of March 13, the launch is GO for 7:00 AM March 14, in a window that stretches until 9 AM in case of any delays (backup dates are same time March 15 and 16).
+Due to high demand, both of the large boats we've chartered are SOLD OUT.
+You can call our Star Fleet number to be placed on the standby list, as a small number of spots may be available due to last minute cancellations and reserved capacity.
 
 *We've created [a WhatsApp group](https://chat.whatsapp.com/Iw58sREeSbZIwKmJ4qCCS3) that you're welcome to join, where folks are coordinating carpooling, accommodations, travel tips and more, as well as for updates from and questions to the Star Fleet organizers!
 Be sure to check our [Twitter](https://twitter.com/StarFleetTours), [Instagram](https://instagram.com/starfleettours/) and [Facebook](https://www.facebook.com/starfleettours/) for the latest updates on all our activities, as well as announcements of smaller/informal trips, and feel free to reach out over DM if you're interested in a private charter for a specific mission.
@@ -39,7 +39,7 @@ Thanks!*
 **Price**: $99/person<br>
 **Launch Date**: Thursday, March 14 at 7:00AM CDT (12:00 UTC)<br>
 **Key Times**: Checkin 5:15AM | Boarding 5:45AM | Departure 6:00AM<br>
-**Location**: Sea Ranch Marina, 33256 State Park Rd 100, South Padre Island, TX<br>
+**Location**: [Sea Ranch Marina, 33256 State Park Rd 100, South Padre Island, TX](https://www.google.com/maps/place/The+Original+Dolphin+Watch/@26.0766846,-97.1657479,20.12z/data=!4m15!1m8!3m7!1s0x866fadc294094ce7:0x7ab6b6ccd06a1c44!2s33256+State+Park+Rd+100,+South+Padre+Island,+TX+78597!3b1!8m2!3d26.0771636!4d-97.1663996!16s%2Fg%2F11cncjgrfd!3m5!1s0x866fadc2794a59b7:0x4c876b81f32e6223!8m2!3d26.076626!4d-97.165552!16s%2Fg%2F1txc7gjf?entry=ttu)<br>
 
 * Great location to view all the key events of the launch
 * Around 4 miles / 7 km from launch pad
@@ -71,7 +71,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1;
+    var futureTime         = 0;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -82,7 +82,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Call or text 321-209-2224 to book");
+        $('#countdown').html("SOLD OUT!<br>Call/text 321-209-2224 for standby booking");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224"); */
         document.getElementById("countdown").style.display = "none";
