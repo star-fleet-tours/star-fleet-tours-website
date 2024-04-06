@@ -22,7 +22,7 @@ https://opensource.org/licenses/MIT
     // Otherwise, specify the absence of a missionOverride:
     const missionOverride = {
         missionName: "Ultimate Delta IV Heavy NROL-70",
-        launchAt: 1711647600, // the UNIX timestamp of the projected T-0 time
+        launchAt: 1712681580, // the UNIX timestamp of the projected T-0 time
         limitTwoWeeks: true,
     };
     // const missionOverride = null;
