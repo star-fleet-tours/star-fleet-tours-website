@@ -20,6 +20,7 @@ It'll be be launching on **Wednesday, June 5 at 7:00 AM CDT** (12:00 UTC) with t
 Our [viewing location at the mouth of the South Bay](https://www.google.com/maps/search/26.052814,+-97.185356), approximately 4 miles / 7 km from the launch site with a direct line of sight across the water, provides some of the closest and clearest views of the pad, rocket and liftoff available to the public.
 
 **LATEST LAUNCH UPDATE**: As of the evening of May 29, the launch is GO for 7:00 AM June 5, in a window that stretches until 10 AM in case of any delays.
+Accordingly, launch viewing tickets are on sale now!
 Due to high demand, we expect the large boat we've chartered to sell out quickly, so make sure to book your tickets soon!
 
 *We've created [a WhatsApp group](https://chat.whatsapp.com/Llya3Ay1zvUAWXlM0N6eyH) that you're welcome to join, where folks are coordinating carpooling, accommodations, travel tips and more, as well as for updates from and questions to the Star Fleet organizers!
@@ -57,7 +58,7 @@ In case there is an issue with the boat or weather keeping us from departing for
 <br>
 
 <h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0;">Check back soon!</h2>
-<a id="book-now-button" href="https://book.stripe.com/4gw6oxcG8cgpddmbJ0" style="display: none;"><button  class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em;">Book Now</button></a>
+<a id="book-now-button" href="https://book.stripe.com/9AQ4gpeOg1BL4GQ14q" style="display: none;"><button  class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em;">Book Now</button></a>
 <a id="book-now-button-2" href="" style="display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; margin-bottom: 0.5em; width: 100%; max-width: 17em;">Book Main Deck</button></a>
 <br>
 
@@ -70,7 +71,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 0;
+    var futureTime         = 1;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
