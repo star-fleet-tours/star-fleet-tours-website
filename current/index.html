@@ -128,15 +128,16 @@
       <div id="page-body-countdown-container"></div><p><img src="/current/fh-landing-day.jpg" alt="Falcon Heavy twin side boosters landing at LZ-1 and LZ-2 during the day"  style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;"></p>
 <p>Join Star Fleet for the next flight of the SpaceX Falcon Heavy, the world's most powerful <em>fully operational</em> rocket!
 It's scheduled for launch on <strong>Tuesday, June 25 at 5:16 PM EDT</strong> (21:16 UTC) with the GOES-U flagship weather satellite for NASA and NOAA, the final vehicle in the GOES-R series.
-Weather-permitting, Star Fleet plans to go out for both the launch itself, and a boat trip to see the rocket up close on the pad the day prior.</p>
+Weather-permitting, Star Fleet plans to go out for both the launch itself, and a boat trip to see the rocket up close on the pad the morning of launch!</p>
 <p>This launch will feature a uniquely spectacular twin booster Return to Launch Site landing, and we'll be in an ideal position to view it.
 Our current <a href="https://maps.app.goo.gl/VPypTrfsJYrwPLhS8">nominal planned viewing location</a>, as with previous Falcon Heavy missions, provides both the closest and clearest view of the booster landing available anywhere.
 It has a clear view of both pads all the way down to the landing legs, and is around 4 mi / 6 km from the landing trajectory as the twin boosters light their engines and arc in almost right over our heads, and around or less than 6 mi / 9 km from the landing pads themselves.
 Distance from the launch pad is around 12 mi / 19 km, but also with a clear view and a more favorable angle to the trajectory than any land-based spot, at a closest approach of around 9 mi / 14 km.
 However, depending on the exact position of the hazard zones and subject to range and USCG clearance, we may actually be able to get up to several miles/kilometers closer to both launch and landing.</p>
-<p><strong>LATEST LAUNCH UPDATE</strong>: As of Tuesday, June 11, with a launch date set of Tuesday June 25 and availability for at least one large boat confirmed, we're opening up reservations for this mission Wenesday June 12 (the full two weeks in advance) by passenger demand!
-Make sure to book as soon as possible after tickets go live to ensure you get a spot, since demand is especially high on this mission.
-Additionally, presuming there's enough interest, we plan to send at least one smaller boat out for a pre-launch trip the morning before launch to see the rocket up close on the pad—let us know via phone, WhatsApp or social media if you're interested!
+<p><strong>LATEST LAUNCH UPDATE</strong>: As of Friday, June 14, the launch remains on track for Tuesday June 25. Our tickets on the main boat almost immediately sold out, but we do have a few last minute tickets availible on our smaller boats.
+Due to the very limited number of tickets availible on a couple different boats, we're confirming these last bookings directly via phone or WhatsApp to make sure everyone we book has a spot.
+Make sure to reach out as soon as possible if you're interested in one of the last extra spots we've opened up, since demand is extremely high on this mission.
+Additionally, we've confirmed that we'll be sending at least one smaller boat out for a pre-launch trip the morning of launch to see the rocket up close on the pad—let us know via phone, WhatsApp or social media to book!
 Thanks!</p>
 <p><em>We've created <strong><a href="https://chat.whatsapp.com/Llya3Ay1zvUAWXlM0N6eyH">a WhatsApp group</a> that we encourage you to join</strong>, where folks are coordinating carpooling, accommodations, travel tips and more, as well as for updates from and questions to the Star Fleet organizers!
 <strong>We highly recommend all passengers join it to get the fastest updates directly from us!</strong>
@@ -156,7 +157,9 @@ Thanks!</em></p>
 <li>Typically 4-5 miles / 6-9 km from landing</li>
 <li>Favorable angle downrange of launch and landing trajectory</li>
 <li>Direct view of LC-39A, LZ-1 and many other historic CCAFS pads</li>
-<li>Free parking, a guaranteed spot and no need to show up many hours early
+<li>Free parking, a guaranteed spot and no need to show up many hours early</li>
+<li>Standard (main boat) tickets on the Ocean Obessession 2 (OO2)</li>
+<li>Special small boat tickets on Sea Sharker, Sea Trident and Seas the Day
 <br>
 <br>
 <strong>DELAY/SCRUB POLICY:</strong> <em>Tickets are generally non-refundable.</em><br>
@@ -165,7 +168,7 @@ See our <a href="/details">details page</a> for more information.
 <br></li>
 </ul>
 <p><h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0;">Check back soon!</h2>
-<a id="book-now-button" href="https://book.stripe.com/3cs8wFgWodktflu14r" style="display: none;"><button  class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em;">Book Now</button></a>
+<a id="book-now-button" href="" style="display: none;"><button  class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em;">Book Now</button></a>
 <!-- Nice, you found the "secret" payment link ;) -->
 <a id="book-now-button-2" href="" style="display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; margin-bottom: 0.5em; width: 100%; max-width: 17em;">Book Main Deck</button></a>
 <br></p>
@@ -178,7 +181,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1718208000;
+    var futureTime         = 0;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -189,7 +192,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("SOLD OUT!<br>Call/text 321-209-2224 for standby booking");
+        $('#countdown').html("Call/text 321-209-2224 for last minute booking");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224"); */
         document.getElementById("countdown").style.display = "none";
@@ -202,11 +205,11 @@ function updateTimer() {
 var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 </script><p><img src="/current/fh-pad-water.jpg" alt="Close-up photo of the SpaceX Falcon Heavy rocket on its pad LC-39A, taken on a Star Fleet boat tour" style="margin-top: 55px; margin-right: 40px; margin-bottom:100px; float: left;"></p>
 <h2>Pre-Launch Pad Trip</h2>
-<p><strong>Price</strong>: ≈$100 per person (boat-dependent)<br>
-<strong>Dates</strong>: <strong>Tuesday, June 25 in the AM EDT</strong><br>
+<p><strong>Price</strong>: $115 per person (boat-dependent)<br>
+<strong>Dates</strong>: <strong>Tuesday, June 25 10:00 AM EDT</strong><br>
 <strong>Trip Time</strong>: ≈3 hours<br>
 <strong>Key Times</strong>: Checkin T-30 min | Boarding T-15 min | Departure T-0 min<br>
-<strong>Location</strong>: Port Canaveral, Cape Canaveral FL 32920<br></p>
+<strong>Location</strong>: <a href="https://maps.app.goo.gl/ZWFcaS8agaoxtX1p9">Sunrise Marina, 510 Glen Cheek Dr., Port Canaveral, FL 32920</a><br></p>
 <ul>
 <li>Get an exclusive, up-close look at the rocket and spacecraft on the pad unavailable from any other angle</li>
 <li>Chance to view other active rockets on their pads (subject to launch schedules)</li>
