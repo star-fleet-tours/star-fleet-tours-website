@@ -16,7 +16,7 @@ body:
 
 Join Star Fleet for the next flight of the SpaceX Falcon Heavy, the world's most powerful *fully operational* rocket!
 It's scheduled for launch on **Tuesday, June 25 at 5:16 PM EDT** (21:16 UTC) with the GOES-U flagship weather satellite for NASA and NOAA, the final vehicle in the GOES-R series.
-Weather-permitting, Star Fleet plans to go out for both the launch itself, and a boat trip to see the rocket up close on the pad the day prior.
+Weather-permitting, Star Fleet plans to go out for both the launch itself, and a boat trip to see the rocket up close on the pad the morning of launch!
 
 This launch will feature a uniquely spectacular twin booster Return to Launch Site landing, and we'll be in an ideal position to view it.
 Our current [nominal planned viewing location](https://maps.app.goo.gl/VPypTrfsJYrwPLhS8), as with previous Falcon Heavy missions, provides both the closest and clearest view of the booster landing available anywhere.
@@ -24,9 +24,10 @@ It has a clear view of both pads all the way down to the landing legs, and is ar
 Distance from the launch pad is around 12 mi / 19 km, but also with a clear view and a more favorable angle to the trajectory than any land-based spot, at a closest approach of around 9 mi / 14 km.
 However, depending on the exact position of the hazard zones and subject to range and USCG clearance, we may actually be able to get up to several miles/kilometers closer to both launch and landing.
 
-**LATEST LAUNCH UPDATE**: As of Tuesday, June 11, with a launch date set of Tuesday June 25 and availability for at least one large boat confirmed, we're opening up reservations for this mission Wenesday June 12 (the full two weeks in advance) by passenger demand!
-Make sure to book as soon as possible after tickets go live to ensure you get a spot, since demand is especially high on this mission.
-Additionally, presuming there's enough interest, we plan to send at least one smaller boat out for a pre-launch trip the morning before launch to see the rocket up close on the pad—let us know via phone, WhatsApp or social media if you're interested!
+**LATEST LAUNCH UPDATE**: As of Friday, June 14, the launch remains on track for Tuesday June 25. Our tickets on the main boat almost immediately sold out, but we do have a few last minute tickets availible on our smaller boats.
+Due to the very limited number of tickets availible on a couple different boats, we're confirming these last bookings directly via phone or WhatsApp to make sure everyone we book has a spot.
+Make sure to reach out as soon as possible if you're interested in one of the last extra spots we've opened up, since demand is extremely high on this mission.
+Additionally, we've confirmed that we'll be sending at least one smaller boat out for a pre-launch trip the morning of launch to see the rocket up close on the pad—let us know via phone, WhatsApp or social media to book!
 Thanks!
 
 *We've created **[a WhatsApp group](https://chat.whatsapp.com/Llya3Ay1zvUAWXlM0N6eyH) that we encourage you to join**, where folks are coordinating carpooling, accommodations, travel tips and more, as well as for updates from and questions to the Star Fleet organizers!
@@ -42,7 +43,7 @@ Thanks!*
 
 ## Rocket Launch Viewing
 
-**Price**: $99/person<br>
+**Price**: $99/person (standard), $145/person (VIP)<br>
 **Launch Date**: **Tuesday, June 25 at 5:16 PM EDT** (21:16 UTC)<br>
 **Key Times**: Checkin 3:00PM | Boarding 3:30PM | Departure 4:00PM<br>
 **Location**: [Sunrise Marina, 510 Glen Cheek Dr., Port Canaveral, FL 32920](https://maps.app.goo.gl/ZWFcaS8agaoxtX1p9)<br>
@@ -60,7 +61,7 @@ See our [details page](/details) for more information.
 <br>
 
 <h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0;">Check back soon!</h2>
-<a id="book-now-button" href="https://book.stripe.com/3cs8wFgWodktflu14r" style="display: none;"><button  class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em;">Book Now</button></a>
+<a id="book-now-button" href="" style="display: none;"><button  class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em;">Book Now</button></a>
 <!-- Nice, you found the "secret" payment link ;) -->
 <a id="book-now-button-2" href="" style="display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; margin-bottom: 0.5em; width: 100%; max-width: 17em;">Book Main Deck</button></a>
 <br>
@@ -74,7 +75,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1718208000;
+    var futureTime         = 0;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -85,7 +86,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("SOLD OUT!<br>Call/text 321-209-2224 for standby booking");
+        $('#countdown').html("Call/text 321-209-2224 for last minute booking");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224"); */
         document.getElementById("countdown").style.display = "none";
@@ -104,11 +105,11 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 
 ## Pre-Launch Pad Trip
 
-**Price**: ≈$100 per person (boat-dependent)<br>
-**Dates**: **Tuesday, June 25 in the AM EDT**<br>
+**Price**: $115 per person (boat-dependent)<br>
+**Dates**: **Tuesday, June 25 10:00 AM EDT**<br>
 **Trip Time**: ≈3 hours<br>
 **Key Times**: Checkin T-30 min | Boarding T-15 min | Departure T-0 min<br>
-**Location**: Port Canaveral, Cape Canaveral FL 32920<br>
+**Location**: [Sunrise Marina, 510 Glen Cheek Dr., Port Canaveral, FL 32920](https://maps.app.goo.gl/ZWFcaS8agaoxtX1p9)<br>
 
 * Get an exclusive, up-close look at the rocket and spacecraft on the pad unavailable from any other angle
 * Chance to view other active rockets on their pads (subject to launch schedules)
