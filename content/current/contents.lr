@@ -24,10 +24,9 @@ It has a clear view of both pads all the way down to the landing legs, and is ar
 Distance from the launch pad is around 12 mi / 19 km, but also with a clear view and a more favorable angle to the trajectory than any land-based spot, at a closest approach of around 9 mi / 14 km.
 However, depending on the exact position of the hazard zones and subject to range and USCG clearance, we may actually be able to get up to several miles/kilometers closer to both launch and landing.
 
-**LATEST LAUNCH UPDATE**: As of Friday, June 14, the launch remains on track for Tuesday June 25. Our tickets on the main boat almost immediately sold out, but we do have a few last minute tickets availible on our smaller boats.
-Due to the very limited number of tickets availible on a couple different boats, we're confirming these last bookings directly via phone or WhatsApp to make sure everyone we book has a spot.
-Make sure to reach out as soon as possible if you're interested in one of the last extra spots we've opened up, since demand is extremely high on this mission.
-Additionally, we've confirmed that we'll be sending at least one smaller boat out for a pre-launch trip the morning of launch to see the rocket up close on the pad—let us know via phone, WhatsApp or social media to book!
+**LATEST LAUNCH UPDATE**: As of Wenesday June 19, the launch continues to remain on track for Tuesday June 25. Our tickets on our first large boat almost immediately sold out, but due to high passenger demand we were just able to to confirm another similar boat.
+Make sure to book as soon as possible if you're interested in one of the new spots we've opened up, since demand is extremely high on this mission.
+Additionally, we'll be sending out multiple smaller boats out for pre-launch trips the evening before and the morning of launch to see the rocket up close on the pad—let us know via phone, WhatsApp or social media to book!
 Thanks!
 
 *We've created **[a WhatsApp group](https://chat.whatsapp.com/Llya3Ay1zvUAWXlM0N6eyH) that we encourage you to join**, where folks are coordinating carpooling, accommodations, travel tips and more, as well as for updates from and questions to the Star Fleet organizers!
@@ -43,18 +42,21 @@ Thanks!*
 
 ## Rocket Launch Viewing
 
-**Price**: $99/person<br>
-**Launch Date**: **Tuesday, June 25 at 5:16 PM EDT** (21:16 UTC)<br>
+**Price**: $115/person<br>
+**Launch Date**: Tuesday, June 25 at 5:16 PM EDT (21:16 UTC)<br>
 **Key Times**: Checkin 3:00PM | Boarding 3:30PM | Departure 4:00PM<br>
-**Location**: [Sunrise Marina, 510 Glen Cheek Dr., Port Canaveral, FL 32920](https://maps.app.goo.gl/ZWFcaS8agaoxtX1p9)<br>
+**Boats**: _Orlando Princess_ (large boat, current tickets); _Ocean Obession II_ (large boat, SOLD OUT); _Sea Sharker_, _Sea Trident_ and _Seas the Day_ (small boats, SOLD OUT)
+**Location (Orlando Princess—current tickets)**: <br>[Princess Fishing, 670 Glen Cheek Dr., Port Canaveral, FL 32920](https://maps.app.goo.gl/CYG2vcUBYgCCWtDS6)<br>
+**Location (Ocean Obession II & small boats—SOLD OUT)**:<br>[Sunrise Marina, 510 Glen Cheek Dr., Port Canaveral, FL 32920](https://maps.app.goo.gl/ZWFcaS8agaoxtX1p9)<br>
 
 * Great location to view all the key events of the launch
 * Typically 4-5 miles / 6-9 km from landing
 * Favorable angle downrange of launch and landing trajectory
 * Direct view of LC-39A, LZ-1 and many other historic CCAFS pads
 * Free parking, a guaranteed spot and no need to show up many hours early
-* Standard (main boat) tickets on the Ocean Obessession 2 (OO2)
-* Special small boat tickets on Sea Sharker, Sea Trident and Seas the Day
+* Currently offered standard (main boat) tickets on the Orlando Princess
+* Previous standard (main boat) tickets on the Ocean Obesession 2 (SOLD OUT)
+* Small boat tickets on Sea Sharker, Sea Trident and Seas the Day (SOLD OUT)
 <br>
 <br>
 **DELAY/SCRUB POLICY:** *Tickets are generally non-refundable.*<br>
@@ -63,7 +65,7 @@ See our [details page](/details) for more information.
 <br>
 
 <h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0;">Check back soon!</h2>
-<a id="book-now-button" href="" style="display: none;"><button  class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em;">Book Now</button></a>
+<a id="book-now-button" href="https://book.stripe.com/5kA6oxeOgdkt1uE6oM" style="display: none;"><button  class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em;">Book Now</button></a>
 <!-- Nice, you found the "secret" payment link ;) -->
 <a id="book-now-button-2" href="" style="display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; margin-bottom: 0.5em; width: 100%; max-width: 17em;">Book Main Deck</button></a>
 <br>
@@ -77,7 +79,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 0;
+    var futureTime         = 1;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -108,7 +110,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 ## Pre-Launch Pad Trip
 
 **Price**: $115 per person (boat-dependent)<br>
-**Dates**: **Tuesday, June 25 10:00 AM EDT**<br>
+**Dates**: **Monday, June 24 5:30 PM EDT** and **Tuesday, June 25 10:00 AM EDT**<br>
 **Trip Time**: ≈3 hours<br>
 **Key Times**: Checkin T-30 min | Boarding T-15 min | Departure T-0 min<br>
 **Location**: [Sunrise Marina, 510 Glen Cheek Dr., Port Canaveral, FL 32920](https://maps.app.goo.gl/ZWFcaS8agaoxtX1p9)<br>
