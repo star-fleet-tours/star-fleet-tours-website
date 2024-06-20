@@ -134,9 +134,11 @@ Our current <a href="https://maps.app.goo.gl/VPypTrfsJYrwPLhS8">nominal planned 
 It has a clear view of both pads all the way down to the landing legs, and is around 4 mi / 6 km from the landing trajectory as the twin boosters light their engines and arc in almost right over our heads, and around or less than 6 mi / 9 km from the landing pads themselves.
 Distance from the launch pad is around 12 mi / 19 km, but also with a clear view and a more favorable angle to the trajectory than any land-based spot, at a closest approach of around 9 mi / 14 km.
 However, depending on the exact position of the hazard zones and subject to range and USCG clearance, we may actually be able to get up to several miles/kilometers closer to both launch and landing.</p>
-<p><strong>LATEST LAUNCH UPDATE</strong>: As of Wenesday June 19, the launch continues to remain on track for Tuesday June 25. Our tickets on our first large boat almost immediately sold out, but due to high passenger demand we were just able to to confirm another similar boat.
-Make sure to book as soon as possible if you're interested in one of the new spots we've opened up, since demand is extremely high on this mission.
-Additionally, we'll be sending out multiple smaller boats out for pre-launch trips the evening before and the morning of launch to see the rocket up close on the pad—let us know via phone, WhatsApp or social media to book!
+<p><strong>LATEST LAUNCH UPDATE</strong>: As of Thursday June 20, the launch continues to remain on track for Tuesday June 25, although we are keeping an eye on the weather.
+Our tickets for the second large boat again sold out immediately due to very high passenger demand.
+We're currently looking into options for a further large boat, although given the weather watch item we may hold off for now.
+If you're interested in a spot, call our number or message us on WhatsApp to be added to the standby list.
+Additionally, while our pre-launch trips to see the rocket up close are currently also sold out, we may be able to secure another boat during the morning window of better weather if people are interested, so let us know via phone, WhatsApp or social media if you are!
 Thanks!</p>
 <p><em>We've created <strong><a href="https://chat.whatsapp.com/Llya3Ay1zvUAWXlM0N6eyH">a WhatsApp group</a> that we encourage you to join</strong>, where folks are coordinating carpooling, accommodations, travel tips and more, as well as for updates from and questions to the Star Fleet organizers!
 <strong>We highly recommend all passengers join it to get the fastest updates directly from us!</strong>
@@ -150,8 +152,8 @@ Thanks!</em></p>
 <p><strong>Price</strong>: $115/person<br>
 <strong>Launch Date</strong>: Tuesday, June 25 at 5:16 PM EDT (21:16 UTC)<br>
 <strong>Key Times</strong>: Checkin 3:00PM | Boarding 3:30PM | Departure 4:00PM<br>
-<strong>Boats</strong>: <em>Orlando Princess</em> (large boat, current tickets); <em>Ocean Obession II</em> (large boat, SOLD OUT); <em>Sea Sharker</em>, <em>Sea Trident</em> and <em>Seas the Day</em> (small boats, SOLD OUT)
-<strong>Location (Orlando Princess—current tickets)</strong>: <br><a href="https://maps.app.goo.gl/CYG2vcUBYgCCWtDS6">Princess Fishing, 670 Glen Cheek Dr., Port Canaveral, FL 32920</a><br>
+<strong>Boats</strong>: <em>Orlando Princess</em> (large boat, SOLD OUT); <em>Ocean Obession II</em> (large boat, SOLD OUT); <em>Sea Sharker</em>, <em>Sea Trident</em> and <em>Seas the Day</em> (small boats, SOLD OUT)
+<strong>Location (Orlando Princess—SOLD OUT)</strong>: <br><a href="https://maps.app.goo.gl/CYG2vcUBYgCCWtDS6">Princess Fishing, 670 Glen Cheek Dr., Port Canaveral, FL 32920</a><br>
 <strong>Location (Ocean Obession II &amp; small boats—SOLD OUT)</strong>:<br><a href="https://maps.app.goo.gl/ZWFcaS8agaoxtX1p9">Sunrise Marina, 510 Glen Cheek Dr., Port Canaveral, FL 32920</a><br></p>
 <ul>
 <li>Great location to view all the key events of the launch</li>
@@ -160,7 +162,7 @@ Thanks!</em></p>
 <li>Direct view of LC-39A, LZ-1 and many other historic CCAFS pads</li>
 <li>Free parking, a guaranteed spot and no need to show up many hours early</li>
 <li>Currently offered standard (main boat) tickets on the Orlando Princess</li>
-<li>Previous standard (main boat) tickets on the Ocean Obesession 2 (SOLD OUT)</li>
+<li>Main boat tickets on the Ocean Obesession II and Orlando Princess (SOLD OUT)</li>
 <li>Small boat tickets on Sea Sharker, Sea Trident and Seas the Day (SOLD OUT)
 <br>
 <br>
@@ -170,7 +172,7 @@ See our <a href="/details">details page</a> for more information.
 <br></li>
 </ul>
 <p><h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0;">Check back soon!</h2>
-<a id="book-now-button" href="https://book.stripe.com/5kA6oxeOgdkt1uE6oM" style="display: none;"><button  class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em;">Book Now</button></a>
+<a id="book-now-button" href="" style="display: none;"><button  class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em;">Book Now</button></a>
 <!-- Nice, you found the "secret" payment link ;) -->
 <a id="book-now-button-2" href="" style="display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; margin-bottom: 0.5em; width: 100%; max-width: 17em;">Book Main Deck</button></a>
 <br></p>
@@ -183,7 +185,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1;
+    var futureTime         = 0;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -194,7 +196,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Call/text 321-209-2224 for last minute booking");
+        $('#countdown').html("Call/text 321-209-2224 for standby booking");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224"); */
         document.getElementById("countdown").style.display = "none";
@@ -207,7 +209,7 @@ function updateTimer() {
 var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 </script><p><img src="/current/fh-pad-water.jpg" alt="Close-up photo of the SpaceX Falcon Heavy rocket on its pad LC-39A, taken on a Star Fleet boat tour" style="margin-top: 55px; margin-right: 40px; margin-bottom:100px; float: left;"></p>
 <h2>Pre-Launch Pad Trip</h2>
-<p><strong>Price</strong>: $115 per person (boat-dependent)<br>
+<p><strong>Price</strong>: $115 per person (SOLD OUT)<br>
 <strong>Dates</strong>: <strong>Monday, June 24 5:30 PM EDT</strong> and <strong>Tuesday, June 25 10:00 AM EDT</strong><br>
 <strong>Trip Time</strong>: ≈3 hours<br>
 <strong>Key Times</strong>: Checkin T-30 min | Boarding T-15 min | Departure T-0 min<br>
