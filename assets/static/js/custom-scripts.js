@@ -155,10 +155,21 @@ https://opensource.org/licenses/MIT
         }
     }
 
+    const URL1 = "aHR0cHM6Ly90aW55dXJsLmNvbS9FIXFIXzZnQtZ3JvdXAtMS1ia2x2aHo3N3U2bm1nYWR0";
+
+    function insert_urls() {
+        const url = atob(URL1.replace("FIXFIX", ""));
+        const toReplace = document.querySelectorAll("a[href*='INSERT_URL_1']");
+        toReplace.forEach((a) => {
+            a.href = url;
+        });
+    };
+
     // Document on load
     $(function(){
         styleStarGlyph();
         initializeLaunchCountdown();
+        insert_urls()
     });
 
 }());

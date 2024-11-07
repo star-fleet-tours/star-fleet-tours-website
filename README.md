@@ -1,6 +1,6 @@
 # Star Fleet Tours Website
 
-*Copyright © 2019-2021 Star Fleet Tours*
+*Copyright © 2019- Star Fleet Tours*
 
 This repo is the source for the Star Fleet Tours [website](https://www.star-fleet.tours/).
 It is built using [Lektor](https://www.getlektor.com/), previewed via Netlify, deployed via Github Actions CI, served by [Github Pages](https://pages.github.com/), and hosted on a custom domain.
