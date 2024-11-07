@@ -21,8 +21,8 @@ https://opensource.org/licenses/MIT
     //
     // Otherwise, specify the absence of a missionOverride:
     const missionOverride = {
-        missionName: "SpaceX Starship Flight 5",
-        launchAt: 1728820800, // the UNIX timestamp of the projected T-0 time
+        missionName: "SpaceX Starship Flight 6",
+        launchAt: 1731967200, // the UNIX timestamp of the projected T-0 time
         limitTwoWeeks: true,
     };
     // const missionOverride = null;
@@ -155,10 +155,21 @@ https://opensource.org/licenses/MIT
         }
     }
 
+    const URL1 = "aHR0cHM6Ly90aW55dXJsLmNvbS9FIXFIXzZnQtZ3JvdXAtMS1ia2x2aHo3N3U2bm1nYWR0";
+
+    function insert_urls() {
+        const url = atob(URL1.replace("FIXFIX", ""));
+        const toReplace = document.querySelectorAll("a[href*='INSERT_URL_1']");
+        toReplace.forEach((a) => {
+            a.href = url;
+        });
+    };
+
     // Document on load
     $(function(){
         styleStarGlyph();
         initializeLaunchCountdown();
+        insert_urls()
     });
 
 }());
