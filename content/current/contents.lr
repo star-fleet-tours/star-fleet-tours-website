@@ -16,17 +16,17 @@ body:
 
 Join Star Fleet for the next launch and booster catch of the SpaceX Starship, the most powerful rocket in history!
 It'll be launching no earlier than **Monday November 18, 2024 at 4:00 PM CST (22:00 UTC)** on the Flight 6 mission, which is expected to feature another **spectacular mechazilla catch attempt** of the Super Heavy booster.
-We'll be offering boat trips to view the launch, as well as a special first-come, first-serve pre-launch cruise—reach out to us on [our Whats App community](INSERT_URL_1) or at [321-209-2224](tel:+13212092224) if interested in the latter.
+We'll be offering boat trips to view the launch, as well as a special first-come, first-serve pre-launch cruise—reach out to us on [our Whats App community](INSERT_URL_1) or at [321-209-2224](tel:+13212092224) if interested in the latter, and see below for more info.
 
 Our [viewing location at the mouth of the South Bay](https://www.google.com/maps/search/26.052814,+-97.185356), approximately 4 miles / 7 km from the launch site with a direct line of sight across the water, provides some of the closest and clearest views of the pad, rocket, liftoff and booster landing available to the public.
 Note that unlike the location just off the South Padre jetty where most other vessels anchor, this offers a closer and slightly clearer sightline, has calmer, more protected and less busy waters, and doesn't have many other large boats to block our view, nor do we block that of those watching from shore.
 
 **LATEST LAUNCH UPDATE**:
-As of Thursday, November 7, SpaceX continues to [officially confirm](https://www.spacex.com/launches/mission/?missionId=starship-flight-6) they are proceeding toward a launch and landing attempt on Monday, November 18 at a afternoon golden hour time of 4:00 PM CST (22:00 UTC).
+As of Friday, November 8, SpaceX continues to [officially confirm](https://www.spacex.com/launches/mission/?missionId=starship-flight-6) they are proceeding toward a launch and landing attempt on Monday, November 18 at a afternoon golden hour time of 4:00 PM CST (22:00 UTC).
 Their existing FAA license is valid for this attempt and FAA and marine hazard zones have been published, with booster and ship testing complete and undergoing preparations for flight.
-Meanwhile, tickets continue to count down toward opening up availability tomorrow at 12 noon CST (18:00 UTC)!
+Meanwhile, tickets are now available and selling fast, so grab one while you can!
 We'll be on the _Fish Tales_, a large 100 passenger double-decker deepwater charter vessel, similar to the Double-O and Princess boats at the Cape.
-If you have any questions, you're welcome to reach out on Whats App (below) or at the Star Fleet number [321-209-2224](tel:+13212092224).
+If you have any questions, you're welcome to reach out [on Whats App](INSERT_URL_1) or at the Star Fleet number [321-209-2224](tel:+13212092224).
 
 *We have **[a Whats App community](INSERT_URL_1) that we highly recommend you join**, where folks are coordinating carpooling, accommodations, travel tips and more, as well as for updates from and questions to the Star Fleet organizers!
 It has separate channels for major Star Fleet announcements, Flight 6 updates, launch discussion, Q&A and general chat, so you can subscribe to notifications for only what you're interested in.
@@ -49,7 +49,7 @@ Thanks!*
 **Location**:  [Dolphin Docks, 510 E Queen Isabella Blvd, Port Isabel, TX 78578](https://maps.app.goo.gl/1ZugV4PjhUToVJRu9)<br>
 
 * Great location to view all the key events of the launch
-* Around 4 miles / 7 km from launch pad
+* Around ≈4 miles / ≈6.5 km from launch pad
 * Clear view of pad, rocket, liftoff and ascent
 * Stable vessel, calm seas and open deck for excellent viewing
 * Free parking, a guaranteed spot and no need to show up many hours early
@@ -100,6 +100,32 @@ function updateTimer() {
 };
 var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 </script>
+
+
+<img src="/current/starship-prelaunch-south-bay-ift5.jpg" alt="Close-up photo of the SpaceX Starship rocket fully stacked on the pad from a Star Fleet boat nearby in the South Bay passage." style="margin-top: 55px; margin-right: 40px; margin-bottom:20px; float: left;">
+
+
+## Pre-Launch Pad Trip
+
+**Price**: $99 per person<br>
+**Dates**: Sunday November 17 (day before launch)<br>
+**Trip Time**: 4:00 PM - 6:00 PM (sunset)<br>
+**Key Times**: Checkin 3:30 PM | Boarding 3:45 PM | Departure 4:00 PM<br>
+**Location**: [826 Marina, South Padre Island, TX 78597](https://maps.app.goo.gl/YqHuwtcDF8bhTXA9A)<br>
+
+* Get an up-close look at the rocket and spacecraft on the pad from multiple unique angles
+* Visit the South Bay next to the production and launch sites, and the ocean just off the pad
+* Capture a fantastic view of setting sun over the water behind Starship
+* See local wildlife, landmarks and the mammoth Port of Brownsville on your journey
+* Travel on a safe, comfortable 6-passenger coastal or flat-bottomed boat (conditions-dependent)
+* Lead by our well-known local all-star Captain Henry and his experienced captains
+* Exact itinerary weather-dependent but can still go out during non-launch closures
+<br>
+
+
+<!-- <span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;">Check back soon!</span> -->
+
+<span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; line-height: 1.2em; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;"><br>Join Pre-Launch <a href="INSERT_URL_1">Whats App Channel</a> <br>or call/text <a href="tel:+13212092224">321-209-2224</a></span>
 
 
 ---
