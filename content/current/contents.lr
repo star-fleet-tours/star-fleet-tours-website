@@ -22,11 +22,10 @@ Our [viewing location at the mouth of the South Bay](https://www.google.com/maps
 Note that unlike the location just off the South Padre jetty where most other vessels anchor, this offers a closer and slightly clearer sightline, has calmer, more protected and less busy waters, and doesn't have many other large boats to block our view, nor do we block that of those watching from shore.
 
 **LATEST LAUNCH UPDATE**:
-As of Friday, November 8, SpaceX continues to [officially confirm](https://www.spacex.com/launches/mission/?missionId=starship-flight-6) they are proceeding toward a launch and landing attempt on Monday, November 18 at a afternoon golden hour time of 4:00 PM CST (22:00 UTC).
+As of Monday, November 11, one week out from launch, SpaceX continues to progress toward final launch readiness, with Ship 31 now ready for flight and rolling out to the pad!
 Their existing FAA license is valid for this attempt and FAA and marine hazard zones have been published, with booster and ship testing complete and undergoing preparations for flight.
-Meanwhile, tickets are now available and selling fast, so grab one while you can!
-We'll be on the _Fish Tales_, a large 100 passenger double-decker deepwater charter vessel, similar to the Double-O and Princess boats at the Cape.
-If you have any questions, you're welcome to reach out [on Whats App](INSERT_URL_1) or at the Star Fleet number [321-209-2224](tel:+13212092224).
+Meanwhile, tickets are already SOLD OUT for our first boat, the 100-passenger _Fish Tales_, but we're in the process of locking down another vessel so that more folks can join us!
+We'll update the site and open booking once its ready, but to be the first to know and first to book, make sure to join us [on Whats App](INSERT_URL_1)!
 
 *We have **[a Whats App community](INSERT_URL_1) that we highly recommend you join**, where folks are coordinating carpooling, accommodations, travel tips and more, as well as for updates from and questions to the Star Fleet organizers!
 It has separate channels for major Star Fleet announcements, Flight 6 updates, launch discussion, Q&A and general chat, so you can subscribe to notifications for only what you're interested in.
@@ -77,7 +76,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1731088800;
+    var futureTime         = 0;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -88,7 +87,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Check back soon!");
+        $('#countdown').html("First boat tickets SOLD OUT!<br>Check back soon for more");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224"); */
         document.getElementById("countdown").style.display = "none";
