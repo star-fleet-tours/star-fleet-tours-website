@@ -22,10 +22,10 @@ Our [viewing location at the mouth of the South Bay](https://www.google.com/maps
 Note that unlike the location just off the South Padre jetty where most other vessels anchor, this offers a closer and slightly clearer sightline, has calmer, more protected and less busy waters, and doesn't have many other large boats to block our view, nor do we block that of those watching from shore.
 
 **LATEST LAUNCH UPDATE**:
-As of Monday, November 11, one week out from launch, SpaceX continues to progress toward final launch readiness, with Ship 31 now ready for flight and rolling out to the pad!
-Their existing FAA license is valid for this attempt and FAA and marine hazard zones have been published, with booster and ship testing complete and undergoing preparations for flight.
-Meanwhile, tickets are already SOLD OUT for our first boat, the 100-passenger _Fish Tales_, but we're in the process of locking down another vessel so that more folks can join us!
-We'll update the site and open booking once its ready, but to be the first to know and first to book, make sure to join us [on Whats App](INSERT_URL_1)!
+As of Tuesday, November 12, one week out from launch, SpaceX continues to progress toward final launch readiness with Ship 31 now rolled out to the pad to be stacked for flight!
+Their existing FAA license is valid for this attempt and FAA and marine hazard zones have been published, with booster and ship testing complete.
+Meanwhile, tickets are already SOLD OUT for our first boat _Fish Tales_, but we've now booked another, the a deepwater charter and dive vessel _Diver I_ — a veteran of many previous launches with us!
+Tickets are now available, but are expected to sell out within hours to a few days, so make sure to get them soon!
 
 *We have **[a Whats App community](INSERT_URL_1) that we highly recommend you join**, where folks are coordinating carpooling, accommodations, travel tips and more, as well as for updates from and questions to the Star Fleet organizers!
 It has separate channels for major Star Fleet announcements, Flight 6 updates, launch discussion, Q&A and general chat, so you can subscribe to notifications for only what you're interested in.
@@ -37,7 +37,7 @@ Thanks!*
 
 
 
-<img src="/current/boat-fish-tales.webp" alt="Fish Tales charter boat, a large 100 ft double decker ocean-class vessel" style="margin-top: 60px; margin-left: 40px; margin-bottom:0; float: right;">
+<img src="/current/boat-diver1.jpg" alt="Diver I charter boat, a sleek deepwater ocean-class diver support and passenger vessel" style="margin-top: 60px; margin-left: 40px; margin-bottom:0; float: right;">
 
 
 ## Rocket Launch Viewing
@@ -45,7 +45,8 @@ Thanks!*
 **Price**: $99 per passenger<br>
 **Launch Date**: No Earlier Than 4:00 PM CST (22:00 UTC) November 18 2024<br>
 **Key Times**: Checkin 2:00 PM | Boarding 2:30 PM | Departure 3:00 PM<br>
-**Location**:  [Dolphin Docks, 510 E Queen Isabella Blvd, Port Isabel, TX 78578](https://maps.app.goo.gl/1ZugV4PjhUToVJRu9)<br>
+**Location**: (1st batch tickets) [Dolphin Docks, 510 E Queen Isabella Blvd, Port Isabel, TX 78578](https://maps.app.goo.gl/1ZugV4PjhUToVJRu9)<br>
+(current batch tickets) _Diver I_ at [Original Dolphin Watch in Sea Ranch Marina, 33256 State Park Rd 100, South Padre Island, TX 78597](https://maps.app.goo.gl/5zQqpfwLn5qFAQgz8)<br>
 
 * Great location to view all the key events of the launch
 * Around ≈4 miles / ≈6.5 km from launch pad
@@ -63,7 +64,7 @@ Conversely, case there is an issue with the boat or weather keeping us from depa
 <br>
 
 <h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0;">Check back soon!</h2>
-<a id="book-now-button" href="https://book.stripe.com/14k5ktcG8bclc9iaF8" style="display: none;"><button class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em;">Book Now</button></a>
+<a id="book-now-button" href="https://book.stripe.com/cN2aEN0Xq1BLddm14B" style="display: none;"><button class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em;">Book Now</button></a>
 <a id="book-now-button-2" href="" style="display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; margin-bottom: 0.5em; width: 100%; max-width: 17em;">Book Main Deck</button></a>
 <br>
 
@@ -76,7 +77,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 0;
+    var futureTime         = 1;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
