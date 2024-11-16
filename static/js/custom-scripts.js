@@ -22,7 +22,7 @@ https://opensource.org/licenses/MIT
     // Otherwise, specify the absence of a missionOverride:
     const missionOverride = {
         missionName: "SpaceX Starship Flight 6",
-        launchAt: 1731967200, // the UNIX timestamp of the projected T-0 time
+        launchAt: 1732053600, // the UNIX timestamp of the projected T-0 time
         limitTwoWeeks: true,
     };
     // const missionOverride = null;
