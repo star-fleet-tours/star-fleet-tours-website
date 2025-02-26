@@ -6,7 +6,7 @@ short_title: Tickets
 ---
 special_link: true
 ---
-full_title: SpaceX Starship Flight 7
+full_title: SpaceX Starship Flight 8
 ---
 body:
 
@@ -14,18 +14,17 @@ body:
 
 <img src="/current/super-heavy-tower-catch.jpg" alt="SpaceX Starship Super Heavy landing in the launch tower's Mechazilla Chopsticks on the Flight 5 mission; used with permission" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
 
-Join Star Fleet for the first launch (and booster catch) of the very first SpaceX Starship V2, the most powerful rocket in history!
-It'll be launching No Earlier Than **Thursday January 16, 2025 at 4:00 PM CST (22:00 UTC)** on the Flight 7 mission, which is expected to feature another **spectacular mechazilla catch attempt** of the Super Heavy booster.
+Join Star Fleet for the next launch (and booster catch) of the new SpaceX Starship V2, the most powerful rocket in history!
+It'll be launching No Earlier Than **Friday February 28, 2025 at 5:30 PM CST (23:30 UTC)** on the Flight 8 mission, which is expected to feature another **spectacular mechazilla catch attempt** of the Super Heavy booster.
 We have boat trips to view the flight, as well as special pre-launch cruises!
 
 Our [launch viewing location at the mouth of the South Bay](https://www.google.com/maps/search/26.052814,+-97.185356), approximately 4 miles / 7 km from the launch site with a direct line of sight across the water, provides some of the closest and clearest views of the pad, rocket, liftoff and booster landing available to the public.
 Unlike the location where most other vessels anchor, this offers a closer and clearer sightline, and has calmer, less busy waters without the need to constantly jockey for position.
 
 **LATEST LAUNCH UPDATE**:
-As of early on Wednesday, January 15, due to weather SpaceX has delayed the launch to Thursday, January 16 at 4:00 PM CST (22:00 UTC, same time).
-Weather looks much better on that date both for launch and for viewing, as its much less windy, cloudy and with no rain.
-The hazard zones and launch license are confirmed, the Wet Dress Rehearsal is completed, and Starship remains stacked ready to go the launch pad.
-We've closed tickets as the boat is fully booked; however, we do expect we may have some last minute spots from cancellations, so you're welcome to reach out at
+As of Tuesday, February 25, the vehicle has been rolled out to the pad and SpaceX remains go for launch on Friday February 28, 2025 at 5:30 PM CST (23:30 UTC).
+The hazard zones and launch license are confirmed, the mishap investigation into Flight 7 is complete, and Starship remains stacked ready to go the launch pad.
+The _Fish Tales_ is locked down and tickets are open!
 Keep an eye here and on our [Whats App community](INSERT_URL_1) or social media for the latest updates!
 
 *We have **[a Whats App community](INSERT_URL_1) that we highly recommend you join**, with channels for announcements, insider launch updates, discussion, questions and more!
@@ -43,8 +42,8 @@ Thanks!*
 ## Rocket Launch Viewing
 
 **Price**: $99 per passenger<br>
-**Launch Date**: No Earlier Than January 16, 2025 at 4:00 PM CST (22:00 UTC)<br>
-**Key Times**: Checkin 2:00 PM | Boarding 2:30 PM | Departure 3:00 PM<br>
+**Launch Date**: No Earlier Than Friday February 28, 2025 at 5:30 PM CST (23:30 UTC)<br>
+**Key Times**: Checkin 3:30 PM | Boarding 4:00 PM | Departure 4:30 PM<br>
 **Location**: _Fish Tales_ at [Dolphin Docks, 510 E Queen Isabella Blvd, Port Isabel, TX 78578](https://maps.app.goo.gl/1ZugV4PjhUToVJRu9)<br>
 
 * Great location to view all the key events of the launch
@@ -64,7 +63,7 @@ Conversely, in case there is an issue with the boat or weather keeping us from d
 <br>
 
 <h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0;">Check back soon!</h2>
-<a id="book-now-button" href="" style="display: none;"><button class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em; margin-bottom: 0em;">Book Now</button></a>
+<a id="book-now-button" href="https://buy.stripe.com/3csaEN21ugwF6OY5kZ" style="display: none;"><button class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em; margin-bottom: 0em;">Book Now</button></a>
 <a id="book-now-button-2" href="" style="display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; margin-bottom: 0.5em; width: 100%; max-width: 17em;">Book Main Deck</button></a>
 <span id="pre-launch-callout" style="text-align: center !important; font-size: 2rem; line-height: 0.5em; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0em; m2rgin-botton: 2em;"><br>Call/text <a href="tel:+13212092224">321-209-2224</a> for last minute tickets!</span>
 <br>
@@ -79,7 +78,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 0;
+    var futureTime         = 1;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -109,8 +108,8 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 
 ## Pre-Launch Pad Trip
 
-**Price**: $120 per passenger<br>
-**Dates**: 1-2 days prior to launch<br>
+**Price**: TBD per passenger<br>
+**Dates**: TBD<br>
 **Trip Time**: Typically around sunset<br>
 **Key Times**: Checkin T-30 min | Boarding T-15 min | Departure T-0 <br>
 **Location**: [826 Marina, South Padre Island, TX 78597](https://maps.app.goo.gl/YqHuwtcDF8bhTXA9A)<br>
