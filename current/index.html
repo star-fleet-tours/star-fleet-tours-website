@@ -132,11 +132,9 @@ We have boat trips to view the flight, as well as special pre-launch cruises!</p
 <p>Our <a href="https://www.google.com/maps/search/26.052814,+-97.185356">launch viewing location at the mouth of the South Bay</a>, approximately 4 miles / 7 km from the launch site with a direct line of sight across the water, provides some of the closest and clearest views of the pad, rocket, liftoff and booster landing available to the public.
 Unlike the location where most other vessels anchor, this offers a closer and clearer sightline, and has calmer, less busy waters without the need to constantly jockey for position.</p>
 <p><strong>LATEST LAUNCH UPDATE</strong>:
-As of late Monday, March 3, the launch attempt today has been scrubbed and SpaceX teams are currently working on the vehicle and determining the next launch opportunity.
-When Starship is fixed and ready to fly, per the hazard zones they have windows March 4-7 and 9 at the same time, as well as a morning (7 am) window on the March 8.
-Currently per Elon and the SpaceX team, the earliest a launch might be expected is Wednesday March 5, 2025 at the same 5:30 PM time, though some indications suggest the fix <em>may</em> take longer.
-We should know more by tomorrow and share it with you here and on our <a href="/current/INSERT_URL_1">Whats App community</a>!
-Once SpaceX confirms a launch date, we'll lock down a boat and offer tickets.
+As of late Tuesday, March 4, Starship is preparing to launch tomorrow.
+We've got the boat locked in again, and folks who went out in the previous scrub have already received special booking links to get tickets at 35% off normal price.
+For anyone else, booking are open here now!
 Keep an eye here and on our <a href="/current/INSERT_URL_1">Whats App community</a> or social media for the latest updates!</p>
 <p><em>We have <strong><a href="/current/INSERT_URL_1">a Whats App community</a> that we highly recommend you join</strong>, with channels for announcements, insider launch updates, discussion, questions and more!
 We also use it for early tickets, special community events and more!
@@ -151,7 +149,7 @@ Thanks!</em></p>
 <p><strong>Price</strong>: $99 per passenger<br>
 <strong>Launch Date</strong>: No Earlier Than Wednesday March 5, 2025 at 5:30 PM CST (23:30 UTC)<br>
 <strong>Key Times</strong>: Checkin 3:30 PM | Boarding 4:00 PM | Departure 4:30 PM<br>
-<strong>Location</strong>: TBA</p>
+<strong>Location</strong>: <em>Fish Tales</em> at <a href="https://maps.app.goo.gl/1ZugV4PjhUToVJRu9">Dolphin Docks, 510 E Queen Isabella Blvd, Port Isabel, TX 78578</a><br></p>
 <ul>
 <li>Great location to view all the key events of the launch</li>
 <li>Around ≈4 miles / ≈6.5 km from launch pad</li>
@@ -170,7 +168,7 @@ Conversely, in case there is an issue with the boat or weather keeping us from d
 <br></li>
 </ul>
 <p><h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0;">Check back soon!</h2>
-<a id="book-now-button" href="" style="display: none;"><button class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em; margin-bottom: 0em;">Book Now</button></a>
+<a id="book-now-button" href="https://book.stripe.com/5kA4gp35y6W5gpy28R" style="display: none;"><button class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em; margin-bottom: 0em;">Book Now</button></a>
 <a id="book-now-button-2" href="" style="display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; margin-bottom: 0.5em; width: 100%; max-width: 17em;">Book Main Deck</button></a>
 <span id="pre-launch-callout" style="display: inherit; text-align: center !important; font-size: 2rem; line-height: 0.5em; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0em; m2rgin-botton: 2em;"><br>Call/text <a href="tel:+13212092224">321-209-2224</a> for pre-launch  tickets!</span>
 <br></p>
@@ -183,7 +181,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 0;
+    var futureTime         = 1;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -194,7 +192,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Awaiting new launch attempt from SpaceX<br>");
+        $('#countdown').html("Boat is currently SOLD OUT!");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224"); */
         document.getElementById("countdown").style.display = "none";
