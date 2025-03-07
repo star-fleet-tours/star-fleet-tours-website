@@ -132,12 +132,8 @@ We have boat trips to view the flight, as well as special pre-launch cruises!</p
 <p>Our <a href="https://www.google.com/maps/search/26.052814,+-97.185356">launch viewing location at the mouth of the South Bay</a>, approximately 4 miles / 7 km from the launch site with a direct line of sight across the water, provides some of the closest and clearest views of the pad, rocket, liftoff and booster landing available to the public.
 Unlike the location where most other vessels anchor, this offers a closer and clearer sightline, and has calmer, less busy waters without the need to constantly jockey for position.</p>
 <p><strong>LATEST LAUNCH UPDATE</strong>:
-As of early Wednesday, March 5, the launch has been delayed one day to tomorrow, which preparations for launch appearing to proceed on schedule.
-Your tickets will be fully valid for the new date, and the boat will be ready to go.
-Passengers who went out in the previous scrub have already received special booking links to get tickets at 35% off normal price.
-If you did and haven't received one or aren't sure where to find it, message Steven.
-For anyone else, booking continues to be open here below!
-Keep an eye here and on our <a href="/current/INSERT_URL_1">Whats App community</a> or social media for the latest updates!</p>
+This launch is successfully completed, with a fantastic viewing experience for all!
+Keep an eye here and on our <a href="/current/INSERT_URL_1">Whats App community</a> or social media for future launchs!</p>
 <p><em>We have <strong><a href="/current/INSERT_URL_1">a Whats App community</a> that we highly recommend you join</strong>, with channels for announcements, insider launch updates, discussion, questions and more!
 We also use it for early tickets, special community events and more!
 You can also follow our <a href="https://twitter.com/StarFleetTours">Twitter</a>, <a href="https://instagram.com/starfleettours/">Instagram</a> and <a href="https://www.facebook.com/starfleettours/">Facebook</a> for announcements and updates.
@@ -170,9 +166,9 @@ Conversely, in case there is an issue with the boat or weather keeping us from d
 <br></li>
 </ul>
 <p><h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0;">Check back soon!</h2>
-<a id="book-now-button" href="https://book.stripe.com/5kA4gp35y6W5gpy28R" style="display: none;"><button class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em; margin-bottom: 0em;">Book Now</button></a>
+<a id="book-now-button" href="" style="display: none;"><button class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em; margin-bottom: 0em;">Book Now</button></a>
 <a id="book-now-button-2" href="" style="display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; margin-bottom: 0.5em; width: 100%; max-width: 17em;">Book Main Deck</button></a>
-<span id="pre-launch-callout" style="display: inherit; text-align: center !important; font-size: 2rem; line-height: 0.5em; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0em; m2rgin-botton: 2em;"><br>Call/text <a href="tel:+13212092224">321-209-2224</a> for pre-launch  tickets!</span>
+<span id="pre-launch-callout" style="display: none; text-align: center !important; font-size: 2rem; line-height: 0.5em; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0em; m2rgin-botton: 2em;"><br>Call/text <a href="tel:+13212092224">321-209-2224</a> for pre-launch  tickets!</span>
 <br></p>
 <script type="text/javascript">
 "use strict"
@@ -183,7 +179,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1;
+    var futureTime         = 0;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -194,7 +190,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Boat is currently SOLD OUT!");
+        $('#countdown').html("Mission Complete!<br>Stay tuned for the next one");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224"); */
         document.getElementById("countdown").style.display = "none";
