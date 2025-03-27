@@ -6,7 +6,7 @@ short_title: Tickets
 ---
 special_link: true
 ---
-full_title: SpaceX Starship Flight 8
+full_title: SpaceX Starship Flight 9
 ---
 body:
 
@@ -14,16 +14,17 @@ body:
 
 <img src="/current/super-heavy-tower-catch.jpg" alt="SpaceX Starship Super Heavy landing in the launch tower's Mechazilla Chopsticks on the Flight 5 mission; used with permission" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
 
-Join Star Fleet for the next launch (and booster catch) of the new SpaceX Starship V2, the most powerful rocket in history!
-It'll be launching No Earlier Than **Thursday March 6, 2025 at 5:30 PM CST (23:30 UTC)** on the Flight 8 mission, which is expected to feature another **spectacular mechazilla catch attempt** of the Super Heavy booster.
-We have boat trips to view the flight, as well as special pre-launch cruises!
+Join Star Fleet for the latest launch (and booster catch) of the new SpaceX Starship V2, the most powerful rocket in history!
+It'll be launching **No Earlier Than April** on the Flight 9 mission, which is expected to feature a **spectacular mechazilla catch attempt** of the Super Heavy booster.
+We plan to have boat trips to view the flight, as well as special pre-launch cruises!
 
-Our [launch viewing location at the mouth of the South Bay](https://www.google.com/maps/search/26.052814,+-97.185356), approximately 4 miles / 7 km from the launch site with a direct line of sight across the water, provides some of the closest and clearest views of the pad, rocket, liftoff and booster landing available to the public.
+Our planned [launch viewing location at the mouth of the South Bay](https://www.google.com/maps/search/26.052814,+-97.185356), approximately 4 miles / 7 km from the launch site with a direct line of sight across the water, provides some of the closest and clearest views of the pad, rocket, liftoff and booster landing available to the public.
 Unlike the location where most other vessels anchor, this offers a closer and clearer sightline, and has calmer, less busy waters without the need to constantly jockey for position.
 
 **LATEST LAUNCH UPDATE**:
-This launch is successfully completed, with a fantastic viewing experience for all!
-Keep an eye here and on our [Whats App community](INSERT_URL_1) or social media for future launchs!
+As of Wednesday March 26, SpaceX is currently investigating the Starship V2 failure on the previous mission, as well as testing the ship planned to be used on this next one.
+There is no firm word on a possible launch date at this point, with the launch scheduled for No Earlier Than sometime in April (likely mid- to late-April, should it occur next month).
+Keep an eye here and on our [Whats App community](INSERT_URL_1) or social media for future launches!
 
 *We have **[a Whats App community](INSERT_URL_1) that we highly recommend you join**, with channels for announcements, insider launch updates, discussion, questions and more!
 We also use it for early tickets, special community events and more!
@@ -39,10 +40,10 @@ Thanks!*
 
 ## Rocket Launch Viewing
 
-**Price**: $99 per passenger<br>($65 if repeating from prev attempt, we've sent you a special link to pay)<br>
-**Launch Date**: No Earlier Than Thursday March 6, 2025 at 5:30 PM CST (23:30 UTC)<br>
-**Key Times**: Checkin 3:30 PM | Boarding 4:00 PM | Departure 4:30 PM<br>
-**Location**: _Fish Tales_ at [Dolphin Docks, 510 E Queen Isabella Blvd, Port Isabel, TX 78578](https://maps.app.goo.gl/1ZugV4PjhUToVJRu9)<br>
+**Price**: $99 per passenger (+tax)<br>
+**Launch Date**: No Earlier Than April<br>
+**Key Times**: Checkin T-2 hours | Boarding T-1.5 hours | Departure T-1 hour<br>
+**Location**: TBD
 
 * Great location to view all the key events of the launch
 * Around ≈4 miles / ≈6.5 km from launch pad
@@ -87,7 +88,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Mission Complete!<br>Stay tuned for the next one");
+        $('#countdown').html("Stay tuned for the upcoming mission!");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224"); */
         document.getElementById("countdown").style.display = "none";
@@ -107,10 +108,10 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 ## Pre-Launch Pad Trip
 
 **Price**: TBD per passenger<br>
-**Dates**: TBD<br>
+**Dates**: Typically day before launch<br>
 **Trip Time**: Typically around sunset<br>
 **Key Times**: Checkin T-30 min | Boarding T-15 min | Departure T-0 <br>
-**Location**: [826 Marina, South Padre Island, TX 78597](https://maps.app.goo.gl/YqHuwtcDF8bhTXA9A)<br>
+**Location**: TBD<br>
 
 * Get an up-close look at the rocket and spacecraft on the pad from multiple unique angles
 * Visit the South Bay next to the production and launch sites, and the ocean just off the pad
