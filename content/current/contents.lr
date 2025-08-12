@@ -22,12 +22,10 @@ Our planned [launch viewing location at the mouth of the South Bay](https://www.
 Unlike the location where most other vessels anchor, this offers a closer and clearer sightline, and has calmer, less busy waters without the need to constantly jockey for position.
 
 **LATEST LAUNCH UPDATE**:
-As of Saturday August 9, while no official launch date has been announced, the latest marine hazard notice released yesterday points toward a launch no earlier than Friday, August 22, with launch windows stretching to August 28 at 23:30 UTC / 6:30 CDT each day.
-SpaceX is preparing to return Ship 37 to the pad for a final round of pre-launch testing, following the replacement of a Raptor Vacuum engine.
-Following a successful static fire, the company will need to roll the Ship back, remove the jury-rigged modifications to allow testing Ships and reconfigure it for launch, while Ship 37 and Booster 16 undergoes pre-launch preparations.
-Additionally, we would expect to have all air and marine notices as well as road closures released during this time.
+As of Tuesday August 12, Starship has been successfully tested at the pad and the latest marine hazard notice released yesterday points toward a launch no earlier than Friday, August 22, with launch windows stretching to August 28 at 23:30 UTC / 6:30 CDT each day.
+The company will now need to roll the Ship back, remove the jury-rigged modifications to allow testing Ships and reconfigure it for launch, while Ship 37 and Booster 16 undergoes pre-launch preparations.
 Following that would be issuance of a launch license, rollout and stacking of the ship and booster for launch and official confirmation from SpaceX.
-Given the uncertainty and timeframe of the current launch date and the substantial probability of a slippage, tickets won't go live just yet, but we'll keep you all up to date and be ready as soon as the launch date firms up further.
+Given a successful final test before launch, we will now begin booking tickets due to high demand, though keep in mind that the launch date is still subject to change at this point.
 Keep an eye here, on our social media or our WhatsApp community for the latest updates!
 
 *We have **[a Whats App community](INSERT_URL_1) that we highly recommend you join**, with channels for announcements, insider launch updates, discussion, questions and more!
@@ -66,7 +64,7 @@ Conversely, in case there is an issue with the boat or weather keeping us from d
 <br>
 
 <h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0;">Check back soon!</h2>
-<a id="book-now-button" href="" style="display: none;"><button class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em; margin-bottom: 0em;">Book Now</button></a>
+<a id="book-now-button" href="https://book.stripe.com/3cI4gygKB3H2dtU9dC3gk0W" style="display: none;"><button class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em; margin-bottom: 0em;">Book Now</button></a>
 <a id="book-now-button-2" href="" style="display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; margin-bottom: 0.5em; width: 100%; max-width: 17em;">Book Main Deck</button></a>
 <span id="pre-launch-callout" style="display: none; text-align: center !important; font-size: 2rem; line-height: 0.5em; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0em; m2rgin-botton: 2em;"><br>Call/text <a href="tel:+13212092224">321-209-2224</a> for pre-launch  tickets!</span>
 <br>
@@ -81,7 +79,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 0;
+    var futureTime         = 1;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
