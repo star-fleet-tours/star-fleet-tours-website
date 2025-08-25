@@ -15,18 +15,17 @@ body:
 <img src="/current/starship-pad-boat.jpg" alt="Photo of the SpaceX Starship on the pad, with a boat in the foreground" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
 
 Join Star Fleet for the next launch of the most powerful rocket in history on SpaceX Starship Flight 10, finally returning to flight after the lengthy stand-down!
-The earliest possible launch date after the scrub is **No Earlier Than Monday August 25 at 6:30 PM CDT (23:30 UTC)** for the Flight 10 mission.
+The current launch date date is **No Earlier Than Monday August 25 at 6:30 PM CDT (23:30 UTC)** for the Flight 10 mission.
 We plan to have boat trips to view the launch, as well as special pre-launch cruises!
 
 Our planned [launch viewing location at the mouth of the South Bay](https://www.google.com/maps/search/26.052814,+-97.185356), approximately 4 miles / 7 km from the launch site with a direct line of sight across the water, provides some of the closest and clearest views of the pad, rocket, liftoff and booster landing available to the public.
 Unlike the location where most other vessels anchor, this offers a closer and clearer sightline, and has calmer, less busy waters without the need to constantly jockey for position.
 
 **LATEST LAUNCH UPDATE**:
-As of the evening of Sunday August 24, the first launch attempt was scrubbed shortly prior to liftoff due to an issue with the rocket's ground systems.
-While a new confirmed launch date is not yet published, opportunities are available each day from tomorrow, Monday August 25 to Thursday August 28, each at 6:30 PM CDT (23:30 UTC).
-We will update the site here, our social media channels and most of all our WhatsApp as soon as we have a confirmed launch date, and immediately open up tickets for the launch.
-If you've gone out with us on the scrubbed attempt Sunday, you can email or DM us for a special link to get a discount on tickets for the next attempt, as well as the earliest possible booking.
-Keep an eye here, on our social media or our WhatsApp community for the latest updates!
+As of the evening of Sunday August 24, the first launch attempt was scrubbed shortly prior to liftoff due to an issue with the rocket's ground systems, but SpaceX has confirmed they are go for tomorrow, Monday August 25 for the next attempt, at the same time (6:30 PM CDT/23:#0 UTC).
+Meanwhile, we've confirmed boat availability, and due to the scrub will be offering a _special 25% off discount_ on this launch.
+Tickets are now live, so go ahead and book now!
+And as always, keep an eye here, on our social media or our WhatsApp community for the latest updates!
 
 *We have **[a Whats App community](INSERT_URL_1) that we highly recommend you join**, with channels for announcements, insider launch updates, discussion, questions and more!
 We also use it for early tickets, special community events and more!
@@ -42,8 +41,8 @@ Thanks!*
 
 ## Rocket Launch Viewing
 
-**Price**: $99 per passenger<br>
-**Launch Date**: TBD, No Earlier Than Monday August 25 at 6:30 PM CDT (23:30 UTC)<br>
+**Price**: $75 per passenger (special 25% off scrub discount)<br>
+**Launch Date**: No Earlier Than Monday August 25 at 6:30 PM CDT (23:30 UTC)<br>
 **Key Times**: Checkin 4:30 PM CDT | Boarding 5:00 PM CDT | Departure 5:30 PM CDT<br>
 **Location**:  _Double Sunshine_ at [The Original Dolphin Watch, 33256 State Park Rd 100, South Padre Island, TX 78597](https://maps.app.goo.gl/S8dFn2MCT9JJMzZ48)<br>
 
@@ -64,7 +63,7 @@ Conversely, in case there is an issue with the boat or weather keeping us from d
 <br>
 
 <h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0;">Check back soon!</h2>
-<a id="book-now-button" href="" style="display: none;"><button class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em; margin-bottom: 0em;">Book Now</button></a>
+<a id="book-now-button" href="https://book.stripe.com/dRm14m9i9cdyahIblK3gk0Y" style="display: none;"><button class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em; margin-bottom: 0em;">Book Now</button></a>
 <a id="book-now-button-2" href="" style="display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; margin-bottom: 0.5em; width: 100%; max-width: 17em;">Book Main Deck</button></a>
 <span id="pre-launch-callout" style="display: none; text-align: center !important; font-size: 2rem; line-height: 0.5em; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0em; m2rgin-botton: 2em;"><br>Call/text <a href="tel:+13212092224">321-209-2224</a> for pre-launch  tickets!</span>
 <br>
@@ -79,7 +78,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 0;
+    var futureTime         = 1;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
