@@ -424,7 +424,7 @@ linkedin:
 ##### member #####
 name: Steven Giraldo
 -----
-position: Director of Operations
+position: Field Commander
 -----
 description:
 
@@ -432,6 +432,35 @@ Steven is fascinated by spaceflight, technology and engineering, and his passion
 In his day job as a software technical consultant, he specializes in analyzing computer systems to make processes more efficient and bridging the gap between developers and users to maximize productivity and deliver the best experience possible.
 -----
 image: steven-headshot.jpg
+-----
+website:
+-----
+facebook:
+-----
+twitter:
+-----
+instagram:
+-----
+github:
+-----
+linkedin:
+-----
+
+
+##### member #####
+name: Patrick Kavanagh
+-----
+position: Executive Officer
+-----
+description:
+
+As a kid Patrick loved anything space-related, until life happened and other interests got in the way.
+Then he watched _Interstellar_ and became a kid all over again.
+What really blew him away was learning the science was, thanks to Kip Thorne, kept as (albeit theoretically) real as possible.
+This led him to the Cosmos series and ultimately many great YouTube channels.
+Next thing he knew, he was in Florida organizing the first boat trip to watch a launch and the rest is ~~history~~ present day.
+-----
+image: patrick-headshot.jpg
 -----
 website:
 -----
