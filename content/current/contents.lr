@@ -21,9 +21,9 @@ Our planned [launch viewing location at the mouth of the South Bay](https://www.
 Unlike the location where most other vessels anchor, this offers a closer and clearer sightline, and has calmer, less busy waters without the need to constantly jockey for position.
 
 **LATEST LAUNCH UPDATE**:
-As of the evening of Monday September 29, both Ship and Booster have successfully static-fired and SpaceX has officially confirmed they are targeting Monday October 13 at 6:15 PM CDT for the launch of Flight 11.
-As such, we've set boat tickets to open tomorrow, Tuesday September 30 at noon CDT (17:00 UTC).
-Remaining work items for launch include issuing the final hazard notices, performing final launch preps and rolling out and stacking the vehicles at the pad.
+As of the morning of Thursday October 9, Booster 15 has been rolled out to the launch site, and all hazard zones and closures are in place for a launch on Monday.
+All that remains is rolling out Ship 38 and stacking it for flight.
+Meanwhile, our boat tickets are now SOLD OUT for launch, but you can call or text us at [321-209-2224](tel:+13212092224) and we'll connect you with another of our long-time trusted captains who will get you to our same viewing spot.
 As always, keep an eye here, on our social media or our WhatsApp community for the latest updates!
 
 *We have **[a Whats App community](INSERT_URL_1) that we highly recommend you join**, with channels for announcements, insider launch updates, discussion, questions and more!
@@ -55,14 +55,14 @@ Thanks!*
 **DELAY/SCRUB POLICY:** *Tickets are generally non-refundable.*<br>
 Per agreement with our captains, if there is a delay announced prior to boarding the boat, your ticket will be valid for the new launch date and time.
 Should you not be able to make the backup date, you are welcome to sell your ticket to others on standby, and we can help facilitate that as well.
-If you'd like to request a refund, please call or message us at the Star Fleet number, [+1 321-209-2224](tel:+13212092224).
+If you'd like to request a refund, please call or message us at the Star Fleet number, [321-209-2224](tel:+13212092224).
 Should a launch day delay/scrub be officially announced after passengers have boarded the boat or if a passenger does not show up by the published boarding time, the boat will go out as scheduled, tickets will be considered used and will no longer be refundable.
 Conversely, in case there is an issue with the boat or weather keeping us from departing for the launch, and it occurs as scheduled, we'll issue you a full refund.
 <br>
 <br>
 
 <h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0;">Check back soon!</h2>
-<a id="book-now-button" href="https://book.stripe.com/aFa9AScul1yUahI4Xm3gk11" style="display: none;"><button class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em; margin-bottom: 0em;">Book Now</button></a>
+<a id="book-now-button" href="" style="display: none;"><button class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em; margin-bottom: 0em;">Book Now</button></a>
 <a id="book-now-button-2" href="" style="display: none;"><button disabled class="content-button text-button" style="margin-top: 1em; margin-bottom: 0.5em; width: 100%; max-width: 17em;">Book Main Deck</button></a>
 <span id="pre-launch-callout" style="display: none; text-align: center !important; font-size: 2rem; line-height: 0.5em; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0em; m2rgin-botton: 2em;"><br>Call/text <a href="tel:+13212092224">321-209-2224</a> for pre-launch  tickets!</span>
 <br>
@@ -77,7 +77,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1759240800;
+    var futureTime         = 0;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -88,7 +88,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Stay tuned for the upcoming mission!");
+        $('#countdown').html('SOLD OUT!<br>Call <a href="tel:+13212092224">321-209-2224</a> to book<br>with our trusted partner captains');
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224"); */
         document.getElementById("countdown").style.display = "none";
