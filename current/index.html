@@ -126,11 +126,11 @@
     </div>
     <div class="center">
       <div id="page-body-countdown-container"></div><p><img src="/current/new-glenn-escapade-patch.jpg" alt="Patch of the New Glenn ESCAPADE mission for NASA" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;"></p>
-<p>Join Star Fleet for the second-ever launch of Blue Origin's New Glenn rocket, boosting NASA's ESCAPADE mission to Mars! The current launch date date is <strong>No Earlier Than Thursday November 13 at ~2:50 PM EST (19:50 UTC)</strong> for the mission, and we'll be out there to view it!</p>
+<p>Join Star Fleet for the second-ever launch of Blue Origin's New Glenn rocket, boosting NASA's ESCAPADE mission to Mars! The current launch date date is <strong>TBD at ~2:50 PM EST (19:50 UTC)</strong> for the mission, and we'll be out there to view it!</p>
 <p>Our planned launch viewing location offshore of Cape Canaveral, as close as 4 miles / 7 km from the launch site with a direct line of sight across the water, provides some of the closest and clearest views of the pad, rocket, liftoff and ascent available to the public.</p>
 <p><strong>LATEST LAUNCH UPDATE</strong>:
-As of noon on Wednesday November 12, the launch has been delayed due to a major space weather storm today and sources have confirmed that Blue Origin are targeting tomorrow, Thursday November 13 for launch at approximately 2:50 PM EST again.
-Your Star Fleet tickets are still valid for the new launch date, with a special 25% discount for returning passengers from the previous attempt!
+As of noon on Wednesday November 12, the launch has been delayed due to a major space weather storm today, with the launch date currently TBD (time should be approximately 2:50 PM EST again).
+Your Star Fleet tickets will still be valid for the new launch date, with a special 25% discount for returning passengers from the previous attempt!
 As always, keep an eye here, on our social media or our WhatsApp community for the latest updates!</p>
 <p><em>We have <strong><a href="/current/INSERT_URL_1">a Whats App community</a> that we highly recommend you join</strong>, with channels for announcements, insider launch updates, discussion, questions and more!
 We also use it for early tickets, special community events and more!
@@ -143,7 +143,7 @@ Thanks!</em></p>
 <p><img src="/current/new-glenn-liftoff-night.jpg" alt="The New Glenn rocket lifts off for the first time" style="margin-top: 60px; margin-left: 40px; margin-bottom:0; float: right;"></p>
 <h2>Rocket Launch Viewing</h2>
 <p><strong>Price</strong>: $99 per passenger, $75 (25% off) scrub discount<br>
-<strong>Launch Date</strong>: Thursday November 13 at ~2:50 PM EST (19:50 UTC)<br>
+<strong>Launch Date</strong>: TBD at ~2:50 PM EST (19:50 UTC)<br>
 <strong>Key Times</strong>: Checkin 1:30 PM EST | Boarding 1:45 PM EST | Departure 2:00 PM EST<br>
 <strong>Boarding Location</strong>:  Sea Leveler boats at <a href="https://maps.app.goo.gl/m25zhJag8hsSVSrB8">Sunrise Marina, 500 Glen Cheek Drive, Port Canaveral, Florida 32920</a><br></p>
 <ul>
@@ -177,7 +177,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1;
+    var futureTime         = 0;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -188,7 +188,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html('SOLD OUT!<br>Call <a href="tel:+13212092224">321-209-2224</a> to book<br>with our trusted partner captains');
+        $('#countdown').html('Tickets paused awaiting confirmed launch date');
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224"); */
         document.getElementById("countdown").style.display = "none";
@@ -264,7 +264,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 <!-- Waypoints -->
 <script src="/static/js/jquery.waypoints.min.js?h=a2b72d43" type="application/javascript" charset="UTF-8"></script>
 <!-- User Custom Scripts -->
-<script src="/static/js/custom-scripts.js?h=82cfe561" type="application/javascript" charset="UTF-8"></script>
+<script src="/static/js/custom-scripts.js?h=91ac7a20" type="application/javascript" charset="UTF-8"></script>
 <!-- Main JS -->
 <script src="/static/js/main.js?h=8d911085" type="application/javascript" charset="UTF-8"></script>
 <!-- <script src="https://code.jquery.com/jquery-migrate-3.0.1.js" type="application/javascript" charset="UTF-8"></script> -->
