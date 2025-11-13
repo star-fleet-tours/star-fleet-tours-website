@@ -14,13 +14,13 @@ body:
 
 <img src="/current/new-glenn-escapade-patch.jpg" alt="Patch of the New Glenn ESCAPADE mission for NASA" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
 
-Join Star Fleet for the second-ever launch of Blue Origin's New Glenn rocket, boosting NASA's ESCAPADE mission to Mars! The current launch date date is **TBD at ~2:50 PM EST (19:50 UTC)** for the mission, and we'll be out there to view it!
+Join Star Fleet for the second-ever launch of Blue Origin's New Glenn rocket, boosting NASA's ESCAPADE mission to Mars! The current launch date date is **No Earlier Than Thursday November 13 at 2:57 PM EST (19:57 UTC)** for the mission, and we'll be out there to view it!
 
 Our planned launch viewing location offshore of Cape Canaveral, as close as 4 miles / 7 km from the launch site with a direct line of sight across the water, provides some of the closest and clearest views of the pad, rocket, liftoff and ascent available to the public.
 
 **LATEST LAUNCH UPDATE**:
-As of noon on Wednesday November 12, the launch has been delayed due to a major space weather storm today, with the launch date currently TBD (time should be approximately 2:50 PM EST again).
-Your Star Fleet tickets will still be valid for the new launch date, with a special 25% discount for returning passengers from the previous attempt!
+As of the evening of Wednesday November 12, the launch has been delayed due to a major space weather storm today and Blue Origin has confirmed they are go for tomorrow, Thursday November 13 for launch at 2:57 PM EST.
+Your Star Fleet tickets are still valid for the new launch date, with a special 25% discount for returning passengers from the previous attempt!
 As always, keep an eye here, on our social media or our WhatsApp community for the latest updates!
 
 *We have **[a Whats App community](INSERT_URL_1) that we highly recommend you join**, with channels for announcements, insider launch updates, discussion, questions and more!
@@ -38,7 +38,7 @@ Thanks!*
 ## Rocket Launch Viewing
 
 **Price**: $99 per passenger, $75 (25% off) scrub discount<br>
-**Launch Date**: TBD at ~2:50 PM EST (19:50 UTC)<br>
+**Launch Date**: Thursday November 13 at 2:57 PM EST (19:57 UTC)<br>
 **Key Times**: Checkin 1:30 PM EST | Boarding 1:45 PM EST | Departure 2:00 PM EST<br>
 **Boarding Location**:  Sea Leveler boats at [Sunrise Marina, 500 Glen Cheek Drive, Port Canaveral, Florida 32920](https://maps.app.goo.gl/m25zhJag8hsSVSrB8)<br>
 
@@ -74,7 +74,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 0;
+    var futureTime         = 1;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -85,7 +85,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html('Tickets paused awaiting confirmed launch date');
+        $('#countdown').html('SOLD OUT!<br>Call <a href="tel:+13212092224">321-209-2224</a> to book<br>with our trusted partner captains');
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 321-209-2224"); */
         document.getElementById("countdown").style.display = "none";
