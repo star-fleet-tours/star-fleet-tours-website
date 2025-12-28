@@ -21,9 +21,9 @@ https://opensource.org/licenses/MIT
     //
     // Otherwise, specify the absence of a missionOverride:
     const missionOverride = {
-        missionName: "New Glenn NASA ESCAPADE",
-        launchAt: 1763063820, // the UNIX timestamp of the projected T-0 time
-        limitTwoWeeks: true,
+        missionName: "NASA SLS Artemis II",
+        launchAt: 1770340140, // the UNIX timestamp of the projected T-0 time
+        limitTwoWeeks: false,
     };
     // const missionOverride = null;
 
