@@ -1,1 +1,2 @@
 Lektor>=3.3,<3.4  # Primary dependency
+setuptools<82  # Lektor requires pkg_resources, dropped in Setuptools 82
