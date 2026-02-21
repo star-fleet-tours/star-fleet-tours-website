@@ -21,8 +21,8 @@ https://opensource.org/licenses/MIT
     //
     // Otherwise, specify the absence of a missionOverride:
     const missionOverride = {
-        missionName: "NASA/SpaceX Crew-12",
-        launchAt: 1770977700, // the UNIX timestamp of the projected T-0 time
+        missionName: "NASA Artemis II",
+        launchAt: 1772846940, // the UNIX timestamp of the projected T-0 time
         limitTwoWeeks: false,
     };
     // const missionOverride = null;
