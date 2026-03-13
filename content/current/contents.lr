@@ -15,18 +15,16 @@ body:
 <img src="/current/sls-pad-sunset-ocean-hero.jpg" alt="Photo of the NASA SLS rocket at sunset on pad LC-39B taken on a Star Fleet boat tour" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
 
 Star Fleet plans to go out for launch viewing boat trips of the **NASA Artemis II mission**, the first time humans will travel beyond Earth's orbit since the Apollo program!
-NASA has officially confirmed the the launch of this historic flight is now scheduled for **No Earlier Than April**, with a launch window from April 1-6 and further opportunities at the end of April/early June, and launch times in the evening through nighttime hours.
+NASA has officially confirmed the the launch of this historic flight is now scheduled for ** *No Earlier Than* Wednesday April 1 6:24 PM EDT** (22:24 UTC), with a launch window from April 1-6 and launch times getting roughly an hour later each year.
 We expect to be at a viewing location just outside the launch hazard area, with a clear view of the pad approximately 10 mi / 16 km away (hazard zone dependent), with a much more favorable angle to the easterly trajectory relative to land-based locations.
 
-In the meantime, we are offering sunset cruises prior to the launch to see the Space Launch System rocket on LC-39B as it prepares for its historic mission.
+In addition to the launch trip, we are offering sunset cruises prior to the launch to see the Space Launch System rocket on LC-39B as it prepares for its historic mission.
 Join us to see the world's most powerful operational rocket as it stands tall on its launch pad for its very first ever crewed launch!
 
 **LATEST LAUNCH UPDATE**:
-As of *Saturday February 21*, NASA has confirmed that due to problems with the check valves of the helium system, the Artemis II mission will now be launching No Earlier Than the April launch window, with the rocket likely needing to be rolled back from the pad for additional work.
-Once NASA confirms a new launch date, we'll announce it here, over social media and WhatsApp and open up tickets to our WhatsApp community members (free and easy to join!), with the general public following here 24-48 hours later.
-We are also working on a waiting list/pre-booking system on our new booking system for folks interested, so stay tuned for that!
-In the meantime, we can run sunset launch pad cruises to see the rocket as long as its out there, as well as offer tickets for Starlink and other launches from as close as 3 mi / 5 km just offshore of the launch pad, so long as we have at least 6 people or someone wants to book a private boat--contact us through phone, email or WhatsApp if you're interested!
-And as always, keep an eye here, on our social media or our WhatsApp community for the latest insider updates and official announcements as we get closer to launch.
+As of *Friday March 13*, NASA has confirmed that they are targeting *No Earlier Than* **Wednesday April 1 at 6:24 PM EDT** (22:24 UTC) for launch (no joke!), with the rocket's rollout to the pad scheduled for *Thursday April 19 at 6:24 PM EDT (22:24 UTC)*.
+We are currently confirming arrangements with our boats for launch and gathering additional confidence about the launch date, and expect to open tickets to the general public immediately following a successful pad rollout two weeks from flight.
+As always, keep an eye here, on our social media and our WhatsApp community for the latest insider updates and official announcements as we get closer to launch.
 
 *We have **[a Whats App community](INSERT_URL_1) that we highly recommend you join**, with channels for announcements, insider launch updates, discussion, questions and more!
 We also use it for early tickets, special community events and more!
@@ -42,8 +40,8 @@ Thanks!*
 ## NASA Artemis II Launch Viewing
 
 **Price**: $115 per passenger (main deck), $150 per passenger (upper deck)<br>
-**Launch Date**: *No Earlier Than* April 2026<br>
-**Key Times**: Checkin T-2:00 hours | Boarding T-1.5 hours | Departure T-1 hour<br>
+**Launch Date**: *No Earlier Than* Wednesday April 1 at 6:24 PM EDT<br>
+**Key Times**: Checkin T-2:00 hours | Boarding T-1:30 hours | Departure T-1:15 hours<br>
 **Boarding Location**: [The Cove, Cape Canaveral, FL 32920](https://maps.app.goo.gl/Lcn3s9kPDLX6nMEY8)<br>
 
 * Watch the SLS rocket, the world's most powerful, launch for the first time with crew
@@ -55,15 +53,14 @@ Thanks!*
 <br>
 <br>
 **DELAY/SCRUB POLICY:** *Tickets are generally non-refundable.*<br>
-Per agreement with our captains, if there is a delay announced prior to 5 PM on the day of launch, your ticket will be valid for the new launch date and time.
-Should you not be able to make the backup date, you are welcome to sell your ticket to others on standby, and we can help facilitate that as well.
-If you'd like to request a refund, please call or message us at the Star Fleet number, [321-209-2224](tel:+13212092224).
-Should a launch day delay/scrub be officially announced after that or if a passenger does not show up by the published boarding time, the boat will go out as scheduled to see the rocket on the pad, and tickets will be considered used and will no longer be refundable.
+Per agreement with our captains, if there is a delay announced prior to the checkin time on the day of launch, your ticket will be valid for the new launch date and time.
+Should you not be able to make the backup date, you can either transfer your tickets to someone who can, or call or message us at the Star Fleet number, [321-209-2224](tel:+13212092224), to request a refund (at least 24 hours in advance of launch).
+Should a launch day delay/scrub be officially announced after that or if a passenger does not show up by the published boarding time, the boat will go out as scheduled to see the rocket on the pad, and tickets will be considered used and will no longer be refundable, but you will be offered a minimum 10% (up to 30%) discount on future attempts.
 Conversely, in case there is an issue with the boat or weather keeping us from departing for the launch, and it occurs as scheduled, we'll issue you a full refund.
 <br>
 <br>
 
-<h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0;">Check back soon!</h2>
+<h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0;">Check back soon for tickets!</h2>
 <a id="book-now-button" href="" style="display: none;"><button class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em; margin-bottom: 0em;">Book Now</button></a>
 <span id="pre-launch-callout" style="display: none; text-align: center !important; font-size: 2rem; line-height: 1em; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0em; m2rgin-botton: 2em;"><br>Call/text <a href="tel:+13212092224">321-209-2224</a> for scrub discount!</span>
 <br>
@@ -108,9 +105,9 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 
 <img src="/current/sls-pad-sunset-ocean-portrait.jpg" alt="Close-up photo of the NASA SLS rocket at sunset on pad LC-39B with a flock of birds, taken on a Star Fleet boat tour" style="margin-top: 20px; margin-left: 20px; margin-right: 0px; margin-bottom: 20px; float: right;">
 
-**Price**: $120 per passenger<br>
-**Dates**: Any day by request<br>
-**Trip Times**: 4:30 - 7:30 PM EST<br>
+**Price**: $125 per passenger<br>
+**Dates**: TBA, the days leading up to the Artemis II launch<br>
+**Trip Times**: 5:30 - 8:30 PM EDT<br>
 **Key Times**: Checkin T-30 min | Boarding T-15 min | Departure T-0 <br>
 **Location**: [Sunrise Marina, 500 Glen Cheek Dr, Cape Canaveral, FL 32920](https://maps.app.goo.gl/rULSiCq5VW5MRB7C9)<br>
 
