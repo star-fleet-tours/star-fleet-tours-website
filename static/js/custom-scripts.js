@@ -21,8 +21,8 @@ https://opensource.org/licenses/MIT
     //
     // Otherwise, specify the absence of a missionOverride:
     const missionOverride = {
-        missionName: "New Glenn BlueBird 7",
-        launchAt: 1776595500, // the UNIX timestamp of the projected T-0 time
+        missionName: "Falcon Heavy Viasat-3 F3",
+        launchAt: 1777299660, // the UNIX timestamp of the projected T-0 time
         limitTwoWeeks: false,
     };
     // const missionOverride = null;
@@ -155,7 +155,7 @@ https://opensource.org/licenses/MIT
         }
     }
 
-    const URL1 = "aHR0cHM6Ly90aW55dXJsLFIXFIXmNvbS9zZnQtYXJ0ZW1pczItdGFrZTE";
+    const URL1 = "aHR0cHM6Ly90aW55dXJFIXFIXsLmNvbS9zZnQtZmgtdmlhc2F0My1mMw";
 
     function insert_urls() {
         const url = atob(URL1.replace("FIXFIX", ""));
