@@ -21,8 +21,8 @@ https://opensource.org/licenses/MIT
     //
     // Otherwise, specify the absence of a missionOverride:
     const missionOverride = {
-        missionName: "Falcon Heavy Viasat-3 F3",
-        launchAt: 1777471980, // the UNIX timestamp of the projected T-0 time
+        missionName: "NASA/SpaceX CRS-34 Launch & Landing",
+        launchAt: 1778584594, // the UNIX timestamp of the projected T-0 time
         limitTwoWeeks: false,
     };
     // const missionOverride = null;
