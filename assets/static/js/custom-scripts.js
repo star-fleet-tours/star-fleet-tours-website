@@ -21,8 +21,8 @@ https://opensource.org/licenses/MIT
     //
     // Otherwise, specify the absence of a missionOverride:
     const missionOverride = {
-        missionName: "NASA/SpaceX CRS-34 Launch & Landing",
-        launchAt: 1778584594, // the UNIX timestamp of the projected T-0 time
+        missionName: "SpaceX Starship Flight 12",
+        launchAt: 1779233400, // the UNIX timestamp of the projected T-0 time
         limitTwoWeeks: false,
     };
     // const missionOverride = null;
@@ -155,7 +155,7 @@ https://opensource.org/licenses/MIT
         }
     }
 
-    const URL1 = "aHR0cHM6Ly90aW55dXJFIXFIXsLmNvbS9zZnQtZmgtdmlhc2F0My1mMw";
+    const URL1 = "aHR0cHM6Ly90aW55dXJFIXFIXsLmNvbS9zZnQtc3RhcnNoaXAtZmxpZ2h0LTEy";
 
     function insert_urls() {
         const url = atob(URL1.replace("FIXFIX", ""));
