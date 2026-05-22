@@ -131,9 +131,9 @@ The currently targeted launch date for <strong>Starship Flight 12</strong> is <s
 <p>Our planned <a href="https://www.google.com/maps/search/26.052814,+-97.185356">Starship launch viewing location at the mouth of the South Bay</a>, approximately 4 miles / 7 km from the launch site with a direct line of sight across the water, provides some of the closest and clearest views of the pad, rocket, liftoff and booster landing available to the public.
 Unlike the location where most other vessels anchor, this offers a closer and clearer sightline, and has calmer, less busy waters without the need to constantly jockey for position.</p>
 <p><strong>LATEST LAUNCH UPDATE</strong>:
-As of <em>Thursday May 21</em>, SpaceX scrubbed today's launch attempt with seconds to go due to minor last-minute issues that were unable to be worked out in time.
-SpaceX stated they are confident they will be able to work out these issues and launch tomorrow, Friday May 22 from 5:30-7:00 PM CDT (22:30-00:00 UTC), and weather conditions look excellent for both launch and viewing.
-We've already got the boat confirmed to go out again for another attempt, so tickets are LIVE NOW with a 30% scrub discount to $69.
+As of <em>Friday May 22</em>, SpaceX is confirmed to be proceeding toward launch, with the road and beach closed, the tank farm spooling up and the weather 85% GO.
+Conditions for launch and viewing look excellent, with clear to mostly clear skies, a brisk breeze and no rain expected.
+Our boats are SOLD OUT; however, we can refer you to another vessel if you call <a href="tel:+19418794240">941-879-4240</a>.
 As always, keep an eye here, on our social media or our WhatsApp community for the latest updates!</p>
 <p><em>We have <strong><a href="/current/INSERT_URL_1">a Whats App community</a> that we highly recommend you join</strong>, with channels for announcements, insider launch updates, discussion, questions and more!
 We also use it for early tickets, special community events and more!
@@ -180,7 +180,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1778626800;
+    var futureTime         = 0;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -191,7 +191,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Standing by for confirmed launch date");
+        $('#countdown').html("SOLD OUT!<br>Call <a href='tel:+19418794240'>941-879-4240</a> for tickets");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 941-879-4240"); */
         document.getElementById("countdown").style.display = "none";
