@@ -21,8 +21,8 @@ https://opensource.org/licenses/MIT
     //
     // Otherwise, specify the absence of a missionOverride:
     const missionOverride = {
-        missionName: "SpaceX Starship Flight 12",
-        launchAt: 1779489000, // the UNIX timestamp of the projected T-0 time
+        missionName: "Atlas V Amazon Leo LA-07",
+        launchAt: 1780097580, // the UNIX timestamp of the projected T-0 time
         limitTwoWeeks: false,
     };
     // const missionOverride = null;
