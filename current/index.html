@@ -120,20 +120,19 @@
   <div class="page-content">
     <div class="text-center fh5co-heading">
       <h1>
-        Atlas V Amazon Leo LA-07
+        SpaceX Starlink 10-53
       </h1>
       <div class="rule-under-heading"></div>
     </div>
     <div class="center">
-      <div id="page-body-countdown-container"></div><!-- <img src="/current/atlas-v-411-pad.jpg" alt="Photo of the SpaceX Starship on the pad, with a boat in the foreground" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;"> -->
-
-<p>Join Star Fleet for the second-to-last-ever flight of the Atlas V 551, the most powerful configuration of the venerable Atlas rocket family!
-The currently targeted launch date is <strong> <em>No Earlier Than</em> Friday May 29 at 7:33 PM EDT (23:33 UTC)</strong> for the mission, and we'll be out there to view it!
-We expect to be around ~5-6 mi / ~8-9 km away, with a clear view of the pad and liftoff.</p>
+      <div id="page-body-countdown-container"></div><p><img src="/current/f9-starlink-launch-twilight.jpg" alt="Photo of the SpaceX Falcon 9 launching in twilight hours on a Starlink mission" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;"></p>
+<p>Join Star Fleet for Starlink 10-53, the next Falcon 9 launch building out SpaceX's groundbreaking internet constellation!
+The currently targeted launch date is <strong> <em>No Earlier Than</em> Friday May 29 at 7:52 AM EDT (11:52 UTC)</strong> for the mission, and we'll be out there to view it!
+We expect to be around ~3-4 mi / ~6-7 km away, with a clear view of the pad and liftoff.</p>
 <p><strong>LATEST LAUNCH UPDATE</strong>:
-As of <em>Sunday May 24</em>, ULA is confirmed to be proceeding toward launch, with the vehicle being prepared for flight.
-Seas and winds look relatively calm with partly sunny skies, though there is a chance of a few showers and storms in the area.
-Tickets are LIVE NOW with limited spots available, so grab yours while you can--once the Atlas Vs are gone, they're gone forever!
+As of <em>Wednesday May 27</em>, SpaceX is confirmed to be proceeding toward launch, with the vehicle being prepared for flight.
+Launch and viewing conditions look excellent, with mostly to completely clear skies, no rain or storms predicted and only a light breeze.
+We are currently working to confirm the ideal boats to run the trip based on demand, so you can call us to reserve your place for now.
 As always, keep an eye here, on our social media or our WhatsApp community for the latest updates.</p>
 <p><em>We have <strong><a href="/current/INSERT_URL_1">a Whats App community</a> that we highly recommend you join</strong>, with channels for announcements, insider launch updates, discussion, questions and more!
 We also use it for early tickets, special community events and more!
@@ -143,15 +142,15 @@ Thanks!</em></p>
 
 
 
-<p><img src="/current/atlas-v-411-pad.jpg" alt="SpaceX Starship launching on the IFT-1 mission; photo by Max Evans with NSF, used with permission" style="margin-top: 60px; margin-left: 40px; margin-bottom:0; float: right;"></p>
-<h2>Atlas V Amazon Leo LA-07 Launch Viewing</h2>
+<p><img src="/current/f9-launch-streak.jpg" alt="Streak shot of the SpaceX Falcon 9 launching on a Starlink mission" style="margin-top: 60px; margin-left: 40px; margin-bottom:0; float: right;"></p>
+<h2>SpaceX Starlink 10-53 Launch Viewing</h2>
 <p><strong>Price</strong>: $125 per passenger<br>
-<strong>Launch Date</strong>: <em>No Earlier Than</em> Friday May 29 at 7:33 PM EDT<br>
-<strong>Key Times</strong>: Checkin 5:45 PM CDT | Boarding 6:00 PM CDT | Departure 6:15 PM CDT<br>
+<strong>Launch Date</strong>: <em>No Earlier Than</em> Friday May 29 at 7:52 AM EDT<br>
+<strong>Key Times</strong>: Checkin 6:00 AM CDT | Boarding 6:15 AM CDT | Departure 6:30 AM CDT<br>
 <strong>Boarding Location</strong>:  <a href="https://maps.app.goo.gl/KEcGJyhULvAXbvp79">Sunrise Marina, 505 Glen Cheek Dr, Cape Canaveral, FL 32920</a><br></p>
 <ul>
 <li>Great location to view all the key events of the launch</li>
-<li>Around ≈5-6 miles / ≈8-9 km from launch pad</li>
+<li>Around ≈3-4 miles / ≈6-7 km from launch pad</li>
 <li>Get an exclusive angle from along the rocket's ocean-bound trajectory</li>
 <li>Clear view of pad, rocket, liftoff and ascent</li>
 <li>Stable vessel and calm seas expected</li>
@@ -181,7 +180,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1;
+    var futureTime         = 0
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -192,7 +191,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("SOLD OUT!<br>Call <a href='tel:+19418794240'>941-879-4240</a> for tickets");
+        $('#countdown').html("Call <a href='tel:+19418794240'>941-879-4240</a> for tickets");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 941-879-4240"); */
         document.getElementById("countdown").style.display = "none";
@@ -203,7 +202,7 @@ function updateTimer() {
     }
 };
 var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
-</script><p><img src="/current/slc41-star-fleet.jpg" alt="Close-up photo of the SpaceX Starship rocket fully stacked on the pad from a Star Fleet boat nearby in the South Bay passage." style="margin-top: 55px; margin-right: 40px; margin-bottom: 100px; float: left;"></p>
+</script><p><img src="/current/slc41-star-fleet.jpg" alt="Photo of SLC-41 from the water" style="margin-top: 55px; margin-right: 40px; margin-bottom: 100px; float: left;"></p>
 <h2>Launch Pad Sunset Cruise</h2>
 <p><strong>Price</strong>: TBD per passenger<br>
 <strong>Dates</strong>: Typically day before launch<br>
@@ -266,7 +265,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 <!-- Waypoints -->
 <script src="/static/js/jquery.waypoints.min.js?h=a2b72d43" type="application/javascript" charset="UTF-8"></script>
 <!-- User Custom Scripts -->
-<script src="/static/js/custom-scripts.js?h=fad14f84" type="application/javascript" charset="UTF-8"></script>
+<script src="/static/js/custom-scripts.js?h=cadad79f" type="application/javascript" charset="UTF-8"></script>
 <!-- Main JS -->
 <script src="/static/js/main.js?h=8d911085" type="application/javascript" charset="UTF-8"></script>
 <!-- <script src="https://code.jquery.com/jquery-migrate-3.0.1.js" type="application/javascript" charset="UTF-8"></script> -->
