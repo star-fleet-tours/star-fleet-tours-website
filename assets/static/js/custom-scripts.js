@@ -21,8 +21,8 @@ https://opensource.org/licenses/MIT
     //
     // Otherwise, specify the absence of a missionOverride:
     const missionOverride = {
-        missionName: "SpaceX Starlink 10-53",
-        launchAt: 1780055520, // the UNIX timestamp of the projected T-0 time
+        missionName: "SpaceX Starlink 10-54",
+        launchAt: 1781267220, // the UNIX timestamp of the projected T-0 time
         limitTwoWeeks: false,
     };
     // const missionOverride = null;
