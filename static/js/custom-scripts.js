@@ -21,7 +21,7 @@ https://opensource.org/licenses/MIT
     //
     // Otherwise, specify the absence of a missionOverride:
     const missionOverride = {
-        missionName: "SpaceX Starlink 10-54",
+        missionName: "SpaceX Starship Flight 12",
         launchAt: 1781267220, // the UNIX timestamp of the projected T-0 time
         limitTwoWeeks: false,
     };
@@ -155,7 +155,7 @@ https://opensource.org/licenses/MIT
         }
     }
 
-    const URL1 = "aHR0cHM6Ly90aW55dXJFIXFIXsLmNvbS9zZnQtc3RhcnNoaXAtZmxpZ2h0LTEy";
+    const URL1 = "aHR0cHM6Ly90aW55dXJsLmNvbS9zZnQFIXFIXtc3RhcnNoaXAtZmxpZ2h0LTEzLWdyb3Vw";
 
     function insert_urls() {
         const url = atob(URL1.replace("FIXFIX", ""));
