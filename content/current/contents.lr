@@ -15,17 +15,16 @@ body:
 <img src="/current/starship-pad-boat.jpg" alt="Photo of the SpaceX Starship on the pad, with a boat in the foreground" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
 
 Join Star Fleet for the next flight of the new Starship and Super Heavy Version 3, as it launches from Starbase Pad 2!
-The launch is ** *No Earlier Than* the second half of July at 5:45 PM CDT (22:45 UTC)**, and we'll be out there to view it!
+The launch is ** *No Earlier Than* Thursday July 16 at 5:45 PM CDT (22:45 UTC)**, and we'll be out there to view it!
 
 Our planned [Starship launch viewing location at the mouth of the South Bay](https://www.google.com/maps/search/26.052814,+-97.185356), approximately 4 miles / 7 km from the launch site with a direct line of sight across the water, provides some of the closest and clearest views of the pad, rocket, liftoff and booster landing available to the public.
 Unlike the location where most other vessels anchor, this offers a closer and clearer sightline, and has calmer, less busy waters without the need to constantly jockey for position.
 
 
 **LATEST LAUNCH UPDATE**:
-As of *Thursday July 9*, initial aviation hazard zones indicate a *Starship Flight 13* launch window starting as early as July 15, from 5:45-7:45 PM CDT (22:45-00:45 UTC) each day.
-However, that nominal date is highly uncertain and expected to slip as substantial testing and preparations remains before launch, with a static fire campaign in progress for Booster 20, which would be followed by final vehicle preparation, rollout, stacking and testing, as well as the remaining regulatory steps.
-Given the low confidence until the static fire campaign is successfully complete and it is confirmed by SpaceX, we are standing by to officially open up tickets once we have a relatively firm launch date.
-As always, keep an eye here, on our social media or our WhatsApp community for the latest updates!
+As of *Saturday July 11*, SpaceX has confirmed that with a successful static fire of Booster 20, *Starship Flight 13* is currently targeting launch as early as Thursday July 16, from 5:45-7:45 PM CDT (22:45-00:45 UTC), with backup opportunities each of the following days at the same time.
+While SpaceX has both publicly and privately confirmed they are actively pushing toward a launch Thursday, there are still several steps remaining before launch, and they have cautioned that as normal with such test flights, there is a significant chance of a delay at this stage, so flexible travel plans are recommended.
+And as always, keep an eye here, on our social media or our WhatsApp community for the latest updates!
 
 *We have **[a Whats App community](INSERT_URL_1) that we highly recommend you join**, with channels for announcements, insider launch updates, discussion, questions and more!
 We also use it for early tickets, special community events and more!
@@ -42,9 +41,9 @@ Thanks!*
 ## SpaceX Starship Flight 13 Launch Viewing
 
 **Price**: ~$99 per passenger<br>
-**Launch Date**: *No Earlier Than* Second Half of July at 5:45 PM CDT<br>
+**Launch Date**: *No Earlier Than* Thursday July 16 at 5:45 PM CDT<br>
 **Key Times**: Checkin 3:45 PM CDT | Boarding 4:15 PM CDT | Departure 4:45 PM CDT<br>
-**Boarding Location**: TBD, either Port Isabel or near Isla Blanca Park<br>
+**Boarding Location**: _Double Sunshine_ at [The Original Dolphin Watch, 33256 State Park Rd 100, South Padre Island, TX 78597](https://maps.app.goo.gl/S8dFn2MCT9JJMzZ48)<br>
 
 * Great location to view all the key events of the launch
 * Around ≈4 miles / ≈6.5 km from launch pad
@@ -63,7 +62,7 @@ Conversely, in case there is an issue with the boat or weather keeping us from d
 <br>
 
 <h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0;">Check back soon for tickets!</h2>
-<a id="book-now-button" href="" style="display: none;"><button class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em; margin-bottom: 0em;">Book Now</button></a>
+<a id="book-now-button" href="https://book.star-fleet.tours/book?trip=c78d1605-1cb1-45f6-a5f8-1273bce3ce5c" style="display: none;"><button class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em; margin-bottom: 0em;">Book Now</button></a>
 <!-- <span id="pre-launch-callout" style="display: none; text-align: center !important; font-size: 2rem; line-height: 1em; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0em; m2rgin-botton: 2em;"><br>Call/text <a href="tel:+19418794240">941-879-4240</a> for scrub discount!</span> -->
 <br>
 
@@ -77,7 +76,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 0;
+    var futureTime         = 1;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
