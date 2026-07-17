@@ -14,17 +14,15 @@ body:
 
 <img src="/current/starship-pad-boat.jpg" alt="Photo of the SpaceX Starship on the pad, with a boat in the foreground" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
 
-Join Star Fleet for the next flight of the new Starship and Super Heavy Version 3, as it launches from Starbase Pad 2!
-The launch date is currently TBD, pending an investigation of the launch abort on the first attempt, but whenever it occurs we'll be out there to view it!
+Join Star Fleet for the next flight of the new Starship and Super Heavy Version 3, as it launches from Starbase Pad 2! The launch is currently scheduled for *No Earlier Than* Monday July 20 at 5:45 PM CDT, and we'll be out there to view it!
 
 Our planned [Starship launch viewing location at the mouth of the South Bay](https://www.google.com/maps/search/26.052814,+-97.185356), approximately 4 miles / 6.5 km from the launch site with a direct line of sight across the water, provides some of the closest and clearest views of the pad, rocket, liftoff and booster landing available to the public.
 Unlike the location where most other vessels anchor, this offers a closer and clearer sightline, and has calmer, less busy waters without the need to constantly jockey for position.
 
 
 **LATEST LAUNCH UPDATE**:
-As of the evening of *Thursday July 16*, the Starship launch attempt today was aborted at the last possible second due to a Raptor engine issue after a perfectly smooth countdown.
-Per Elon Musk, the next attempt will be "hopefully in a few days", depending on how much corrective action is necessary after this attempt.
-We're standing by to release tickets as soon as SpaceX confirms a new launch date, with a significant discount for passengers who went out with us on the previous attempt.
+As of the morning of *Friday July 17*, SpaceX has scheduled the next launch attempt for *No Earlier Than* Monday July 20 at 5:45 PM CDT, pending completion of inspections and Raptor engine replacement on Booster 20.
+We are currently finalizing arrangements with the boat operator to go out on the next attempt, with a significant discount for passengers who went out with us on the previous attempt, and are standing by to release tickets as soon as that's complete.
 As always, keep an eye here, on our social media or our WhatsApp community for the latest insider updates!
 
 *We have **[a Whats App community](INSERT_URL_1) that we highly recommend you join**, with channels for announcements, insider launch updates, discussion, questions and more!
@@ -42,7 +40,7 @@ Thanks!*
 ## SpaceX Starship Flight 13 Launch Viewing
 
 **Price**: ~$75 per passenger (with scrub discount, TBC)<br>
-**Launch Date**: TBD, pending investigation of previous abort<br>
+**Launch Date**: *No Earlier Than* Monday July 20 at 5:45 PM CDT<br>
 **Key Times**: Checkin 3:45 PM CDT | Boarding 4:15 PM CDT | Departure 4:45 PM CDT<br>
 **Boarding Location**: _Diver 1_ at [The Original Dolphin Watch, 33256 State Park Rd 100, South Padre Island, TX 78597](https://maps.app.goo.gl/S8dFn2MCT9JJMzZ48)<br>
 
@@ -63,7 +61,7 @@ Conversely, in case there is an issue with the boat or weather keeping us from d
 <br>
 
 <h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0;">Check back soon for tickets!</h2>
-<a id="book-now-button" href="" style="display: none;"><button class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em; margin-bottom: 0em;">Book Now</button></a>
+<a id="book-now-button" href="https://book.star-fleet.tours/book?trip=ed75706f-c030-491f-868d-3da6cfdb1878" style="display: none;"><button class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em; margin-bottom: 0em;">Book Now</button></a>
 <!-- <span id="pre-launch-callout" style="display: none; text-align: center !important; font-size: 2rem; line-height: 1em; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0em; m2rgin-botton: 2em;"><br>Call/text <a href="tel:+19418794240">941-879-4240</a> for scrub discount!</span> -->
 <br>
 
@@ -88,7 +86,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Standing by for confirmed launch date");
+        $('#countdown').html("Standing by for confirmed boat details");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 941-879-4240"); */
         document.getElementById("countdown").style.display = "none";
