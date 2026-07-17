@@ -22,8 +22,8 @@ Unlike the location where most other vessels anchor, this offers a closer and cl
 
 **LATEST LAUNCH UPDATE**:
 As of the morning of *Friday July 17*, SpaceX has scheduled the next launch attempt for *No Earlier Than* Monday July 20 at 5:45 PM CDT, pending completion of inspections and Raptor engine replacement on Booster 20.
-We are currently finalizing arrangements with the boat operator to go out on the next attempt, with a significant discount for passengers who went out with us on the previous attempt, and are standing by to release tickets as soon as that's complete.
-As always, keep an eye here, on our social media or our WhatsApp community for the latest insider updates!
+We've negotiated a major discount for passengers who went out with us on the previous attempt, and after confirming the boat tickets are LIVE now!
+As SpaceX inspects Booster 20 and conducts the necessary repairs, keep an eye here, on our social media or our WhatsApp community for the latest insider updates!
 
 *We have **[a Whats App community](INSERT_URL_1) that we highly recommend you join**, with channels for announcements, insider launch updates, discussion, questions and more!
 We also use it for early tickets, special community events and more!
@@ -39,7 +39,7 @@ Thanks!*
 
 ## SpaceX Starship Flight 13 Launch Viewing
 
-**Price**: ~$75 per passenger (with scrub discount, TBC)<br>
+**Price**: $69 per passenger (with 30% scrub discount)<br>
 **Launch Date**: *No Earlier Than* Monday July 20 at 5:45 PM CDT<br>
 **Key Times**: Checkin 3:45 PM CDT | Boarding 4:15 PM CDT | Departure 4:45 PM CDT<br>
 **Boarding Location**: _Diver 1_ at [The Original Dolphin Watch, 33256 State Park Rd 100, South Padre Island, TX 78597](https://maps.app.goo.gl/S8dFn2MCT9JJMzZ48)<br>
@@ -75,7 +75,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 0;
+    var futureTime         = 1;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
