@@ -23,7 +23,7 @@ In addition to the launch trip, we are offering sunset cruises prior to the laun
 **LATEST LAUNCH UPDATE**:
 As of *Wednesday July 29*, NASA and SpaceX are currently preparing for a launch one month from now.
 Our boats are standing by, and we are prepared to open up tickets approximately two weeks from the confirmed launch date.
-To get the chance to book tickets before they go live to the general public here, as well as the latest insider updates and official announcements as we get closer to launch, make sure to join our WhatsApp community!
+To get the chance to book tickets before they go live to the general public here, as well as the latest insider updates and official announcements as we get closer to launch, **make sure to join our WhatsApp community**!
 
 *We have **[a Whats App community](INSERT_URL_1) that we highly recommend you join**, with channels for announcements, insider launch updates, discussion, questions and more!
 We also use it for early tickets, special community events and more!
@@ -37,7 +37,7 @@ Thanks!*
 <img src="/current/fh-launch-day.jpg" alt="Photograph of the Falcon Heavy rocket launching during the day" style="margin-top: 50px; margin-right: 40px; margin-bottom: 20px; float: left;">
 
 
--## Falcon Heavy Roman Space Telescope Launch and Landing Viewing
+## Falcon Heavy Launch and Landing Viewing
 
 **Price**: $99 per passenger (lower deck), $125 per passenger (upper deck)<br>
 **Launch Date**: *No Earlier Than* Sunday August 30 at 7:26 AM EDT<br>
@@ -86,7 +86,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Tickets available T-2 weeks from launch!");
+        $('#countdown').html("Join our WhatsApp community for early-bird tickets!");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 941-879-4240"); */
         document.getElementById("countdown").style.display = "none";
@@ -121,7 +121,7 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 
 <!-- <span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;">Check back soon!</span>  -->
 
-<span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; line-height: 1.2em; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;"><br>Call or text <a href="tel:+19418794240">941-879-4240</a> to book!<br></span>
+<!-- <span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; line-height: 1.2em; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;"><br>Call or text <a href="tel:+19418794240">941-879-4240</a> to book!<br></span> -->
 
 <!-- <a id="book-now-button-prelaunch" href=""><button class="content-button text-button" style="margin-top: 1em; width: 100%; max-width: 17em; margin-bottom: 3em;">Book Pad Trip</button></a> -->
 
