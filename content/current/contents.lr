@@ -15,17 +15,17 @@ body:
 <img src="/current/starship-pad-boat.jpg" alt="Photo of the SpaceX Starship on the pad, with a boat in the foreground" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
 
 Join Star Fleet for the first ever orbital flight of the Starship and Super Heavy, the most powerful rocket in the world, as it launches from Starbase Pad 2!
-The launch is ** *No Earlier Than* September 18-25 **, and we'll be out there to view it!
+The launch is ** *No Earlier Than* Tuesday September 22 at 7:15 AM CDT (12:15 UTC) **, and we'll be out there to view it!
 
 Our planned [Starship launch viewing location at the mouth of the South Bay](https://www.google.com/maps/search/26.052814,+-97.185356), approximately 4 miles / 7 km from the launch site with a direct line of sight across the water, provides some of the closest and clearest views of the pad, rocket, liftoff and booster landing available to the public.
 Unlike the location where most other vessels anchor, this offers a closer and clearer sightline, and has calmer, less busy waters without the need to constantly jockey for position.
 
 
 **LATEST LAUNCH UPDATE**:
-As of *Friday September 4*, sources indicate SpaceX is currently targeting a *Starship Flight 14* launch window from September 18-25, at a currently unconfirmed time.
-However, that nominal window is still uncertain, unofficial and may slip as substantial milestones remain before launch, including final testing, vehicle preparation, rollout, and stacking, as well as remaining regulatory steps.
-Given the low confidence until a launch date is officially confirmed by SpaceX, we are standing by to open up tickets once we have a relatively firm launch date.
-As always, keep an eye here, on our social media or our WhatsApp community for the latest updates!
+As of *Tuesday September 15*, SpaceX has confirmed they are currently targeting a *Starship Flight 14* launch No Earlier Than Tuesday September 22 at 7:15 AM CDT (12:15 UTC).
+However, several milestones remain before launch, including final preparation, rollout and stacking, as well as issuing the remaining safety advisories and closures.
+We've got the boat standing by and are preparing to open up tickets soon once our sources confirm SpaceX is confident in the current launch date.
+Keep an eye here, on our social media or our WhatsApp community for the latest updates!
 
 *We have **[a Whats App community](INSERT_URL_1) that we highly recommend you join**, with channels for announcements, insider launch updates, discussion, questions and more!
 We also use it for early tickets, special community events and more!
@@ -42,9 +42,9 @@ Thanks!*
 ## SpaceX Starship Flight 14 Launch Viewing
 
 **Price**: ~$99 per passenger<br>
-**Launch Date**: *No Earlier Than* Tuesday September 18-25 (exact time unconfirmed)<br>
-**Key Times**: Checkin T-2:00 h | Boarding T-1:30 h | Departure T-1:00 h<br>
-**Boarding Location**: TBD, either Port Isabel or near Isla Blanca Park<br>
+**Launch Date**: *No Earlier Than* Tuesday September 22 at 7:15 AM CDT (12:15 UTC)<br>
+**Key Times**: Checkin T-5:00 AM | Boarding 5:15 AM | Departure 6:30 AM<br>
+**Boarding Location**: _Double Sunshine_ at [The Original Dolphin Watch, 33256 State Park Rd 100, South Padre Island, TX 78597](https://maps.app.goo.gl/S8dFn2MCT9JJMzZ48)<br>
 
 * Great location to view all the key events of the launch
 * Around ≈4 miles / ≈6.5 km from launch pad
@@ -88,7 +88,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Standing by for confirmed date<br>Join WhatsApp to get notified");
+        $('#countdown').html("Standing by for opening tickets<br>Join WhatsApp to get notified");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 941-879-4240"); */
         document.getElementById("countdown").style.display = "none";
