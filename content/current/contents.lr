@@ -22,10 +22,10 @@ Unlike the location where most other vessels anchor, this offers a closer and cl
 
 
 **LATEST LAUNCH UPDATE**:
-As of *Wednesday September 16*, SpaceX has confirmed they are currently targeting a *Starship Flight 14* launch No Earlier Than Tuesday September 22 at 7:15 AM CDT (12:15 UTC).
-The remaining milestones before launch include final preparation, rollout and stacking.
-Given a confirmed launch date, we've locked down the boat and have set tickets to open up at 12:00 noon CDT (17:00 UTC) tomorrow Thursday, September 17.
-We're looking forward to seeing everyone on board!
+As of *Wednesday September 16*, SpaceX has stated they are currently aiming for a *Starship Flight 14* launch No Earlier Than Tuesday September 22 at 7:15 AM CDT (12:15 UTC).
+However, several milestones remain before launch include final preparation, rollout and stacking, as well as regulatory approval.
+We have the boat locked down, but due to our sources suggesting that significant uncertainty remains in the launch date, we are holding off on publicly releasing tickets quite yet until we can publically confirm whether the launch will be happening on that date.
+Stayed tuned to our WhatsApp group for the latest insider updates!
 
 *We have **[a Whats App community](INSERT_URL_1) that we highly recommend you join**, with channels for announcements, insider launch updates, discussion, questions and more!
 We also use it for early tickets, special community events and more!
@@ -77,7 +77,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1789664400;
+    var futureTime         = 0;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -88,7 +88,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Standing by for opening tickets<br>Join WhatsApp to get notified");
+        $('#countdown').html("Standing by for confirmed launch date<br>Join WhatsApp to get notified");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 941-879-4240"); */
         document.getElementById("countdown").style.display = "none";
