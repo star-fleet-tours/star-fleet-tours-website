@@ -17,15 +17,15 @@ body:
 Join Star Fleet for the first ever orbital flight of the Starship and Super Heavy, the most powerful rocket in the world, as it launches from Starbase Pad 2!
 The launch is ** *No Earlier Than* Monday September 28 at 7:15 AM CDT (12:15 UTC) **, and we'll be out there to view it!
 
-Our planned [Starship launch viewing location at the mouth of the South Bay](https://www.google.com/maps/search/26.052814,+-97.185356), approximately 4 miles / 7 km from the launch site with a direct line of sight across the water, provides some of the closest and clearest views of the pad, rocket, liftoff and booster landing available to the public.
+Our planned [Starship launch viewing location at the mouth of the South Bay](https://www.google.com/maps/search/26.052814,+-97.185356), approximately 4 miles / 6.5 km from the launch site with a direct line of sight across the water, provides some of the closest and clearest views of the pad, rocket, liftoff and booster landing available to the public.
 Unlike the location where most other vessels anchor, this offers a closer and clearer sightline, and has calmer, less busy waters without the need to constantly jockey for position.
 
 
 **LATEST LAUNCH UPDATE**:
-As of *Friday September 18*, SpaceX has officially announced a delay due to regulatory approvals, and are now targeting a *Starship Flight 14* launch No Earlier Than Monday September 28 at 7:15 AM CDT (12:15 UTC).
-Several milestones are currently in work before launch include final preparation, rollout and stacking, as well as regulatory approval.
-We have the boat locked down, but due to our sources suggesting that significant uncertainty still remains in the launch date, we are holding off on publicly releasing tickets until we have additional confirmation that the launch date is likely to hold.
-Stayed tuned to our WhatsApp group for the latest insider updates!
+As of *Wednesday September 24*, SpaceX has rolled out both Booster and Ship to the pad and completed a full wet dress rehersal earlier today, and have now confirmed they are currently GO for a *Starship Flight 14* launch Monday September 28 at 7:15 AM CDT (12:15 UTC).
+Therefore, with the boats standing by, we've opened up tickets for everyone!
+If and when it sells out, we also have additional boat capacity on standby as needed.
+Looking forward to seeing you all out there!
 
 *We have **[a Whats App community](INSERT_URL_1) that we highly recommend you join**, with channels for announcements, insider launch updates, discussion, questions and more!
 We also use it for early tickets, special community events and more!
@@ -77,7 +77,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 0;
+    var futureTime         = 1;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
