@@ -6,7 +6,7 @@ short_title: Tickets
 ---
 special_link: true
 ---
-full_title: SpaceX Starship Flight 14
+full_title: SpaceX Starship Flight 15
 ---
 body:
 
@@ -14,18 +14,20 @@ body:
 
 <img src="/current/starship-pad-boat.jpg" alt="Photo of the SpaceX Starship on the pad, with a boat in the foreground" style="display: block; margin-left: auto; margin-right: auto; margin-top: 5px; margin-bottom: 20px;">
 
-Join Star Fleet for the first ever orbital flight of the Starship and Super Heavy, the most powerful rocket in the world, as it launches from Starbase Pad 2!
-The launch is ** *No Earlier Than* Monday September 28 at 7:15 AM CDT (12:15 UTC) **, and we'll be out there to view it!
+Join Star Fleet for the first-ever flight of a fully-resuable orbital rocket, and the first ever landing attempt of both the Starship upper stage and the V3 version of the Super Heavy booster!
+The launch is ** *No Earlier Than* Mid-November **, and we'll be out there to view it!
+In addition, we'll run a separate trip at a discount to view the landing, from the very same close-up spot (hazard zones allowing, which are currently to-be-confirmed but should be known before we release tickets for it).
 
-Our planned [Starship launch viewing location at the mouth of the South Bay](https://www.google.com/maps/search/26.052814,+-97.185356), approximately 4 miles / 6.5 km from the launch site with a direct line of sight across the water, provides some of the closest and clearest views of the pad, rocket, liftoff and booster landing available to the public.
+Our planned [Starship launch and landing viewing location at the mouth of the South Bay](https://www.google.com/maps/search/26.052814,+-97.185356), approximately 4 miles / 6.5 km from the launch site with a direct line of sight across the water, provides some of the closest and clearest views of the pad, rocket, liftoff, booster landing and ship landing available to the public.
 Unlike the location where most other vessels anchor, this offers a closer and clearer sightline, and has calmer, less busy waters without the need to constantly jockey for position.
 
 
 **LATEST LAUNCH UPDATE**:
-As of *Wednesday September 24*, SpaceX has rolled out both Booster and Ship to the pad and completed a full wet dress rehersal earlier today, and have now confirmed they are currently GO for a *Starship Flight 14* launch Monday September 28 at 7:15 AM CDT (12:15 UTC).
-Therefore, with the boats standing by, we've opened up tickets for everyone!
-If and when it sells out, we also have additional boat capacity on standby as needed.
-Looking forward to seeing you all out there!
+As of *Thursday November 5*, SpaceX has successfully static fired both Booster and Ship, and are preparing for rollout to the pad.
+The current earliest No Earlier Than (NET) date is NET November 13 per aviation advisories and other sources, with the major pacing item believed to be regulatory approval at the moment, with later in mid-November currently believed to be the most likely time.
+We are currently closely monitoring our sources for solid confirmation of a specific date, and will open up tickets as soon as we have one!
+In the meantime, we encourage you to join our WhatsApp community, where we and our members provide folks with insider updates we can't share with the general public.
+Looking forward to seeing you all there!
 
 *We have **[a Whats App community](INSERT_URL_1) that we highly recommend you join**, with channels for announcements, insider launch updates, discussion, questions and more!
 We also use it for early tickets, special community events and more!
@@ -39,12 +41,12 @@ Thanks!*
 <img src="/current/starship-ift1-liftoff.jpg" alt="SpaceX Starship launching on the IFT-1 mission; photo by Max Evans with NSF, used with permission" style="margin-top: 60px; margin-left: 40px; margin-bottom:0; float: right;">
 
 
-## SpaceX Starship Flight 14 Launch Viewing
+## SpaceX Starship Flight 15 Launch Viewing
 
-**Price**: $99 per passenger<br>
-**Launch Date**: *No Earlier Than* Monday September 28 at 7:15 AM CDT (12:15 UTC)<br>
-**Key Times**: Checkin 6:00 AM | Boarding 6:15 AM | Departure 6:30 AM<br>
-**Boarding Location**: _Double Sunshine_ at [The Original Dolphin Watch, 33256 State Park Rd 100, South Padre Island, TX 78597](https://maps.app.goo.gl/S8dFn2MCT9JJMzZ48)<br>
+**Price**: $99 per passenger (launch)<br>
+**Launch Date**: *No Earlier Than* Mid-November<br>
+**Key Times**: Checkin T-1:45 | Boarding T-1:15 | Departure T-0:45<br>
+**Boarding Location**: [The Original Dolphin Watch, 33256 State Park Rd 100, South Padre Island, TX 78597](https://maps.app.goo.gl/S8dFn2MCT9JJMzZ48)<br>
 
 * Great location to view all the key events of the launch
 * Around ≈4 miles / ≈6.5 km from launch pad
@@ -63,7 +65,7 @@ Conversely, in case there is an issue with the boat or weather keeping us from d
 <br>
 
 <h2 id="countdown" style="text-align: center !important; font-size: 2rem; letter-spacing: 2px; margin-top: 0;">Check back soon for tickets!</h2>
-<a id="book-now-button" href="https://book.star-fleet.tours/book?trip=b5b47a1f-ede5-428f-a344-0be81bb61fde" style="display: none;"><button class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em; margin-bottom: 0em;">Book Now</button></a>
+<a id="book-now-button" href="" style="display: none;"><button class="content-button text-button" style="margin-top: 0.5em; width: 100%; max-width: 17em; margin-bottom: 0em;">Book Now</button></a>
 <!-- <span id="pre-launch-callout" style="display: none; text-align: center !important; font-size: 2rem; line-height: 1em; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0em; m2rgin-botton: 2em;"><br>Call/text <a href="tel:+19418794240">941-879-4240</a> for scrub discount!</span> -->
 <br>
 
@@ -77,7 +79,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1;
+    var futureTime         = 0;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -102,23 +104,22 @@ var countdownTimer = setInterval(function(){ updateTimer(); }, 1000);
 </script>
 
 
-<img src="/current/starship-prelaunch-south-bay-ift5.jpg" alt="Close-up photo of the SpaceX Starship rocket fully stacked on the pad from a Star Fleet boat nearby in the South Bay passage." style="margin-top: 55px; margin-right: 40px; margin-bottom:20px; float: left;">
+<img src="starship-ship-landing-vertical.jpg" alt="Close-up photo of the SpaceX Starship landing." style="margin-top: 55px; margin-right: 40px; margin-bottom:20px; float: left;">
 
 
-## Launch Pad Sunset Cruise
+## SpaceX Starship Flight 15 Ship Landing Viewing
 
-**Price**: TBD per passenger<br>
-**Dates**: Typically day before launch<br>
-**Trip Time**: Typically around sunset<br>
-**Key Times**: Checkin T-30 min | Boarding T-15 min | Departure T-0 <br>
-**Location**: TBD<br>
+**Price**: $69 per passenger (with launch ticket)<br>
+**Dates**: ~12 or ~24 hours after launch (to be confirmed)<br>
+**Key Times**: Checkin T-1:45 | Boarding T-1:15 | Departure T-0:45<br>
+**Boarding Location**: [The Original Dolphin Watch, 33256 State Park Rd 100, South Padre Island, TX 78597](https://maps.app.goo.gl/S8dFn2MCT9JJMzZ48)<br>
 
-* Get an up-close look at the rocket and spacecraft on the pad from multiple unique angles
-* Capture a fantastic view of setting sun over the water behind the rocket
-* See local wildlife, landmarks and the port on your journey
-* Travel on a safe, comfortable 6-passenger boat
-* Lead by experienced, charter-certified local captains
-* Exact itinerary weather-dependent but can still go out during non-launch closures
+* Great location to view the key events of the landing
+* Around ≈4 miles / ≈6.5 km from launch pad
+* Spectacular views of flip maneuver, landing burn, catch and pad
+* Stable vessel, calm seas and open deck for excellent viewing
+* Free parking, a guaranteed viewing spot and no need to show up many hours early
+* If landing attempt aborted prior to checkin time, receive a full refund
 <br>
 
 <span id="pre-launch-callout" style="display: block; text-align: center !important; font-size: 2rem; letter-spacing: 2px; font-family: 'bitsumishiregular', Raleway, 'DejaVu Sans', 'Open Sans', 'Liberation Sans', Helvetica, Arial, sans-serif; margin-top: 0rem;">Join our WhatsApp if interested!</span>
