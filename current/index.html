@@ -133,11 +133,13 @@ In addition, we'll run a separate trip at a discount to view the landing, from t
 Unlike the location where most other vessels anchor, this offers a closer and clearer sightline, and has calmer, less busy waters without the need to constantly jockey for position.
 For ship landing, we plan to be in the mouth of the Brownsville ship channel, with is both nearly as close as possible to the pad while having an ideal view of the Starship on approach as it makes a wide 270 degree turn with our location essentially at the pivot point.</p>
 <p><strong>LATEST LAUNCH UPDATE</strong>:
-As of <em>Wednesday November 11</em>, SpaceX continues to target Friday November 13 for launch in a 4:45 PM - 6:00 PM CST (22:45-00:00 UTC) launch window, with excellent weather forecast.
-Landing planned 22 hours and 30 minutes later, at 3:15 PM CST (15:15 UTC) the next day if it launches at the top of the window.
-SpaceX has rolled out the booster for launch, and is preparing for ship rollout today!
-Meanwhile, we've secured an additional large boat (Osprey) in Port Isabel, right next to Hopper Haus and avoiding all the traffic on South Padre Island.
+As of <em>Friday November 13</em>, SpaceX continues to target today for launch in a 4:45 PM - 6:00 PM CST (22:45-00:00 UTC) launch window, with good weather forecast for launch and acceptable weather for landing at the moment, although the latter does appear to be a watch item.
+Official FAA signoff has not yet been received, but is still expected today.
 Looking forward to seeing you all there!</p>
+<p>Due to very high demand for this launch, despite booking multiple additional boats we are completely SOLD OUT for launch, with a few ship landing tickets still available!
+If you're still looking for a spot for launch, we recommend Fish Tales charters in Port Isabel, located at the foot of the bridge to SPI right near Hopper Haus and the Osprey.
+We've worked with them in the past, and they have a similar double-decker boat and should be going to the same location as we do.
+To book their boat, contact them at <a href="tel:+19569433185">956-943-3185</a>.</p>
 <p><em>We have <strong><a href="/current/INSERT_URL_1">a Whats App community</a> that we highly recommend you join</strong>, with channels for announcements, insider launch updates, discussion, questions and more!
 We also use it for early tickets, special community events and more!
 You can also follow our <a href="https://twitter.com/StarFleetTours">Twitter</a>, <a href="https://instagram.com/starfleettours/">Instagram</a> and <a href="https://www.facebook.com/starfleettours/">Facebook</a> for announcements and updates.
@@ -182,7 +184,7 @@ Number.prototype.pad = function(size) {
 };
 function updateTimer() {
     var currentTime        = new Date().getTime() / 1000;
-    var futureTime         = 1;
+    var futureTime         = 0;
     var timeRemaining      = futureTime - currentTime;
     var minute             = 60;
     var hour               = 60 * 60;
@@ -193,7 +195,7 @@ function updateTimer() {
     var secondFloor        = Math.floor((timeRemaining - dayFloor * day - hourFloor * hour - minuteFloor * minute));
     var countdownCompleted = "Completed";
     if (futureTime == 0) {
-        $('#countdown').html("Standing by for confirmed launch date<br>Join WhatsApp to get notified");
+        $('#countdown').html("Star Fleet SOLD OUT<br>Contact Fish Tales at <a href='tel:+19569433185'>956-943-3185</a>");
     } else if (futureTime <= currentTime) {
         /* $('#countdown').html("To book <em>pre-launch</em> trips,<br>call or text 941-879-4240"); */
         document.getElementById("countdown").style.display = "none";
